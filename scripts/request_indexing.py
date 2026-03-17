@@ -21,6 +21,7 @@ from googleapiclient.discovery import build
 DAILY_LIMIT = 200
 SCOPES = ["https://www.googleapis.com/auth/indexing"]
 LOG_DIR = "logs"
+USER_AGENT = "Mozilla/5.0 (compatible; SEOAutomation/1.0; +https://systems-analysis.ru)"
 
 
 def get_credentials():
@@ -45,22 +46,48 @@ def load_urls_from_file(filepath):
         return [line.strip() for line in f if line.strip() and not line.startswith("#")]
 
 
-def load_urls_from_sitemap(sitemap_url):
-    """Загрузить URL из sitemap.xml."""
-    import xml.etree.ElementTree as ET
+def fetch_xml(url):
+    """Загрузить XML с правильным User-Agent."""
     import urllib.request
+    import xml.etree.ElementTree as ET
+
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    response = urllib.request.urlopen(req, timeout=30)
+    return ET.parse(response)
+
+
+def load_urls_from_sitemap(sitemap_url):
+    """Загрузить URL из sitemap.xml (с поддержкой sitemap index)."""
+    ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    all_urls = []
 
     print(f"📥 Загрузка sitemap: {sitemap_url}")
-    response = urllib.request.urlopen(sitemap_url)
-    tree = ET.parse(response)
+    tree = fetch_xml(sitemap_url)
     root = tree.getroot()
 
-    # Обработка namespace
-    ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-    urls = [loc.text for loc in root.findall(".//sm:loc", ns)]
+    # Проверяем: это sitemap index или обычный sitemap?
+    sub_sitemaps = root.findall(".//sm:sitemap/sm:loc", ns)
 
-    print(f"   Найдено {len(urls)} URL в sitemap")
-    return urls
+    if sub_sitemaps:
+        # Это sitemap index — загружаем каждый дочерний sitemap
+        print(f"   Обнаружен sitemap index с {len(sub_sitemaps)} дочерними sitemap")
+        for sub_loc in sub_sitemaps:
+            sub_url = sub_loc.text.strip()
+            print(f"   📥 Загрузка: {sub_url}")
+            try:
+                sub_tree = fetch_xml(sub_url)
+                sub_root = sub_tree.getroot()
+                urls = [loc.text.strip() for loc in sub_root.findall(".//sm:loc", ns)]
+                all_urls.extend(urls)
+                print(f"      Найдено {len(urls)} URL")
+            except Exception as e:
+                print(f"      ⚠️ Ошибка: {e}")
+    else:
+        # Обычный sitemap
+        all_urls = [loc.text.strip() for loc in root.findall(".//sm:loc", ns)]
+
+    print(f"\n   Всего найдено {len(all_urls)} URL в sitemap")
+    return all_urls
 
 
 def request_indexing(urls, action="URL_UPDATED"):

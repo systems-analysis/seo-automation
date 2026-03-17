@@ -1,11 +1,8 @@
-name: 🔍 Check Index Status
+name: "\U0001F50D Check Index Status"
 
 on:
-  # Каждую среду в 07:00 UTC
   schedule:
     - cron: '0 7 * * 3'
-
-  # Ручной запуск
   workflow_dispatch:
     inputs:
       source:
@@ -27,35 +24,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout
+      - name: "\U0001F4E5 Checkout"
         uses: actions/checkout@v4
 
-      - name: 🐍 Setup Python
+      - name: "\U0001F40D Setup Python"
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: 📦 Install dependencies
+      - name: "\U0001F4E6 Install dependencies"
         run: pip install -r requirements.txt
 
-      - name: 📥 Prepare URL list from sitemap
+      - name: "\U0001F4E5 Prepare URL list from sitemap"
         if: ${{ github.event.inputs.source == 'sitemap' || github.event.inputs.source == '' }}
         run: |
-          python -c "
-          import xml.etree.ElementTree as ET
-          import urllib.request
-          response = urllib.request.urlopen('https://systems-analysis.ru/sitemap.xml')
-          tree = ET.parse(response)
-          root = tree.getroot()
-          ns = {'sm': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
-          urls = [loc.text for loc in root.findall('.//sm:loc', ns)]
-          with open('_sitemap_urls.txt', 'w') as f:
-              for url in urls:
-                  f.write(url + '\n')
-          print(f'Extracted {len(urls)} URLs from sitemap')
-          "
+          python scripts/extract_sitemap_urls.py --output _sitemap_urls.txt
 
-      - name: 🔍 Check index status
+      - name: "\U0001F50D Check index status"
         env:
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
         run: |
@@ -69,57 +54,11 @@ jobs:
             python scripts/check_index_status.py --url "${{ github.event.inputs.url }}"
           fi
 
-      - name: 📊 Generate summary report
+      - name: "\U0001F4CA Generate summary report"
         if: always()
-        run: |
-          python -c "
-          import json, glob, os
-          files = sorted(glob.glob('logs/index_status_*.json'))
-          if not files:
-              print('No status files found')
-              exit(0)
-          latest = files[-1]
-          with open(latest) as f:
-              data = json.load(f)
+        run: python scripts/generate_index_report.py
 
-          indexed = [r for r in data if r.get('verdict') == 'PASS']
-          not_indexed = [r for r in data if r.get('status') == 'success' and r.get('verdict') != 'PASS']
-          errors = [r for r in data if r.get('status') == 'error']
-
-          print(f'=== ОТЧЁТ ПО ИНДЕКСАЦИИ ===')
-          print(f'Всего проверено: {len(data)}')
-          print(f'✅ Проиндексировано: {len(indexed)}')
-          print(f'⚠️  Не проиндексировано: {len(not_indexed)}')
-          print(f'❌ Ошибки проверки: {len(errors)}')
-          print()
-
-          if not_indexed:
-              print('--- Не проиндексированные страницы ---')
-              for r in not_indexed:
-                  print(f\"  {r['url']}\")
-                  print(f\"    Причина: {r.get('coverageState', 'N/A')}\")
-                  print(f\"    Статус: {r.get('indexingState', 'N/A')}\")
-                  print()
-
-          # Save summary as markdown
-          with open('data/index_report.md', 'w') as f:
-              f.write('# Отчёт по индексации\n\n')
-              f.write(f'Дата проверки: {os.path.basename(latest).replace(\"index_status_\",\"\").replace(\".json\",\"\")}\n\n')
-              f.write(f'| Метрика | Значение |\n|---------|----------|\n')
-              f.write(f'| Всего проверено | {len(data)} |\n')
-              f.write(f'| ✅ Проиндексировано | {len(indexed)} |\n')
-              f.write(f'| ⚠️ Не проиндексировано | {len(not_indexed)} |\n')
-              f.write(f'| ❌ Ошибки | {len(errors)} |\n\n')
-              if not_indexed:
-                  f.write('## Не проиндексированные страницы\n\n')
-                  for r in not_indexed:
-                      f.write(f\"- **{r['url']}**\n\")
-                      f.write(f\"  - Причина: {r.get('coverageState', 'N/A')}\n\")
-                      f.write(f\"  - Статус: {r.get('indexingState', 'N/A')}\n\n\")
-          print('📄 Отчёт сохранён: data/index_report.md')
-          "
-
-      - name: 💾 Save logs
+      - name: "\U0001F4BE Save logs"
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -129,7 +68,7 @@ jobs:
             data/index_report.md
           retention-days: 30
 
-      - name: 📤 Commit results to repo
+      - name: "\U0001F4E4 Commit results to repo"
         if: always()
         run: |
           git config user.name "github-actions[bot]"
