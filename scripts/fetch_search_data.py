@@ -16,7 +16,7 @@ from datetime import datetime, timedelta, timezone
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
-SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
+SCOPES = ["https://www.googleapis.com/auth/webmasters"]
 DATA_DIR = "data"
 
 
@@ -184,7 +184,7 @@ def main():
     parser = argparse.ArgumentParser(description="Сбор данных из Google Search Console")
     parser.add_argument(
         "--site",
-        default="https://systems-analysis.ru",
+        default="https://systems-analysis.ru/",
         help="URL сайта (по умолчанию: https://systems-analysis.ru)",
     )
     parser.add_argument("--days", type=int, default=7, help="Период в днях (по умолчанию: 7)")
