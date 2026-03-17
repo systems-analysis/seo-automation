@@ -4,12 +4,11 @@ import json
 import glob
 import os
 
-DATA_DIR = "data"
-LOG_DIR = "logs"
+DATA_DIR = "data_index_status"
 
 
 def main():
-    files = sorted(glob.glob(os.path.join(LOG_DIR, "index_status_*.json")))
+    files = sorted(glob.glob(os.path.join(DATA_DIR, "index_status_*.json")))
     if not files:
         print("Нет файлов статуса индексации")
         return
@@ -46,7 +45,6 @@ def main():
             print(f"    Ошибка: {r.get('error', 'N/A')[:100]}")
             print()
 
-    # Сохраняем отчёт в Markdown
     os.makedirs(DATA_DIR, exist_ok=True)
     report_path = os.path.join(DATA_DIR, "index_report.md")
     basename = os.path.basename(latest).replace("index_status_", "").replace(".json", "")

@@ -58,7 +58,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: indexing-logs-${{ github.run_number }}
-          path: logs/
+          path: data_indexing/
           retention-days: 30
 
       - name: "\U0001F4E4 Commit to repo"
@@ -66,6 +66,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add logs/ data/ || true
+          git add data_indexing/ || true
           git diff --staged --quiet || git commit -m "📝 Indexing $(date -u +%Y-%m-%d)"
           git push || true

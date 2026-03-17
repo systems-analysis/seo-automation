@@ -1,107 +1,75 @@
 # 🔍 SEO Automation — systems-analysis.ru
 
-Автоматизация SEO-задач через Google Search Console API и Indexing API.
+Автоматизация SEO-задач: индексация, проверка статуса, аналитика из Google Search Console.
 
 ## Возможности
 
-- **Запрос индексации** — отправка URL на индексацию в Google (до 200/день)
+- **Запрос индексации** — отправка URL на индексацию в Google (до 200/день, с ротацией)
+- **Проверка статуса** — проиндексирована страница или нет, причины отказа
 - **Сбор аналитики** — клики, показы, позиции, CTR из Search Console
-- **Проверка статуса** — проверка индексации конкретных URL
-- **Автоматизация** — GitHub Actions с расписанием и ручным запуском
-
-## Быстрый старт
-
-### 1. Настройка Google Cloud
-
-1. Создайте проект в [Google Cloud Console](https://console.cloud.google.com)
-2. Включите API:
-   - `Google Search Console API`
-   - `Web Search Indexing API`
-3. Создайте Service Account → скачайте JSON-ключ
-4. Добавьте email сервисного аккаунта в [Search Console](https://search.google.com/search-console) как **Владельца**
-
-### 2. Настройка GitHub
-
-1. Склонируйте или форкните этот репозиторий
-2. Перейдите в **Settings → Secrets and variables → Actions**
-3. Создайте секрет `GOOGLE_SERVICE_ACCOUNT_KEY` — вставьте **содержимое** JSON-файла
-
-### 3. Готово!
-
-Workflows запускаются автоматически или вручную из вкладки **Actions**.
-
-## Скрипты
-
-### Запрос индексации
-
-```bash
-# Из sitemap
-python scripts/request_indexing.py --sitemap https://systems-analysis.ru/sitemap.xml
-
-# Из файла
-python scripts/request_indexing.py --urls urls.txt
-
-# Один URL
-python scripts/request_indexing.py --url https://systems-analysis.ru/page.html
-
-# Удаление из индекса
-python scripts/request_indexing.py --url https://systems-analysis.ru/old.html --action URL_DELETED
-```
-
-### Сбор аналитики Search Console
-
-```bash
-# Данные за 7 дней
-python scripts/fetch_search_data.py --days 7
-
-# За 30 дней с фильтром по запросу
-python scripts/fetch_search_data.py --days 30 --query "системный анализ"
-
-# Только CSV
-python scripts/fetch_search_data.py --days 14 --format csv
-
-# Группировка по устройствам
-python scripts/fetch_search_data.py --days 7 --dimensions query device
-```
-
-### Проверка статуса индексации
-
-```bash
-# Один URL
-python scripts/check_index_status.py --url https://systems-analysis.ru/page.html
-
-# Список URL
-python scripts/check_index_status.py --urls urls.txt
-```
-
-## GitHub Actions
-
-| Workflow | Расписание | Описание |
-|----------|-----------|----------|
-| Request Indexing | Ежедневно 06:00 UTC | Запрос индексации из sitemap |
-| Fetch Search Analytics | Пн 07:00 UTC | Сбор аналитики за неделю |
-
-Оба workflow можно запустить вручную из вкладки **Actions** с настраиваемыми параметрами.
+- **Автоматизация** — GitHub Actions по расписанию и ручной запуск
 
 ## Структура
 
 ```
 seo-automation/
 ├── .github/workflows/
-│   ├── request_indexing.yml      # Автоиндексация
-│   └── fetch_search_data.yml     # Автосбор аналитики
+│   ├── request_indexing.yml       # Ежедневная индексация (06:00 UTC)
+│   ├── check_index_status.yml     # Проверка индексации (ср 07:00 UTC)
+│   └── fetch_search_data.yml      # Сбор аналитики (пн 07:00 UTC)
 ├── scripts/
-│   ├── request_indexing.py       # Запрос индексации
-│   ├── fetch_search_data.py      # Сбор данных SC
-│   └── check_index_status.py     # Проверка статуса
-├── data/                         # Аналитика (CSV/JSON)
-├── logs/                         # Логи индексации
-├── urls.txt                      # Список URL
+│   ├── request_indexing.py        # Запрос индексации + ротация
+│   ├── check_index_status.py      # Проверка статуса URL
+│   ├── fetch_search_data.py       # Сбор данных Search Console
+│   └── generate_index_report.py   # Генерация отчёта по индексации
+├── data_indexing/                 # Логи запросов на индексацию
+├── data_index_status/             # Статусы индексации + отчёты
+├── data_search/                   # Аналитика (CSV/JSON)
+├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
 
-## Лимиты
+## Источник URL
+
+Список страниц берётся из внешнего репозитория:
+```
+https://raw.githubusercontent.com/systems-analysis/sitemap-data/refs/heads/main/sitemap/sitemap.txt
+```
+
+Обновить список — просто обновить файл в `sitemap-data` репо.
+
+## Настройка
+
+### 1. Google Cloud Console
+
+1. Создайте проект → включите API: `Google Search Console API`, `Web Search Indexing API`
+2. Создайте Service Account → скачайте JSON-ключ
+3. Добавьте email сервисного аккаунта в Search Console как **Владелец**
+
+### 2. GitHub
+
+1. Settings → Secrets → Actions → `GOOGLE_SERVICE_ACCOUNT_KEY` (содержимое JSON)
+2. Settings → Actions → General → Workflow permissions: **Read and write**
+
+## Расписание
+
+| Workflow | Расписание | Данные |
+|----------|-----------|--------|
+| 🔄 Request Indexing | Ежедневно 06:00 UTC | `data_indexing/` |
+| 🔍 Check Index Status | Среда 07:00 UTC | `data_index_status/` |
+| 📊 Fetch Search Analytics | Понедельник 07:00 UTC | `data_search/` |
+
+Все workflow доступны для ручного запуска из вкладки Actions.
+
+## Ротация индексации
+
+При ~3500 URL и лимите 200/день:
+- Каждый день обрабатываются следующие 200 URL
+- Полный цикл: ~18 дней
+- Состояние хранится в `data_indexing/indexing_state.json`
+
+## Лимиты API
 
 | API | Лимит |
 |-----|-------|
@@ -109,11 +77,3 @@ seo-automation/
 | URL Inspection API | 2 000 запросов/день |
 | Search Analytics API | 25 000 запросов/день |
 | GitHub Actions (Free) | 2 000 минут/месяц |
-
-## Локальный запуск
-
-```bash
-pip install -r requirements.txt
-export GOOGLE_SERVICE_ACCOUNT_FILE=path/to/service_account.json
-python scripts/fetch_search_data.py --days 7
-```

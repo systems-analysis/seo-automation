@@ -47,7 +47,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: search-data-${{ github.run_number }}
-          path: data/
+          path: data_search/
           retention-days: 90
 
       - name: "\U0001F4E4 Commit to repo"
@@ -55,6 +55,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ || true
+          git add data_search/ || true
           git diff --staged --quiet || git commit -m "📊 Search data $(date -u +%Y-%m-%d)"
           git push || true

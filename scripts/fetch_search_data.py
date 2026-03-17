@@ -17,7 +17,7 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
-DATA_DIR = "data"
+DATA_DIR = "data_search"
 
 
 def get_credentials():
@@ -162,17 +162,11 @@ def print_top_queries(rows, limit=20):
 
 def main():
     parser = argparse.ArgumentParser(description="Сбор данных из Google Search Console")
-    parser.add_argument(
-        "--site",
-        default="https://systems-analysis.ru/",
-        help="URL сайта",
-    )
+    parser.add_argument("--site", default="https://systems-analysis.ru/")
     parser.add_argument("--days", type=int, default=7)
     parser.add_argument("--query", help="Фильтр по запросу")
     parser.add_argument(
-        "--dimensions",
-        nargs="+",
-        default=["query", "page", "date"],
+        "--dimensions", nargs="+", default=["query", "page", "date"],
         choices=["query", "page", "country", "device", "date"],
     )
     parser.add_argument("--format", choices=["csv", "json", "both"], default="both")
@@ -188,12 +182,10 @@ def main():
         return
 
     timestamp = datetime.now(timezone.utc).strftime("%Y%m%d")
-
     if args.format in ("csv", "both"):
         save_to_csv(rows, dimensions, f"search_data_{timestamp}.csv")
     if args.format in ("json", "both"):
         save_to_json(rows, dimensions, f"search_data_{timestamp}.json")
-
     print_top_queries(rows)
 
 

@@ -19,8 +19,8 @@ from googleapiclient.discovery import build
 
 DAILY_LIMIT = 200
 SCOPES = ["https://www.googleapis.com/auth/indexing"]
-LOG_DIR = "logs"
-STATE_FILE = "data/indexing_state.json"
+DATA_DIR = "data_indexing"
+STATE_FILE = "data_indexing/indexing_state.json"
 
 
 def get_credentials():
@@ -83,9 +83,9 @@ def request_indexing(urls, action="URL_UPDATED"):
     credentials = get_credentials()
     service = build("indexing", "v3", credentials=credentials)
 
-    os.makedirs(LOG_DIR, exist_ok=True)
+    os.makedirs(DATA_DIR, exist_ok=True)
     timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
-    log_file = os.path.join(LOG_DIR, f"indexing_{timestamp}.json")
+    log_file = os.path.join(DATA_DIR, f"indexing_{timestamp}.json")
 
     results = []
     success_count = 0

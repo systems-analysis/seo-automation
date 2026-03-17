@@ -1,5 +1,6 @@
-# Секреты — никогда не коммитить!
+# Секреты
 service_account.json
+oauth_client.json
 *.json.bak
 
 # Python
@@ -15,3 +16,7 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+# Временные файлы
+_urls.txt
+_sitemap_urls.txt

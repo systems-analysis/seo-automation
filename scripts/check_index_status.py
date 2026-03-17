@@ -17,7 +17,7 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 SCOPES = ["https://www.googleapis.com/auth/webmasters"]
-LOG_DIR = "logs"
+DATA_DIR = "data_index_status"
 
 
 def get_credentials():
@@ -38,10 +38,8 @@ def check_url_status(service, url, site_url):
     try:
         request = {"inspectionUrl": url, "siteUrl": site_url}
         response = service.urlInspection().index().inspect(body=request).execute()
-
         result = response.get("inspectionResult", {})
         index_status = result.get("indexStatusResult", {})
-
         return {
             "url": url,
             "verdict": index_status.get("verdict", "N/A"),
@@ -61,11 +59,7 @@ def main():
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--url", help="URL для проверки")
     group.add_argument("--urls", help="Файл со списком URL")
-    parser.add_argument(
-        "--site",
-        default="https://systems-analysis.ru/",
-        help="URL сайта в Search Console",
-    )
+    parser.add_argument("--site", default="https://systems-analysis.ru/")
     args = parser.parse_args()
 
     credentials = get_credentials()
@@ -83,7 +77,6 @@ def main():
     for i, url in enumerate(urls, 1):
         result = check_url_status(service, url, args.site)
         results.append(result)
-
         if result["status"] == "success":
             verdict_icon = "✅" if result["verdict"] == "PASS" else "⚠️"
             print(f"  {verdict_icon} [{i}/{len(urls)}] {url}")
@@ -93,17 +86,14 @@ def main():
         else:
             print(f"  ❌ [{i}/{len(urls)}] {url}")
             print(f"      {result['error'][:100]}")
-
         if i < len(urls):
             time.sleep(1)
 
-    os.makedirs(LOG_DIR, exist_ok=True)
+    os.makedirs(DATA_DIR, exist_ok=True)
     timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
-    log_file = os.path.join(LOG_DIR, f"index_status_{timestamp}.json")
-
+    log_file = os.path.join(DATA_DIR, f"index_status_{timestamp}.json")
     with open(log_file, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
-
     print(f"\n📝 Лог: {log_file}")
 
 

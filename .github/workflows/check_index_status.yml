@@ -62,9 +62,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: index-status-${{ github.run_number }}
-          path: |
-            logs/
-            data/index_report.md
+          path: data_index_status/
           retention-days: 30
 
       - name: "\U0001F4E4 Commit to repo"
@@ -72,6 +70,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add logs/ data/ || true
+          git add data_index_status/ || true
           git diff --staged --quiet || git commit -m "🔍 Index check $(date -u +%Y-%m-%d)"
           git push || true
