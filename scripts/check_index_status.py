@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
-SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
+SCOPES = ["https://www.googleapis.com/auth/webmasters"]
 LOG_DIR = "logs"
 
 
