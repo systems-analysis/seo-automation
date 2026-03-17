@@ -70,7 +70,7 @@ def main():
     group.add_argument("--urls", help="Файл со списком URL")
     parser.add_argument(
         "--site",
-        default="https://systems-analysis.ru",
+        default="https://systems-analysis.ru/",
         help="URL сайта в Search Console",
     )
 
