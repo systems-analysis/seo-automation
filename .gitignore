@@ -1,0 +1,17 @@
+# Секреты — никогда не коммитить!
+service_account.json
+*.json.bak
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

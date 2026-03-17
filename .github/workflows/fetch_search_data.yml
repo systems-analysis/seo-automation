@@ -1,0 +1,65 @@
+name: 📊 Fetch Search Analytics
+
+on:
+  # Каждый понедельник в 07:00 UTC
+  schedule:
+    - cron: '0 7 * * 1'
+
+  # Ручной запуск
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Период (дней назад)'
+        required: false
+        default: '7'
+        type: string
+      query_filter:
+        description: 'Фильтр по запросу (опционально)'
+        required: false
+        type: string
+
+jobs:
+  analytics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 📦 Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: 📊 Fetch search data
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+        run: |
+          DAYS="${{ github.event.inputs.days || '7' }}"
+          QUERY="${{ github.event.inputs.query_filter }}"
+
+          if [ -n "$QUERY" ]; then
+            python scripts/fetch_search_data.py --days "$DAYS" --query "$QUERY"
+          else
+            python scripts/fetch_search_data.py --days "$DAYS"
+          fi
+
+      - name: 💾 Save data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: search-data-${{ github.run_number }}
+          path: data/
+          retention-days: 90
+
+      - name: 📤 Commit data to repo
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ || true
+          git diff --staged --quiet || git commit -m "📊 Search data $(date -u +%Y-%m-%d)"
+          git push || true

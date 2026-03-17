@@ -1,0 +1,70 @@
+name: 🔄 Request Indexing
+
+on:
+  # Запуск по расписанию — каждый день в 06:00 UTC
+  schedule:
+    - cron: '0 6 * * *'
+
+  # Ручной запуск
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Режим работы'
+        required: true
+        default: 'sitemap'
+        type: choice
+        options:
+          - sitemap
+          - urls-file
+          - single-url
+      url:
+        description: 'URL (для режима single-url)'
+        required: false
+        type: string
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 📦 Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: 🚀 Request indexing
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+        run: |
+          MODE="${{ github.event.inputs.mode || 'sitemap' }}"
+
+          if [ "$MODE" = "sitemap" ]; then
+            python scripts/request_indexing.py --sitemap https://systems-analysis.ru/sitemap.xml
+          elif [ "$MODE" = "urls-file" ]; then
+            python scripts/request_indexing.py --urls urls.txt
+          elif [ "$MODE" = "single-url" ]; then
+            python scripts/request_indexing.py --url "${{ github.event.inputs.url }}"
+          fi
+
+      - name: 💾 Save logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: indexing-logs-${{ github.run_number }}
+          path: logs/
+          retention-days: 30
+
+      - name: 📤 Commit logs to repo
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add logs/ || true
+          git diff --staged --quiet || git commit -m "📝 Indexing log $(date -u +%Y-%m-%d)"
+          git push || true

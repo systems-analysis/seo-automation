@@ -1,0 +1,9 @@
+# Список URL для индексации
+# По одному URL на строку. Строки с # игнорируются.
+
+https://systems-analysis.ru/
+https://systems-analysis.ru/systems_analysis.html
+https://systems-analysis.ru/operation_reserch.html
+https://systems-analysis.ru/modelling.html
+https://systems-analysis.ru/decision_theory.html
+https://systems-analysis.ru/systems_thinking.html

@@ -1,0 +1,120 @@
+"""
+Проверка статуса индексации URL через URL Inspection API.
+
+Использование:
+    python scripts/check_index_status.py --url https://systems-analysis.ru/page.html
+    python scripts/check_index_status.py --urls urls.txt
+"""
+
+import argparse
+import json
+import os
+import sys
+import time
+from datetime import datetime, timezone
+
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
+
+SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
+LOG_DIR = "logs"
+
+
+def get_credentials():
+    """Получить credentials из JSON-ключа."""
+    key_env = os.environ.get("GOOGLE_SERVICE_ACCOUNT_KEY")
+    key_file = os.environ.get("GOOGLE_SERVICE_ACCOUNT_FILE", "service_account.json")
+
+    if key_env:
+        info = json.loads(key_env)
+        return service_account.Credentials.from_service_account_info(info, scopes=SCOPES)
+    elif os.path.exists(key_file):
+        return service_account.Credentials.from_service_account_file(key_file, scopes=SCOPES)
+    else:
+        print("❌ Ключ сервисного аккаунта не найден.")
+        sys.exit(1)
+
+
+def check_url_status(service, url, site_url):
+    """Проверить статус индексации одного URL."""
+    try:
+        request = {"inspectionUrl": url, "siteUrl": site_url}
+        response = service.urlInspection().index().inspect(body=request).execute()
+
+        result = response.get("inspectionResult", {})
+        index_status = result.get("indexStatusResult", {})
+        crawl_info = index_status.get("lastCrawlTime", "N/A")
+        coverage = index_status.get("coverageState", "N/A")
+        verdict = index_status.get("verdict", "N/A")
+        indexing_state = index_status.get("indexingState", "N/A")
+
+        return {
+            "url": url,
+            "verdict": verdict,
+            "coverageState": coverage,
+            "indexingState": indexing_state,
+            "lastCrawlTime": crawl_info,
+            "robotsTxtState": index_status.get("robotsTxtState", "N/A"),
+            "pageFetchState": index_status.get("pageFetchState", "N/A"),
+            "status": "success",
+        }
+
+    except Exception as e:
+        return {"url": url, "status": "error", "error": str(e)}
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Проверка статуса индексации URL")
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("--url", help="URL для проверки")
+    group.add_argument("--urls", help="Файл со списком URL")
+    parser.add_argument(
+        "--site",
+        default="https://systems-analysis.ru",
+        help="URL сайта в Search Console",
+    )
+
+    args = parser.parse_args()
+
+    credentials = get_credentials()
+    service = build("searchconsole", "v1", credentials=credentials)
+
+    if args.url:
+        urls = [args.url]
+    else:
+        with open(args.urls, "r") as f:
+            urls = [line.strip() for line in f if line.strip() and not line.startswith("#")]
+
+    print(f"🔍 Проверка статуса индексации: {len(urls)} URL\n")
+
+    results = []
+    for i, url in enumerate(urls, 1):
+        result = check_url_status(service, url, args.site)
+        results.append(result)
+
+        if result["status"] == "success":
+            verdict_icon = "✅" if result["verdict"] == "PASS" else "⚠️"
+            print(f"  {verdict_icon} [{i}/{len(urls)}] {url}")
+            print(f"      Индексация: {result['indexingState']}")
+            print(f"      Покрытие: {result['coverageState']}")
+            print(f"      Последнее сканирование: {result['lastCrawlTime']}")
+        else:
+            print(f"  ❌ [{i}/{len(urls)}] {url}")
+            print(f"      {result['error'][:100]}")
+
+        if i < len(urls):
+            time.sleep(1)  # Пауза между запросами
+
+    # Сохраняем результат
+    os.makedirs(LOG_DIR, exist_ok=True)
+    timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+    log_file = os.path.join(LOG_DIR, f"index_status_{timestamp}.json")
+
+    with open(log_file, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+
+    print(f"\n📝 Лог: {log_file}")
+
+
+if __name__ == "__main__":
+    main()
