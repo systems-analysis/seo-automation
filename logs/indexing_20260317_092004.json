@@ -1,0 +1,14 @@
+{
+  "timestamp": "20260317_092004",
+  "action": "URL_UPDATED",
+  "total": 1,
+  "success": 1,
+  "errors": 0,
+  "results": [
+    {
+      "url": "https://systems-analysis.ru/",
+      "status": "success",
+      "notifyTime": ""
+    }
+  ]
+}
