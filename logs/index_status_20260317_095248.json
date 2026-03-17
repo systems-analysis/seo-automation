@@ -1,0 +1,7 @@
+[
+  {
+    "url": "https://systems-analysis.ru/",
+    "status": "error",
+    "error": "<HttpError 403 when requesting https://searchconsole.googleapis.com/v1/urlInspection/index:inspect?alt=json returned \"You do not own this site, or the inspected URL is not part of this property.\". Details: \"You do not own this site, or the inspected URL is not part of this property.\">"
+  }
+]
