@@ -1,11 +1,8 @@
-name: 📊 Fetch Search Analytics
+name: "\U0001F4CA Fetch Search Analytics"
 
 on:
-  # Каждый понедельник в 07:00 UTC
   schedule:
     - cron: '0 7 * * 1'
-
-  # Ручной запуск
   workflow_dispatch:
     inputs:
       days:
@@ -21,33 +18,31 @@ on:
 jobs:
   analytics:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 📥 Checkout
+      - name: "\U0001F4E5 Checkout"
         uses: actions/checkout@v4
 
-      - name: 🐍 Setup Python
+      - name: "\U0001F40D Setup Python"
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: 📦 Install dependencies
+      - name: "\U0001F4E6 Install dependencies"
         run: pip install -r requirements.txt
 
-      - name: 📊 Fetch search data
+      - name: "\U0001F4CA Fetch search data"
         env:
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
         run: |
           DAYS="${{ github.event.inputs.days || '7' }}"
           QUERY="${{ github.event.inputs.query_filter }}"
-
           if [ -n "$QUERY" ]; then
             python scripts/fetch_search_data.py --days "$DAYS" --query "$QUERY"
           else
             python scripts/fetch_search_data.py --days "$DAYS"
           fi
 
-      - name: 💾 Save data
+      - name: "\U0001F4BE Save data"
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -55,7 +50,7 @@ jobs:
           path: data/
           retention-days: 90
 
-      - name: 📤 Commit data to repo
+      - name: "\U0001F4E4 Commit to repo"
         if: always()
         run: |
           git config user.name "github-actions[bot]"

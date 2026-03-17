@@ -1,9 +1,9 @@
 """
 Запрос индексации URL через Google Indexing API.
+Ротация: каждый запуск обрабатывает следующую порцию URL.
 
 Использование:
-    python scripts/request_indexing.py --urls urls.txt
-    python scripts/request_indexing.py --sitemap https://systems-analysis.ru/sitemap.xml
+    python scripts/request_indexing.py --urls all_urls.txt
     python scripts/request_indexing.py --url https://systems-analysis.ru/page.html
 """
 
@@ -17,15 +17,13 @@ from datetime import datetime, timezone
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
-# Лимит Google Indexing API: 200 запросов в день
 DAILY_LIMIT = 200
 SCOPES = ["https://www.googleapis.com/auth/indexing"]
 LOG_DIR = "logs"
-USER_AGENT = "Mozilla/5.0 (compatible; SEOAutomation/1.0; +https://systems-analysis.ru)"
+STATE_FILE = "data/indexing_state.json"
 
 
 def get_credentials():
-    """Получить credentials из JSON-ключа (файл или env)."""
     key_env = os.environ.get("GOOGLE_SERVICE_ACCOUNT_KEY")
     key_file = os.environ.get("GOOGLE_SERVICE_ACCOUNT_FILE", "service_account.json")
 
@@ -36,66 +34,52 @@ def get_credentials():
         return service_account.Credentials.from_service_account_file(key_file, scopes=SCOPES)
     else:
         print("❌ Ключ сервисного аккаунта не найден.")
-        print("   Установите GOOGLE_SERVICE_ACCOUNT_KEY или положите service_account.json")
         sys.exit(1)
 
 
 def load_urls_from_file(filepath):
-    """Загрузить URL из текстового файла (по одному на строку)."""
     with open(filepath, "r") as f:
         return [line.strip() for line in f if line.strip() and not line.startswith("#")]
 
 
-def fetch_xml(url):
-    """Загрузить XML с правильным User-Agent."""
-    import urllib.request
-    import xml.etree.ElementTree as ET
-
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    response = urllib.request.urlopen(req, timeout=30)
-    return ET.parse(response)
+def load_state():
+    if os.path.exists(STATE_FILE):
+        with open(STATE_FILE, "r") as f:
+            return json.load(f)
+    return {"last_offset": 0, "last_run": None, "total_processed": 0}
 
 
-def load_urls_from_sitemap(sitemap_url):
-    """Загрузить URL из sitemap.xml (с поддержкой sitemap index)."""
-    ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-    all_urls = []
+def save_state(state):
+    os.makedirs(os.path.dirname(STATE_FILE), exist_ok=True)
+    with open(STATE_FILE, "w") as f:
+        json.dump(state, f, indent=2)
 
-    print(f"📥 Загрузка sitemap: {sitemap_url}")
-    tree = fetch_xml(sitemap_url)
-    root = tree.getroot()
 
-    # Проверяем: это sitemap index или обычный sitemap?
-    sub_sitemaps = root.findall(".//sm:sitemap/sm:loc", ns)
+def get_batch(urls, batch_size):
+    state = load_state()
+    offset = state["last_offset"]
+    total = len(urls)
 
-    if sub_sitemaps:
-        # Это sitemap index — загружаем каждый дочерний sitemap
-        print(f"   Обнаружен sitemap index с {len(sub_sitemaps)} дочерними sitemap")
-        for sub_loc in sub_sitemaps:
-            sub_url = sub_loc.text.strip()
-            print(f"   📥 Загрузка: {sub_url}")
-            try:
-                sub_tree = fetch_xml(sub_url)
-                sub_root = sub_tree.getroot()
-                urls = [loc.text.strip() for loc in sub_root.findall(".//sm:loc", ns)]
-                all_urls.extend(urls)
-                print(f"      Найдено {len(urls)} URL")
-            except Exception as e:
-                print(f"      ⚠️ Ошибка: {e}")
-    else:
-        # Обычный sitemap
-        all_urls = [loc.text.strip() for loc in root.findall(".//sm:loc", ns)]
+    if offset >= total:
+        offset = 0
 
-    print(f"\n   Всего найдено {len(all_urls)} URL в sitemap")
-    return all_urls
+    end = min(offset + batch_size, total)
+    batch = urls[offset:end]
+
+    print(f"📋 Ротация: URL {offset + 1}–{end} из {total}")
+    if offset == 0:
+        print(f"   🔄 Новый цикл")
+
+    state["last_offset"] = end if end < total else 0
+    state["last_run"] = datetime.now(timezone.utc).isoformat()
+    state["total_processed"] = state.get("total_processed", 0) + len(batch)
+    state["cycle_position"] = f"{end}/{total}"
+    save_state(state)
+
+    return batch
 
 
 def request_indexing(urls, action="URL_UPDATED"):
-    """
-    Отправить запросы на индексацию.
-
-    action: URL_UPDATED | URL_DELETED
-    """
     credentials = get_credentials()
     service = build("indexing", "v3", credentials=credentials)
 
@@ -107,19 +91,12 @@ def request_indexing(urls, action="URL_UPDATED"):
     success_count = 0
     error_count = 0
 
-    # Ограничиваем до дневного лимита
-    if len(urls) > DAILY_LIMIT:
-        print(f"⚠️  {len(urls)} URL превышает лимит ({DAILY_LIMIT}/день).")
-        print(f"   Будут обработаны первые {DAILY_LIMIT} URL.")
-        urls = urls[:DAILY_LIMIT]
-
     print(f"\n🚀 Отправка {len(urls)} URL на индексацию ({action})...\n")
 
     for i, url in enumerate(urls, 1):
         try:
             body = {"url": url, "type": action}
             response = service.urlNotifications().publish(body=body).execute()
-
             result = {
                 "url": url,
                 "status": "success",
@@ -129,7 +106,6 @@ def request_indexing(urls, action="URL_UPDATED"):
             }
             success_count += 1
             print(f"  ✅ [{i}/{len(urls)}] {url}")
-
         except Exception as e:
             error_msg = str(e)
             result = {"url": url, "status": "error", "error": error_msg}
@@ -138,12 +114,9 @@ def request_indexing(urls, action="URL_UPDATED"):
             print(f"      {error_msg[:100]}")
 
         results.append(result)
-
-        # Небольшая пауза между запросами
         if i < len(urls):
             time.sleep(0.5)
 
-    # Сохраняем лог
     log_data = {
         "timestamp": timestamp,
         "action": action,
@@ -158,7 +131,6 @@ def request_indexing(urls, action="URL_UPDATED"):
 
     print(f"\n📊 Результат: {success_count} ✅ / {error_count} ❌")
     print(f"📝 Лог: {log_file}")
-
     return log_data
 
 
@@ -166,29 +138,25 @@ def main():
     parser = argparse.ArgumentParser(description="Запрос индексации URL в Google")
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--url", help="Один URL для индексации")
-    group.add_argument("--urls", help="Файл со списком URL (по одному на строку)")
-    group.add_argument("--sitemap", help="URL sitemap.xml")
+    group.add_argument("--urls", help="Файл со списком URL")
     parser.add_argument(
         "--action",
         choices=["URL_UPDATED", "URL_DELETED"],
         default="URL_UPDATED",
-        help="Тип действия (по умолчанию: URL_UPDATED)",
     )
-
+    parser.add_argument("--batch-size", type=int, default=DAILY_LIMIT)
+    parser.add_argument("--no-rotate", action="store_true")
     args = parser.parse_args()
 
     if args.url:
-        urls = [args.url]
-    elif args.urls:
-        urls = load_urls_from_file(args.urls)
-    elif args.sitemap:
-        urls = load_urls_from_sitemap(args.sitemap)
-
-    if not urls:
-        print("❌ Нет URL для обработки")
-        sys.exit(1)
-
-    request_indexing(urls, action=args.action)
+        request_indexing([args.url], action=args.action)
+    else:
+        all_urls = load_urls_from_file(args.urls)
+        if args.no_rotate:
+            batch = all_urls[: args.batch_size]
+        else:
+            batch = get_batch(all_urls, args.batch_size)
+        request_indexing(batch, action=args.action)
 
 
 if __name__ == "__main__":

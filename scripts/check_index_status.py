@@ -21,7 +21,6 @@ LOG_DIR = "logs"
 
 
 def get_credentials():
-    """Получить credentials из JSON-ключа."""
     key_env = os.environ.get("GOOGLE_SERVICE_ACCOUNT_KEY")
     key_file = os.environ.get("GOOGLE_SERVICE_ACCOUNT_FILE", "service_account.json")
 
@@ -36,29 +35,23 @@ def get_credentials():
 
 
 def check_url_status(service, url, site_url):
-    """Проверить статус индексации одного URL."""
     try:
         request = {"inspectionUrl": url, "siteUrl": site_url}
         response = service.urlInspection().index().inspect(body=request).execute()
 
         result = response.get("inspectionResult", {})
         index_status = result.get("indexStatusResult", {})
-        crawl_info = index_status.get("lastCrawlTime", "N/A")
-        coverage = index_status.get("coverageState", "N/A")
-        verdict = index_status.get("verdict", "N/A")
-        indexing_state = index_status.get("indexingState", "N/A")
 
         return {
             "url": url,
-            "verdict": verdict,
-            "coverageState": coverage,
-            "indexingState": indexing_state,
-            "lastCrawlTime": crawl_info,
+            "verdict": index_status.get("verdict", "N/A"),
+            "coverageState": index_status.get("coverageState", "N/A"),
+            "indexingState": index_status.get("indexingState", "N/A"),
+            "lastCrawlTime": index_status.get("lastCrawlTime", "N/A"),
             "robotsTxtState": index_status.get("robotsTxtState", "N/A"),
             "pageFetchState": index_status.get("pageFetchState", "N/A"),
             "status": "success",
         }
-
     except Exception as e:
         return {"url": url, "status": "error", "error": str(e)}
 
@@ -73,7 +66,6 @@ def main():
         default="https://systems-analysis.ru/",
         help="URL сайта в Search Console",
     )
-
     args = parser.parse_args()
 
     credentials = get_credentials()
@@ -103,9 +95,8 @@ def main():
             print(f"      {result['error'][:100]}")
 
         if i < len(urls):
-            time.sleep(1)  # Пауза между запросами
+            time.sleep(1)
 
-    # Сохраняем результат
     os.makedirs(LOG_DIR, exist_ok=True)
     timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
     log_file = os.path.join(LOG_DIR, f"index_status_{timestamp}.json")

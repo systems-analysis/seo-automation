@@ -1,58 +1,59 @@
-name: 🔄 Request Indexing
+name: "\U0001F504 Request Indexing"
 
 on:
-  # Запуск по расписанию — каждый день в 06:00 UTC
   schedule:
     - cron: '0 6 * * *'
-
-  # Ручной запуск
   workflow_dispatch:
     inputs:
       mode:
         description: 'Режим работы'
         required: true
-        default: 'sitemap'
+        default: 'rotate'
         type: choice
         options:
-          - sitemap
-          - urls-file
+          - rotate
           - single-url
       url:
         description: 'URL (для режима single-url)'
         required: false
         type: string
 
+env:
+  URLS_SOURCE: "https://raw.githubusercontent.com/systems-analysis/sitemap-data/refs/heads/main/sitemap/sitemap.txt"
+
 jobs:
   index:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 📥 Checkout
+      - name: "\U0001F4E5 Checkout"
         uses: actions/checkout@v4
 
-      - name: 🐍 Setup Python
+      - name: "\U0001F40D Setup Python"
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: 📦 Install dependencies
+      - name: "\U0001F4E6 Install dependencies"
         run: pip install -r requirements.txt
 
-      - name: 🚀 Request indexing
+      - name: "\U0001F4E5 Download URL list"
+        if: ${{ github.event.inputs.mode != 'single-url' }}
+        run: |
+          curl -sL "$URLS_SOURCE" -o _urls.txt
+          echo "📥 Загружено $(wc -l < _urls.txt) URL"
+
+      - name: "\U0001F680 Request indexing"
         env:
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
         run: |
-          MODE="${{ github.event.inputs.mode || 'sitemap' }}"
-
-          if [ "$MODE" = "sitemap" ]; then
-            python scripts/request_indexing.py --sitemap https://systems-analysis.ru/sitemap.xml
-          elif [ "$MODE" = "urls-file" ]; then
-            python scripts/request_indexing.py --urls urls.txt
-          elif [ "$MODE" = "single-url" ]; then
+          MODE="${{ github.event.inputs.mode || 'rotate' }}"
+          if [ "$MODE" = "single-url" ]; then
             python scripts/request_indexing.py --url "${{ github.event.inputs.url }}"
+          else
+            python scripts/request_indexing.py --urls _urls.txt --batch-size 200
           fi
 
-      - name: 💾 Save logs
+      - name: "\U0001F4BE Save logs"
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -60,11 +61,11 @@ jobs:
           path: logs/
           retention-days: 30
 
-      - name: 📤 Commit logs to repo
+      - name: "\U0001F4E4 Commit to repo"
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add logs/ || true
-          git diff --staged --quiet || git commit -m "📝 Indexing log $(date -u +%Y-%m-%d)"
+          git add logs/ data/ || true
+          git diff --staged --quiet || git commit -m "📝 Indexing $(date -u +%Y-%m-%d)"
           git push || true

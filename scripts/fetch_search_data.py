@@ -2,8 +2,8 @@
 Сбор данных из Google Search Console.
 
 Использование:
-    python scripts/fetch_search_data.py --site https://systems-analysis.ru --days 7
-    python scripts/fetch_search_data.py --site https://systems-analysis.ru --days 30 --query "системный анализ"
+    python scripts/fetch_search_data.py --days 7
+    python scripts/fetch_search_data.py --days 30 --query "системный анализ"
 """
 
 import argparse
@@ -16,12 +16,11 @@ from datetime import datetime, timedelta, timezone
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
-SCOPES = ["https://www.googleapis.com/auth/webmasters"]
+SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
 DATA_DIR = "data"
 
 
 def get_credentials():
-    """Получить credentials из JSON-ключа."""
     key_env = os.environ.get("GOOGLE_SERVICE_ACCOUNT_KEY")
     key_file = os.environ.get("GOOGLE_SERVICE_ACCOUNT_FILE", "service_account.json")
 
@@ -36,19 +35,10 @@ def get_credentials():
 
 
 def fetch_search_analytics(site_url, days=7, query_filter=None, dimensions=None):
-    """
-    Получить данные поисковой аналитики.
-
-    Параметры:
-        site_url: URL сайта в Search Console
-        days: количество дней назад
-        query_filter: фильтр по поисковому запросу
-        dimensions: группировка (query, page, country, device, date)
-    """
     credentials = get_credentials()
     service = build("searchconsole", "v1", credentials=credentials)
 
-    end_date = datetime.now(timezone.utc).date() - timedelta(days=3)  # данные с задержкой 3 дня
+    end_date = datetime.now(timezone.utc).date() - timedelta(days=3)
     start_date = end_date - timedelta(days=days)
 
     if dimensions is None:
@@ -79,7 +69,6 @@ def fetch_search_analytics(site_url, days=7, query_filter=None, dimensions=None)
     print(f"   Период: {start_date} — {end_date}")
     if query_filter:
         print(f"   Фильтр: «{query_filter}»")
-    print(f"   Группировка: {', '.join(dimensions)}")
     print()
 
     try:
@@ -94,21 +83,17 @@ def fetch_search_analytics(site_url, days=7, query_filter=None, dimensions=None)
 
     rows = response.get("rows", [])
     print(f"✅ Получено {len(rows)} строк данных\n")
-
     return rows, dimensions
 
 
 def save_to_csv(rows, dimensions, filename):
-    """Сохранить данные в CSV."""
     os.makedirs(DATA_DIR, exist_ok=True)
     filepath = os.path.join(DATA_DIR, filename)
-
     headers = dimensions + ["clicks", "impressions", "ctr", "position"]
 
     with open(filepath, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(headers)
-
         for row in rows:
             keys = row.get("keys", [])
             data = keys + [
@@ -124,7 +109,6 @@ def save_to_csv(rows, dimensions, filename):
 
 
 def save_to_json(rows, dimensions, filename):
-    """Сохранить данные в JSON."""
     os.makedirs(DATA_DIR, exist_ok=True)
     filepath = os.path.join(DATA_DIR, filename)
 
@@ -148,8 +132,6 @@ def save_to_json(rows, dimensions, filename):
 
 
 def print_top_queries(rows, limit=20):
-    """Вывести топ запросов по кликам."""
-    # Агрегация по запросам
     query_data = {}
     for row in rows:
         keys = row.get("keys", [])
@@ -163,7 +145,6 @@ def print_top_queries(rows, limit=20):
         query_data[query]["position_sum"] += row.get("position", 0)
         query_data[query]["count"] += 1
 
-    # Сортировка по кликам
     sorted_queries = sorted(query_data.items(), key=lambda x: x[1]["clicks"], reverse=True)
 
     print(f"\n{'='*80}")
@@ -176,7 +157,6 @@ def print_top_queries(rows, limit=20):
         avg_pos = data["position_sum"] / data["count"] if data["count"] else 0
         q = query[:38] + ".." if len(query) > 40 else query
         print(f" {q:<40} {data['clicks']:>7} {data['impressions']:>9} {avg_pos:>8.1f}")
-
     print()
 
 
@@ -185,31 +165,22 @@ def main():
     parser.add_argument(
         "--site",
         default="https://systems-analysis.ru/",
-        help="URL сайта (по умолчанию: https://systems-analysis.ru)",
+        help="URL сайта",
     )
-    parser.add_argument("--days", type=int, default=7, help="Период в днях (по умолчанию: 7)")
-    parser.add_argument("--query", help="Фильтр по поисковому запросу")
+    parser.add_argument("--days", type=int, default=7)
+    parser.add_argument("--query", help="Фильтр по запросу")
     parser.add_argument(
         "--dimensions",
         nargs="+",
         default=["query", "page", "date"],
         choices=["query", "page", "country", "device", "date"],
-        help="Группировка данных",
     )
-    parser.add_argument(
-        "--format",
-        choices=["csv", "json", "both"],
-        default="both",
-        help="Формат вывода",
-    )
-
+    parser.add_argument("--format", choices=["csv", "json", "both"], default="both")
     args = parser.parse_args()
 
     rows, dimensions = fetch_search_analytics(
-        site_url=args.site,
-        days=args.days,
-        query_filter=args.query,
-        dimensions=args.dimensions,
+        site_url=args.site, days=args.days,
+        query_filter=args.query, dimensions=args.dimensions,
     )
 
     if not rows:
@@ -220,7 +191,6 @@ def main():
 
     if args.format in ("csv", "both"):
         save_to_csv(rows, dimensions, f"search_data_{timestamp}.csv")
-
     if args.format in ("json", "both"):
         save_to_json(rows, dimensions, f"search_data_{timestamp}.json")
 
