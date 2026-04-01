@@ -1,12 +1,12 @@
 # Отчёт по индексации
 
-Дата проверки: 20260325_121553
+Дата проверки: 20260401_123915
 
 | Метрика | Значение |
 |---------|----------|
 | Всего проверено | 3455 |
-| ✅ Проиндексировано | 1518 |
-| ⚠️ Не проиндексировано | 483 |
+| ✅ Проиндексировано | 1550 |
+| ⚠️ Не проиндексировано | 451 |
 | ❌ Ошибки | 1454 |
 
 ## ✅ Проиндексированные страницы
@@ -14,19 +14,19 @@
 - https://systems-analysis.ru/assets/analytical-planning_saaty.pdf
   - Последнее сканирование: 2026-03-20T16:27:45Z
 - https://systems-analysis.ru/assets/handbook_of_operations_research_1.pdf
-  - Последнее сканирование: 2026-03-18T22:34:15Z
+  - Последнее сканирование: 2026-03-27T00:36:47Z
 - https://systems-analysis.ru/assets/handbook_of_operations_research_2.pdf
-  - Последнее сканирование: 2026-03-06T21:43:52Z
+  - Последнее сканирование: 2026-03-24T11:16:54Z
 - https://systems-analysis.ru/assets/methods_of_operation_research_morz_1956.pdf
-  - Последнее сканирование: 2026-02-11T16:47:37Z
+  - Последнее сканирование: 2026-03-23T22:11:16Z
 - https://systems-analysis.ru/assets/monte-carlo_method_and_the_pert_problem.pdf
   - Последнее сканирование: 2026-03-15T21:30:47Z
 - https://systems-analysis.ru/assets/operation-research_akoff.pdf
   - Последнее сканирование: 2026-03-18T03:34:40Z
 - https://systems-analysis.ru/assets/operation-research_akoff_sasieni.pdf
-  - Последнее сканирование: 2026-03-11T16:53:16Z
+  - Последнее сканирование: 2026-03-29T04:50:17Z
 - https://systems-analysis.ru/assets/operation-research_venttsel.pdf
-  - Последнее сканирование: 2026-03-23T21:02:10Z
+  - Последнее сканирование: 2026-03-27T18:07:56Z
 - https://systems-analysis.ru/assets/organization_planning_of_production_kantorovich.pdf
   - Последнее сканирование: 2026-03-04T12:06:01Z
 - https://systems-analysis.ru/assets/pert.pdf
@@ -36,35 +36,35 @@
 - https://systems-analysis.ru/assets/pert_engineer.pdf
   - Последнее сканирование: 2026-03-20T21:50:59Z
 - https://systems-analysis.ru/assets/pert_nikanorov.pdf
-  - Последнее сканирование: 2026-03-15T15:21:10Z
+  - Последнее сканирование: 2026-03-31T11:58:20Z
 - https://systems-analysis.ru/assets/pert_weber.pdf
   - Последнее сканирование: 2026-03-09T06:55:26Z
 - https://systems-analysis.ru/assets/principles_of_operations_research_1.pdf
-  - Последнее сканирование: 2026-03-04T18:47:18Z
+  - Последнее сканирование: 2026-03-30T15:11:47Z
 - https://systems-analysis.ru/assets/principles_of_operations_research_2.pdf
   - Последнее сканирование: 2026-03-23T17:11:31Z
 - https://systems-analysis.ru/assets/systems_analysis_chernyak.pdf
-  - Последнее сканирование: 2026-02-18T23:32:53Z
+  - Последнее сканирование: 2026-03-26T10:25:26Z
 - https://systems-analysis.ru/assets/systems_analysis_cleland.pdf
-  - Последнее сканирование: 2026-02-23T11:17:56Z
+  - Последнее сканирование: 2026-03-30T17:20:20Z
 - https://systems-analysis.ru/assets/systems_analysis_optner.pdf
   - Последнее сканирование: 2026-02-24T00:29:25Z
 - https://systems-analysis.ru/assets/systems_analysis_peregudov.pdf
-  - Последнее сканирование: 2026-03-18T04:11:39Z
+  - Последнее сканирование: 2026-03-30T20:46:49Z
 - https://systems-analysis.ru/assets/systems_analysis_quaid.pdf
-  - Последнее сканирование: 2026-03-13T20:57:31Z
+  - Последнее сканирование: 2026-04-01T03:55:39Z
 - https://systems-analysis.ru/assets/systems_analysis_young.pdf
-  - Последнее сканирование: 2026-03-21T16:19:00Z
+  - Последнее сканирование: 2026-03-28T22:20:59Z
 - https://systems-analysis.ru/assets/systems_research_1969.pdf
   - Последнее сканирование: 2026-03-19T04:24:52Z
 - https://systems-analysis.ru/assets/systems_research_1970.pdf
-  - Последнее сканирование: 2026-03-12T22:24:52Z
+  - Последнее сканирование: 2026-03-23T14:42:05Z
 - https://systems-analysis.ru/assets/systems_research_1971.pdf
-  - Последнее сканирование: 2026-03-13T06:17:47Z
+  - Последнее сканирование: 2026-03-27T18:58:40Z
 - https://systems-analysis.ru/assets/systems_research_1972.pdf
-  - Последнее сканирование: 2026-02-27T18:44:38Z
+  - Последнее сканирование: 2026-03-25T17:12:07Z
 - https://systems-analysis.ru/assets/systems_research_1973.pdf
-  - Последнее сканирование: 2026-03-23T00:21:37Z
+  - Последнее сканирование: 2026-03-30T23:52:57Z
 - https://systems-analysis.ru/assets/systems_research_1974.pdf
   - Последнее сканирование: 2026-03-21T23:28:06Z
 - https://systems-analysis.ru/assets/systems_research_1975.pdf
@@ -72,9 +72,9 @@
 - https://systems-analysis.ru/assets/systems_research_1976.pdf
   - Последнее сканирование: 2026-03-21T23:57:35Z
 - https://systems-analysis.ru/assets/systems_research_1977.pdf
-  - Последнее сканирование: 2026-03-14T02:11:22Z
+  - Последнее сканирование: 2026-03-28T16:11:20Z
 - https://systems-analysis.ru/assets/systems_research_1978.pdf
-  - Последнее сканирование: 2026-02-28T07:17:47Z
+  - Последнее сканирование: 2026-03-29T20:06:09Z
 - https://systems-analysis.ru/assets/systems_research_1979.pdf
   - Последнее сканирование: 2026-03-17T23:06:15Z
 - https://systems-analysis.ru/assets/systems_research_1980.pdf
@@ -90,9 +90,9 @@
 - https://systems-analysis.ru/assets/systems_research_1988.pdf
   - Последнее сканирование: 2026-03-18T03:43:44Z
 - https://systems-analysis.ru/assets/systems_theory_sadovsky.pdf
-  - Последнее сканирование: 2026-03-16T12:37:43Z
+  - Последнее сканирование: 2026-03-27T00:39:28Z
 - https://systems-analysis.ru/assets/theory_of_hierarchical_systems.pdf
-  - Последнее сканирование: 2026-03-15T17:51:14Z
+  - Последнее сканирование: 2026-03-26T15:20:18Z
 - https://systems-analysis.ru/assets/van-Gig-J-Prikladnaya-obshchaya-teoriya-sistem-tom-2-1981.pdf
   - Последнее сканирование: 2026-02-10T04:03:23Z
 - https://systems-analysis.ru/eng/AI_Agent
@@ -100,7 +100,7 @@
 - https://systems-analysis.ru/eng/Activity
   - Последнее сканирование: 2026-02-09T08:16:10Z
 - https://systems-analysis.ru/eng/Agentic_Workflows
-  - Последнее сканирование: 2026-02-01T05:53:33Z
+  - Последнее сканирование: 2026-03-29T06:26:20Z
 - https://systems-analysis.ru/eng/Agile
   - Последнее сканирование: 2025-12-07T13:38:58Z
 - https://systems-analysis.ru/eng/AutoGPT
@@ -110,15 +110,17 @@
 - https://systems-analysis.ru/eng/BERTScore_(metric)
   - Последнее сканирование: 2026-03-15T10:18:48Z
 - https://systems-analysis.ru/eng/BIG-bench_(benchmark)
-  - Последнее сканирование: 2026-02-03T15:05:59Z
+  - Последнее сканирование: 2026-03-31T12:44:33Z
 - https://systems-analysis.ru/eng/BLEU_(Bilingual_Evaluation_Understudy)
-  - Последнее сканирование: 2026-03-12T22:42:22Z
+  - Последнее сканирование: 2026-03-29T02:41:07Z
+- https://systems-analysis.ru/eng/BLOOM_(language_model)
+  - Последнее сканирование: 2026-03-27T03:31:57Z
 - https://systems-analysis.ru/eng/Bayes_criterion
   - Последнее сканирование: 2026-02-12T09:54:28Z
 - https://systems-analysis.ru/eng/Bayes_minimax_criterion
   - Последнее сканирование: 2026-03-04T21:33:52Z
 - https://systems-analysis.ru/eng/Bias_in_large_language_models
-  - Последнее сканирование: 2026-02-01T18:57:40Z
+  - Последнее сканирование: 2026-03-29T18:09:17Z
 - https://systems-analysis.ru/eng/Black_box
   - Последнее сканирование: 2026-03-11T11:12:34Z
 - https://systems-analysis.ru/eng/Branch_and_bound
@@ -136,125 +138,131 @@
 - https://systems-analysis.ru/eng/Chain-of-Thought_Prompting
   - Последнее сканирование: 2026-03-21T20:08:51Z
 - https://systems-analysis.ru/eng/Chain-of-Verification
-  - Последнее сканирование: 2026-02-25T06:42:43Z
+  - Последнее сканирование: 2026-03-30T21:29:16Z
 - https://systems-analysis.ru/eng/Classical_methodologies_of_systems_analysis
   - Последнее сканирование: 2026-02-10T05:13:54Z
 - https://systems-analysis.ru/eng/Classification_of_system_modeling_methods
-  - Последнее сканирование: 2025-12-07T15:09:06Z
+  - Последнее сканирование: 2026-03-26T11:01:43Z
 - https://systems-analysis.ru/eng/Classification_of_systems
-  - Последнее сканирование: 2026-02-25T10:33:36Z
+  - Последнее сканирование: 2026-03-30T20:08:43Z
 - https://systems-analysis.ru/eng/Closed_system_(systems_theory)
-  - Последнее сканирование: 2026-03-16T23:22:21Z
+  - Последнее сканирование: 2026-03-27T05:21:26Z
 - https://systems-analysis.ru/eng/Cognitive_bias
   - Последнее сканирование: 2026-02-17T09:01:10Z
 - https://systems-analysis.ru/eng/Cohere_Inc.
   - Последнее сканирование: 2025-12-07T15:09:28Z
 - https://systems-analysis.ru/eng/Collective_choice
-  - Последнее сканирование: 2026-02-16T16:34:17Z
+  - Последнее сканирование: 2026-03-29T18:58:51Z
 - https://systems-analysis.ru/eng/Comparison_of_alternatives
-  - Последнее сканирование: 2026-03-01T23:08:52Z
+  - Последнее сканирование: 2026-03-26T13:30:28Z
 - https://systems-analysis.ru/eng/Concept
   - Последнее сканирование: 2026-03-04T21:10:55Z
 - https://systems-analysis.ru/eng/Concept_of_a_system
-  - Последнее сканирование: 2026-02-03T19:31:27Z
+  - Последнее сканирование: 2026-03-31T11:20:00Z
 - https://systems-analysis.ru/eng/Conceptual_foundations_of_systems
-  - Последнее сканирование: 2026-02-01T05:40:08Z
+  - Последнее сканирование: 2026-03-29T03:03:10Z
 - https://systems-analysis.ru/eng/Connections_in_systems
-  - Последнее сканирование: 2026-03-08T03:19:54Z
+  - Последнее сканирование: 2026-03-28T05:08:32Z
 - https://systems-analysis.ru/eng/Constitutional_AI
   - Последнее сканирование: 2026-02-07T01:34:09Z
 - https://systems-analysis.ru/eng/Constraints
-  - Последнее сканирование: 2026-03-14T19:39:31Z
+  - Последнее сканирование: 2026-03-28T07:28:42Z
 - https://systems-analysis.ru/eng/Contextual_forgetting
-  - Последнее сканирование: 2026-03-07T18:52:08Z
+  - Последнее сканирование: 2026-03-30T21:36:10Z
 - https://systems-analysis.ru/eng/Core_concepts_of_systems_approach
   - Последнее сканирование: 2026-02-15T05:07:51Z
 - https://systems-analysis.ru/eng/Core_prompt_engineering_techniques
-  - Последнее сканирование: 2026-02-01T05:40:22Z
+  - Последнее сканирование: 2026-03-31T12:35:48Z
 - https://systems-analysis.ru/eng/Cost–benefit_analysis_(CBA)
   - Последнее сканирование: 2026-03-04T14:30:16Z
 - https://systems-analysis.ru/eng/Criterion
-  - Последнее сканирование: 2026-03-12T06:07:58Z
+  - Последнее сканирование: 2026-03-30T23:56:21Z
 - https://systems-analysis.ru/eng/Decision-making
   - Последнее сканирование: 2025-12-07T15:09:10Z
 - https://systems-analysis.ru/eng/Decision-making_matrix_model
-  - Последнее сканирование: 2026-01-30T18:04:29Z
+  - Последнее сканирование: 2026-03-31T13:30:55Z
 - https://systems-analysis.ru/eng/Decision-making_problem
   - Последнее сканирование: 2026-02-23T05:34:25Z
+- https://systems-analysis.ru/eng/Decision-making_under_risk
+  - Последнее сканирование: 2026-03-31T13:07:17Z
 - https://systems-analysis.ru/eng/Decision-making_under_uncertainty
   - Последнее сканирование: 2026-02-16T19:07:54Z
 - https://systems-analysis.ru/eng/Decision_criteria
-  - Последнее сканирование: 2026-02-01T05:28:10Z
+  - Последнее сканирование: 2026-03-26T09:46:18Z
 - https://systems-analysis.ru/eng/Decision_problem
-  - Последнее сканирование: 2026-02-03T05:51:02Z
+  - Последнее сканирование: 2026-03-31T09:26:51Z
 - https://systems-analysis.ru/eng/Decision_theory
   - Последнее сканирование: 2026-02-17T23:50:33Z
 - https://systems-analysis.ru/eng/Decision_theory:_Section_catalog
   - Последнее сканирование: 2026-01-09T09:57:16Z
 - https://systems-analysis.ru/eng/Decision_theory:_Semantic_network
   - Последнее сканирование: 2026-02-25T10:33:37Z
+- https://systems-analysis.ru/eng/Decision_tree
+  - Последнее сканирование: 2026-03-29T04:01:19Z
 - https://systems-analysis.ru/eng/Decoder-only_models_(architecture)
-  - Последнее сканирование: 2026-03-01T23:23:56Z
+  - Последнее сканирование: 2026-03-24T11:04:13Z
 - https://systems-analysis.ru/eng/Decomposition
-  - Последнее сканирование: 2026-02-21T19:02:18Z
+  - Последнее сканирование: 2026-03-23T22:17:17Z
 - https://systems-analysis.ru/eng/DeepSeek
-  - Последнее сканирование: 2026-03-04T12:22:46Z
+  - Последнее сканирование: 2026-03-29T19:59:08Z
 - https://systems-analysis.ru/eng/Definitions_of_a_system
-  - Последнее сканирование: 2026-02-18T23:29:52Z
+  - Последнее сканирование: 2026-03-28T18:04:34Z
 - https://systems-analysis.ru/eng/Delphi_method
   - Последнее сканирование: 2026-02-10T04:34:57Z
+- https://systems-analysis.ru/eng/Dynamic_programming
+  - Последнее сканирование: 2026-03-28T23:31:26Z
 - https://systems-analysis.ru/eng/Dynamic_properties
-  - Последнее сканирование: 2025-12-25T19:44:59Z
+  - Последнее сканирование: 2026-03-31T12:04:33Z
 - https://systems-analysis.ru/eng/Elo_ranking_of_language_models
   - Последнее сканирование: 2026-03-23T11:01:57Z
 - https://systems-analysis.ru/eng/Embedding_(NLP)
   - Последнее сканирование: 2025-12-14T05:48:39Z
 - https://systems-analysis.ru/eng/Encoder-only_models
-  - Последнее сканирование: 2026-02-03T11:45:19Z
+  - Последнее сканирование: 2026-03-31T11:18:20Z
 - https://systems-analysis.ru/eng/Encoder–decoder_architecture
-  - Последнее сканирование: 2026-02-01T18:54:27Z
+  - Последнее сканирование: 2026-03-29T16:38:13Z
 - https://systems-analysis.ru/eng/Equifinality
   - Последнее сканирование: 2026-02-23T16:53:29Z
 - https://systems-analysis.ru/eng/Evaluation_of_alternatives
   - Последнее сканирование: 2026-02-20T10:27:26Z
 - https://systems-analysis.ru/eng/Explainable_AI
-  - Последнее сканирование: 2026-02-01T05:59:54Z
+  - Последнее сканирование: 2026-03-29T05:47:41Z
 - https://systems-analysis.ru/eng/FLORES-200
-  - Последнее сканирование: 2026-03-11T03:17:45Z
+  - Последнее сканирование: 2026-03-31T17:05:41Z
 - https://systems-analysis.ru/eng/Falcon_(language_model_family)
-  - Последнее сканирование: 2026-02-07T17:58:07Z
+  - Последнее сканирование: 2026-03-31T13:10:01Z
 - https://systems-analysis.ru/eng/Feasible_region
   - Последнее сканирование: 2026-03-21T06:55:01Z
 - https://systems-analysis.ru/eng/Few-Shot_and_Zero-Shot_Learning
-  - Последнее сканирование: 2026-02-03T11:57:18Z
+  - Последнее сканирование: 2026-03-31T10:48:23Z
 - https://systems-analysis.ru/eng/Fine-tuning_(deep_learning)
   - Последнее сканирование: 2026-03-04T20:12:16Z
 - https://systems-analysis.ru/eng/FlashAttention
   - Последнее сканирование: 2026-02-18T01:08:49Z
 - https://systems-analysis.ru/eng/FlashAttention-2
   - Последнее сканирование: 2026-02-17T18:50:24Z
-- https://systems-analysis.ru/eng/FlashAttention-3
-  - Последнее сканирование: 2026-02-17T08:40:12Z
+- https://systems-analysis.ru/eng/Formalization_of_system_models
+  - Последнее сканирование: 2026-04-01T06:27:40Z
 - https://systems-analysis.ru/eng/Function
-  - Последнее сканирование: 2026-02-02T19:18:48Z
+  - Последнее сканирование: 2026-03-30T22:48:10Z
 - https://systems-analysis.ru/eng/Fuzzy_logic_in_decision-making
-  - Последнее сканирование: 2026-03-12T02:57:45Z
+  - Последнее сканирование: 2026-03-29T05:01:19Z
 - https://systems-analysis.ru/eng/GLUE_Benchmark
   - Последнее сканирование: 2026-02-10T06:33:26Z
 - https://systems-analysis.ru/eng/GSM8K_(Grade_School_Math_8K)
-  - Последнее сканирование: 2026-03-04T20:52:34Z
+  - Последнее сканирование: 2026-03-31T14:33:35Z
 - https://systems-analysis.ru/eng/Gemini_(Google)
-  - Последнее сканирование: 2026-03-04T10:04:41Z
+  - Последнее сканирование: 2026-03-28T16:35:18Z
 - https://systems-analysis.ru/eng/Gemma_(Google)
   - Последнее сканирование: 2026-02-07T17:30:21Z
 - https://systems-analysis.ru/eng/Generated_Knowledge_Prompting
-  - Последнее сканирование: 2026-02-01T05:37:10Z
+  - Последнее сканирование: 2026-03-29T06:01:21Z
 - https://systems-analysis.ru/eng/Generation_bias_(LLM)
   - Последнее сканирование: 2026-03-21T22:33:30Z
 - https://systems-analysis.ru/eng/Goal_setting
-  - Последнее сканирование: 2026-02-02T19:00:53Z
+  - Последнее сканирование: 2026-03-30T16:38:41Z
 - https://systems-analysis.ru/eng/Google’s_large_language_models
-  - Последнее сканирование: 2026-02-01T06:02:34Z
+  - Последнее сканирование: 2026-03-28T23:49:05Z
 - https://systems-analysis.ru/eng/HellaSwag_Benchmark
   - Последнее сканирование: 2025-12-25T20:22:36Z
 - https://systems-analysis.ru/eng/Hierarchy
@@ -264,19 +272,19 @@
 - https://systems-analysis.ru/eng/History_of_the_systems_approach
   - Последнее сканирование: 2026-03-22T13:33:56Z
 - https://systems-analysis.ru/eng/Hodges-Lehmann_criterion
-  - Последнее сканирование: 2026-03-04T19:44:52Z
+  - Последнее сканирование: 2026-03-28T21:10:27Z
 - https://systems-analysis.ru/eng/Homeostasis
   - Последнее сканирование: 2026-02-19T22:12:02Z
 - https://systems-analysis.ru/eng/Hugging_Face
   - Последнее сканирование: 2026-02-25T14:01:11Z
 - https://systems-analysis.ru/eng/HumanEval_Benchmark
-  - Последнее сканирование: 2026-02-15T15:24:17Z
+  - Последнее сканирование: 2026-03-31T13:21:49Z
 - https://systems-analysis.ru/eng/Hurwicz_criterion
-  - Последнее сканирование: 2026-03-18T14:16:17Z
+  - Последнее сканирование: 2026-03-29T08:36:47Z
 - https://systems-analysis.ru/eng/IBM_Granite_(language_model)
   - Последнее сканирование: 2026-02-17T19:12:41Z
 - https://systems-analysis.ru/eng/Ideal_and_material_models
-  - Последнее сканирование: 2026-02-01T05:41:11Z
+  - Последнее сканирование: 2026-03-29T00:06:44Z
 - https://systems-analysis.ru/eng/In-Context_Learning
   - Последнее сканирование: 2026-01-09T23:36:48Z
 - https://systems-analysis.ru/eng/Inputs_and_outputs_(systems_theory)
@@ -284,7 +292,7 @@
 - https://systems-analysis.ru/eng/Integer_programming
   - Последнее сканирование: 2026-03-13T15:43:47Z
 - https://systems-analysis.ru/eng/Jais_(language_model)
-  - Последнее сканирование: 2026-03-15T00:29:52Z
+  - Последнее сканирование: 2026-03-30T14:11:00Z
 - https://systems-analysis.ru/eng/LLM-as-a-Judge
   - Последнее сканирование: 2026-02-17T18:43:18Z
 - https://systems-analysis.ru/eng/LLM_cost_optimization
@@ -292,25 +300,23 @@
 - https://systems-analysis.ru/eng/LLM_error_mitigation
   - Последнее сканирование: 2026-02-17T15:51:58Z
 - https://systems-analysis.ru/eng/LLM_evaluation
-  - Последнее сканирование: 2026-02-01T05:35:16Z
+  - Последнее сканирование: 2026-03-29T04:34:24Z
 - https://systems-analysis.ru/eng/LLM_hallucinations
   - Последнее сканирование: 2026-02-10T05:16:41Z
-- https://systems-analysis.ru/eng/LLM_quality_metrics
-  - Последнее сканирование: 2026-03-16T12:02:30Z
 - https://systems-analysis.ru/eng/LMArena_(Chatbot_Arena)
-  - Последнее сканирование: 2026-03-04T23:31:08Z
+  - Последнее сканирование: 2026-03-31T20:01:43Z
 - https://systems-analysis.ru/eng/LaMDA_(Google)
-  - Последнее сканирование: 2026-02-03T06:56:45Z
+  - Последнее сканирование: 2026-03-31T13:52:44Z
 - https://systems-analysis.ru/eng/LangChain
-  - Последнее сканирование: 2026-03-12T00:29:40Z
+  - Последнее сканирование: 2026-03-31T16:55:30Z
 - https://systems-analysis.ru/eng/Laplace_criterion
-  - Последнее сканирование: 2026-03-19T21:07:32Z
+  - Последнее сканирование: 2026-03-29T18:23:18Z
 - https://systems-analysis.ru/eng/Large_language_model
   - Последнее сканирование: 2025-12-07T15:10:11Z
 - https://systems-analysis.ru/eng/Large_language_model_architectures
-  - Последнее сканирование: 2026-03-02T00:27:51Z
+  - Последнее сканирование: 2026-03-24T12:47:05Z
 - https://systems-analysis.ru/eng/Least-to-most_Prompting
-  - Последнее сканирование: 2026-02-17T05:25:36Z
+  - Последнее сканирование: 2026-03-30T16:33:27Z
 - https://systems-analysis.ru/eng/Levels_of_system_representation
   - Последнее сканирование: 2026-02-10T04:54:56Z
 - https://systems-analysis.ru/eng/Linear_programming
@@ -322,7 +328,7 @@
 - https://systems-analysis.ru/eng/MATH_Benchmark
   - Последнее сканирование: 2026-02-10T02:16:20Z
 - https://systems-analysis.ru/eng/METEOR_(metric)
-  - Последнее сканирование: 2026-02-17T11:46:56Z
+  - Последнее сканирование: 2026-03-31T04:51:31Z
 - https://systems-analysis.ru/eng/MMLU_Benchmark
   - Последнее сканирование: 2025-12-26T06:21:05Z
 - https://systems-analysis.ru/eng/MT-Bench_(benchmark)
@@ -330,7 +336,7 @@
 - https://systems-analysis.ru/eng/Main_Page
   - Последнее сканирование: 2026-03-05T13:59:09Z
 - https://systems-analysis.ru/eng/Management
-  - Последнее сканирование: 2026-02-02T19:06:44Z
+  - Последнее сканирование: 2026-03-30T22:43:38Z
 - https://systems-analysis.ru/eng/Management:_Section_Index
   - Последнее сканирование: 2025-12-09T09:13:51Z
 - https://systems-analysis.ru/eng/Management:_Semantic_network
@@ -342,7 +348,7 @@
 - https://systems-analysis.ru/eng/Maximax_criterion
   - Последнее сканирование: 2026-03-21T22:36:20Z
 - https://systems-analysis.ru/eng/Maximin_criterion_(Wald_criterion)
-  - Последнее сканирование: 2026-03-02T08:50:05Z
+  - Последнее сканирование: 2026-03-24T10:48:54Z
 - https://systems-analysis.ru/eng/Meta_Prompting
   - Последнее сканирование: 2026-02-10T05:12:12Z
 - https://systems-analysis.ru/eng/Metasystem
@@ -352,11 +358,11 @@
 - https://systems-analysis.ru/eng/Minimax_regret_criterion_(Savage_criterion)
   - Последнее сканирование: 2026-02-23T17:42:11Z
 - https://systems-analysis.ru/eng/Mistral_AI
-  - Последнее сканирование: 2026-02-01T18:53:56Z
+  - Последнее сканирование: 2026-03-29T15:49:00Z
 - https://systems-analysis.ru/eng/Model
   - Последнее сканирование: 2026-02-17T15:45:58Z
 - https://systems-analysis.ru/eng/Modeling_process
-  - Последнее сканирование: 2026-02-01T18:52:08Z
+  - Последнее сканирование: 2026-03-29T15:32:20Z
 - https://systems-analysis.ru/eng/Multi-Agent_Debate
   - Последнее сканирование: 2026-03-11T11:18:57Z
 - https://systems-analysis.ru/eng/Multi-agent_frameworks
@@ -368,33 +374,33 @@
 - https://systems-analysis.ru/eng/Multi-objective_optimization
   - Последнее сканирование: 2026-02-17T01:19:06Z
 - https://systems-analysis.ru/eng/Multimodal_CoT_Prompting
-  - Последнее сканирование: 2026-03-13T11:58:45Z
+  - Последнее сканирование: 2026-03-31T11:45:01Z
 - https://systems-analysis.ru/eng/Multimodal_large_language_models
   - Последнее сканирование: 2025-12-07T15:18:21Z
 - https://systems-analysis.ru/eng/Multimodal_reasoning
   - Последнее сканирование: 2026-02-17T19:32:14Z
 - https://systems-analysis.ru/eng/Network_model_(operations_research)
-  - Последнее сканирование: 2026-03-17T21:53:46Z
+  - Последнее сканирование: 2026-03-29T07:25:53Z
 - https://systems-analysis.ru/eng/Nonlinear_programming
   - Последнее сканирование: 2026-02-10T05:17:37Z
 - https://systems-analysis.ru/eng/Objective_and_subjective_in_systems_analysis
-  - Последнее сканирование: 2026-02-01T18:58:01Z
+  - Последнее сканирование: 2026-03-29T16:09:08Z
 - https://systems-analysis.ru/eng/Objective_function
   - Последнее сканирование: 2026-03-22T13:49:13Z
 - https://systems-analysis.ru/eng/Observer_in_the_systems_approach
   - Последнее сканирование: 2026-02-09T08:12:47Z
 - https://systems-analysis.ru/eng/Open-weight_and_closed-weight_models
-  - Последнее сканирование: 2026-02-28T05:08:35Z
+  - Последнее сканирование: 2026-03-28T15:06:06Z
 - https://systems-analysis.ru/eng/Operations_research
-  - Последнее сканирование: 2025-12-26T04:58:43Z
+  - Последнее сканирование: 2026-03-31T12:20:00Z
 - https://systems-analysis.ru/eng/Operations_research_methodology
-  - Последнее сканирование: 2026-02-01T05:29:29Z
+  - Последнее сканирование: 2026-03-29T04:11:17Z
 - https://systems-analysis.ru/eng/Operations_research_models
   - Последнее сканирование: 2026-03-19T06:37:17Z
 - https://systems-analysis.ru/eng/Operations_research_problems
-  - Последнее сканирование: 2026-03-02T00:14:04Z
+  - Последнее сканирование: 2026-03-31T01:44:20Z
 - https://systems-analysis.ru/eng/Optimal_decision
-  - Последнее сканирование: 2026-02-03T14:56:36Z
+  - Последнее сканирование: 2026-03-31T11:16:40Z
 - https://systems-analysis.ru/eng/Optimal_solution_(optimization)
   - Последнее сканирование: 2026-03-15T12:13:27Z
 - https://systems-analysis.ru/eng/Optimization
@@ -402,17 +408,15 @@
 - https://systems-analysis.ru/eng/Optimization_criterion
   - Последнее сканирование: 2026-02-18T00:12:27Z
 - https://systems-analysis.ru/eng/PERT_method
-  - Последнее сканирование: 2026-02-01T19:00:08Z
+  - Последнее сканирование: 2026-03-29T16:50:15Z
 - https://systems-analysis.ru/eng/PESTLE_analysis
-  - Последнее сканирование: 2026-02-08T05:13:13Z
+  - Последнее сканирование: 2026-03-31T09:47:04Z
 - https://systems-analysis.ru/eng/PEST_analysis
   - Последнее сканирование: 2026-03-07T08:35:16Z
 - https://systems-analysis.ru/eng/PaLM_(Pathways_Language_Model)
   - Последнее сканирование: 2026-03-20T19:14:47Z
-- https://systems-analysis.ru/eng/Packaging_&_Context_Handling
-  - Последнее сканирование: 2026-03-23T14:06:37Z
 - https://systems-analysis.ru/eng/Perplexity_(metric)
-  - Последнее сканирование: 2026-03-20T10:49:49Z
+  - Последнее сканирование: 2026-03-28T06:35:52Z
 - https://systems-analysis.ru/eng/Planning
   - Последнее сканирование: 2026-03-22T22:43:01Z
 - https://systems-analysis.ru/eng/Pre-training_of_large_language_models
@@ -430,25 +434,25 @@
 - https://systems-analysis.ru/eng/Project_planning
   - Последнее сканирование: 2026-02-17T22:17:35Z
 - https://systems-analysis.ru/eng/Prompt_and_context
-  - Последнее сканирование: 2026-02-26T05:13:40Z
+  - Последнее сканирование: 2026-03-23T23:43:32Z
 - https://systems-analysis.ru/eng/Prompt_compression
   - Последнее сканирование: 2026-02-17T00:24:39Z
 - https://systems-analysis.ru/eng/Prompt_engineering
   - Последнее сканирование: 2026-02-17T08:23:11Z
 - https://systems-analysis.ru/eng/Properties_of_systems
-  - Последнее сканирование: 2026-03-21T00:19:57Z
-- https://systems-analysis.ru/eng/Quality_standards
-  - Последнее сканирование: 2026-02-17T08:06:05Z
+  - Последнее сканирование: 2026-03-29T13:19:11Z
 - https://systems-analysis.ru/eng/RAG_patterns
   - Последнее сканирование: 2026-02-15T15:05:11Z
+- https://systems-analysis.ru/eng/ROUGE_(metric)
+  - Последнее сканирование: 2026-03-26T06:15:37Z
 - https://systems-analysis.ru/eng/ReAct_Prompting
   - Последнее сканирование: 2026-02-12T10:33:03Z
 - https://systems-analysis.ru/eng/RealToxicityPrompts
   - Последнее сканирование: 2026-02-17T20:49:10Z
 - https://systems-analysis.ru/eng/Regularities_of_systems
-  - Последнее сканирование: 2026-02-20T11:49:20Z
+  - Последнее сканирование: 2026-03-29T15:45:28Z
 - https://systems-analysis.ru/eng/Reinforcement_learning_from_human_feedback_(RLHF)
-  - Последнее сканирование: 2026-02-17T11:57:58Z
+  - Последнее сканирование: 2026-03-30T19:51:41Z
 - https://systems-analysis.ru/eng/Requirements
   - Последнее сканирование: 2025-12-09T00:50:02Z
 - https://systems-analysis.ru/eng/Risk
@@ -456,9 +460,9 @@
 - https://systems-analysis.ru/eng/Risk_management
   - Последнее сканирование: 2026-02-17T23:37:30Z
 - https://systems-analysis.ru/eng/Role_Prompting
-  - Последнее сканирование: 2026-03-05T00:46:00Z
+  - Последнее сканирование: 2026-03-25T04:09:04Z
 - https://systems-analysis.ru/eng/SafetyBench
-  - Последнее сканирование: 2025-12-26T04:22:06Z
+  - Последнее сканирование: 2026-03-31T13:06:22Z
 - https://systems-analysis.ru/eng/Scenario_analysis
   - Последнее сканирование: 2026-02-19T21:01:02Z
 - https://systems-analysis.ru/eng/Self-Refine_Prompting
@@ -474,21 +478,25 @@
 - https://systems-analysis.ru/eng/Simulation_modeling
   - Последнее сканирование: 2026-02-09T21:13:05Z
 - https://systems-analysis.ru/eng/Stochastic_parrot
-  - Последнее сканирование: 2026-02-02T19:08:08Z
+  - Последнее сканирование: 2026-03-30T14:34:41Z
 - https://systems-analysis.ru/eng/Stop_sequences_(language_models)
-  - Последнее сканирование: 2026-02-19T20:57:05Z
+  - Последнее сканирование: 2026-03-30T21:46:03Z
 - https://systems-analysis.ru/eng/Subsystem
   - Последнее сканирование: 2026-03-20T18:02:54Z
+- https://systems-analysis.ru/eng/Synthetic_data_generation
+  - Последнее сканирование: 2026-03-31T14:09:17Z
 - https://systems-analysis.ru/eng/System
   - Последнее сканирование: 2026-02-21T21:05:29Z
 - https://systems-analysis.ru/eng/System_adaptability
-  - Последнее сканирование: 2026-03-02T01:34:47Z
+  - Последнее сканирование: 2026-03-28T21:41:26Z
 - https://systems-analysis.ru/eng/System_behavior
-  - Последнее сканирование: 2026-02-01T19:05:06Z
+  - Последнее сканирование: 2026-03-29T14:31:14Z
 - https://systems-analysis.ru/eng/System_boundary
   - Последнее сканирование: 2026-02-10T04:29:46Z
 - https://systems-analysis.ru/eng/System_complexity
   - Последнее сканирование: 2026-02-20T11:16:30Z
+- https://systems-analysis.ru/eng/System_development
+  - Последнее сканирование: 2026-03-28T22:12:15Z
 - https://systems-analysis.ru/eng/System_dynamics
   - Последнее сканирование: 2026-02-20T10:05:18Z
 - https://systems-analysis.ru/eng/System_element
@@ -496,23 +504,23 @@
 - https://systems-analysis.ru/eng/System_environment
   - Последнее сканирование: 2026-03-21T20:05:14Z
 - https://systems-analysis.ru/eng/System_equilibrium
-  - Последнее сканирование: 2026-03-12T04:48:59Z
+  - Последнее сканирование: 2026-03-24T15:50:28Z
 - https://systems-analysis.ru/eng/System_integrity
-  - Последнее сканирование: 2026-02-01T05:50:53Z
+  - Последнее сканирование: 2026-03-29T04:25:21Z
 - https://systems-analysis.ru/eng/System_life_cycle
-  - Последнее сканирование: 2026-02-17T18:59:39Z
+  - Последнее сканирование: 2026-03-24T11:03:00Z
 - https://systems-analysis.ru/eng/System_model
   - Последнее сканирование: 2026-03-20T19:29:10Z
 - https://systems-analysis.ru/eng/System_of_Systems
   - Последнее сканирование: 2026-02-17T20:52:10Z
 - https://systems-analysis.ru/eng/System_stability
-  - Последнее сканирование: 2026-02-02T18:32:34Z
+  - Последнее сканирование: 2026-03-30T14:21:02Z
 - https://systems-analysis.ru/eng/System_state
   - Последнее сканирование: 2026-03-05T09:32:11Z
 - https://systems-analysis.ru/eng/System_structure
-  - Последнее сканирование: 2026-02-02T19:04:02Z
+  - Последнее сканирование: 2026-03-30T11:35:41Z
 - https://systems-analysis.ru/eng/System_structuring
-  - Последнее сканирование: 2026-02-02T19:16:17Z
+  - Последнее сканирование: 2026-03-31T11:38:21Z
 - https://systems-analysis.ru/eng/Systems_Analysis_Wiki_Catalog
   - Последнее сканирование: 2026-02-10T06:12:36Z
 - https://systems-analysis.ru/eng/Systems_Research_Yearbook_1970
@@ -521,8 +529,6 @@
   - Последнее сканирование: 2025-12-07T13:29:20Z
 - https://systems-analysis.ru/eng/Systems_Research_Yearbook_1972
   - Последнее сканирование: 2026-02-17T23:28:27Z
-- https://systems-analysis.ru/eng/Systems_Research_Yearbook_1974
-  - Последнее сканирование: 2025-12-07T13:33:02Z
 - https://systems-analysis.ru/eng/Systems_Research_Yearbook_1975
   - Последнее сканирование: 2026-02-21T10:13:47Z
 - https://systems-analysis.ru/eng/Systems_Research_Yearbook_1976
@@ -533,6 +539,8 @@
   - Последнее сканирование: 2026-03-23T00:33:47Z
 - https://systems-analysis.ru/eng/Systems_Research_Yearbook_1979
   - Последнее сканирование: 2025-12-07T15:15:36Z
+- https://systems-analysis.ru/eng/Systems_Research_Yearbook_1980
+  - Последнее сканирование: 2026-03-31T12:22:44Z
 - https://systems-analysis.ru/eng/Systems_Research_Yearbook_1981
   - Последнее сканирование: 2026-02-17T09:26:50Z
 - https://systems-analysis.ru/eng/Systems_Research_Yearbook_1982
@@ -544,11 +552,13 @@
 - https://systems-analysis.ru/eng/Systems_Research_Yearbook_1988
   - Последнее сканирование: 2025-12-09T00:46:14Z
 - https://systems-analysis.ru/eng/Systems_analysis
-  - Последнее сканирование: 2026-02-22T11:39:50Z
+  - Последнее сканирование: 2026-03-15T02:58:23Z
 - https://systems-analysis.ru/eng/Systems_analysis:_Semantic_network
   - Последнее сканирование: 2025-12-09T02:48:06Z
 - https://systems-analysis.ru/eng/Systems_analysis_methodology
-  - Последнее сканирование: 2026-02-27T21:05:36Z
+  - Последнее сканирование: 2026-03-28T18:23:57Z
+- https://systems-analysis.ru/eng/Systems_analyst
+  - Последнее сканирование: 2026-02-02T19:16:05Z
 - https://systems-analysis.ru/eng/Systems_approach
   - Последнее сканирование: 2026-03-20T04:53:54Z
 - https://systems-analysis.ru/eng/Systems_approach:_Literature
@@ -566,7 +576,7 @@
 - https://systems-analysis.ru/eng/Systems_holism
   - Последнее сканирование: 2026-02-10T02:17:35Z
 - https://systems-analysis.ru/eng/Systems_theory
-  - Последнее сканирование: 2026-02-02T19:05:14Z
+  - Последнее сканирование: 2026-03-31T10:25:17Z
 - https://systems-analysis.ru/eng/Systems_thinking
   - Последнее сканирование: 2026-03-04T19:35:52Z
 - https://systems-analysis.ru/eng/Temperature_(LLM)
@@ -578,29 +588,33 @@
 - https://systems-analysis.ru/eng/Toolformer
   - Последнее сканирование: 2026-03-16T02:50:51Z
 - https://systems-analysis.ru/eng/Top-k_sampling
-  - Последнее сканирование: 2026-02-17T04:56:30Z
+  - Последнее сканирование: 2026-03-30T19:37:40Z
 - https://systems-analysis.ru/eng/Top-p_sampling
   - Последнее сканирование: 2025-12-26T10:30:21Z
 - https://systems-analysis.ru/eng/Training_large_language_models
   - Последнее сканирование: 2025-12-07T13:30:23Z
+- https://systems-analysis.ru/eng/Transformer_architecture
+  - Последнее сканирование: 2026-03-29T16:21:10Z
 - https://systems-analysis.ru/eng/Tree_of_Thoughts_(ToT)
-  - Последнее сканирование: 2026-02-08T21:52:56Z
+  - Последнее сканирование: 2026-03-28T09:57:04Z
 - https://systems-analysis.ru/eng/TruthfulQA_Benchmark
-  - Последнее сканирование: 2026-02-18T00:12:27Z
+  - Последнее сканирование: 2026-03-30T20:19:41Z
 - https://systems-analysis.ru/eng/Uncertainty
   - Последнее сканирование: 2026-02-17T22:50:53Z
 - https://systems-analysis.ru/eng/Utility_theory
   - Последнее сканирование: 2026-02-15T14:50:04Z
 - https://systems-analysis.ru/eng/Vector_database
-  - Последнее сканирование: 2026-02-01T05:51:01Z
+  - Последнее сканирование: 2026-03-29T06:21:19Z
 - https://systems-analysis.ru/eng/Voting_(decision-making)
   - Последнее сканирование: 2026-02-22T03:29:45Z
 - https://systems-analysis.ru/eng/WinoGrande_Benchmark
   - Последнее сканирование: 2026-02-24T07:25:13Z
 - https://systems-analysis.ru/eng/YandexGPT_(language_model)
-  - Последнее сканирование: 2026-03-12T15:31:29Z
+  - Последнее сканирование: 2026-03-24T04:43:55Z
 - https://systems-analysis.ru/int/AI_Agent_(DE)
   - Последнее сканирование: 2026-02-16T23:51:10Z
+- https://systems-analysis.ru/int/AI_Agent_—_AI智能体
+  - Последнее сканирование: 2026-03-29T15:54:33Z
 - https://systems-analysis.ru/int/AI_Agent_—_عميل_الذكاء_الاصطناعي
   - Последнее сканирование: 2026-03-21T22:50:29Z
 - https://systems-analysis.ru/int/Abordagem_Sistêmica:_Catálogo_da_seção
@@ -617,10 +631,8 @@
   - Последнее сканирование: 2026-03-04T22:42:42Z
 - https://systems-analysis.ru/int/Activity_—_نشاط
   - Последнее сканирование: 2026-01-09T23:35:07Z
-- https://systems-analysis.ru/int/Activity_—_活动
-  - Последнее сканирование: 2026-03-04T09:04:19Z
 - https://systems-analysis.ru/int/Activity_—_活動
-  - Последнее сканирование: 2025-12-15T05:45:09Z
+  - Последнее сканирование: 2026-03-31T14:13:17Z
 - https://systems-analysis.ru/int/Activité
   - Последнее сканирование: 2026-03-04T12:39:26Z
 - https://systems-analysis.ru/int/Adaptabilidad_del_sistema
@@ -636,7 +648,7 @@
 - https://systems-analysis.ru/int/AgentHarm_(FR)
   - Последнее сканирование: 2026-02-12T06:00:58Z
 - https://systems-analysis.ru/int/AgentHarm_(benchmark)_—_معيار_قياس_الضرر_لعملاء_LLM
-  - Последнее сканирование: 2026-02-23T19:15:08Z
+  - Последнее сканирование: 2026-03-29T13:21:14Z
 - https://systems-analysis.ru/int/Agent_IA
   - Последнее сканирование: 2026-03-21T23:02:21Z
 - https://systems-analysis.ru/int/Agente_de_IA
@@ -648,7 +660,7 @@
 - https://systems-analysis.ru/int/Agentic_Workflows_—_エージェントワークフロー
   - Последнее сканирование: 2026-02-17T18:15:03Z
 - https://systems-analysis.ru/int/Agentic_Workflows_—_智能体工作流
-  - Последнее сканирование: 2026-03-03T12:07:09Z
+  - Последнее сканирование: 2026-03-28T22:19:58Z
 - https://systems-analysis.ru/int/Agentische_Workflows
   - Последнее сканирование: 2026-03-23T13:02:06Z
 - https://systems-analysis.ru/int/Agile_(DE)
@@ -662,9 +674,9 @@
 - https://systems-analysis.ru/int/Agile_—_المنهجية_الرشيقة
   - Последнее сканирование: 2026-02-24T05:43:31Z
 - https://systems-analysis.ru/int/Agile_—_アジャイル
-  - Последнее сканирование: 2025-12-15T03:07:50Z
+  - Последнее сканирование: 2026-03-31T12:17:17Z
 - https://systems-analysis.ru/int/Agile_—_敏捷
-  - Последнее сканирование: 2026-02-06T17:39:28Z
+  - Последнее сканирование: 2026-03-31T13:42:44Z
 - https://systems-analysis.ru/int/Ajuste_Fino_(Fine-tuning)
   - Последнее сканирование: 2026-02-13T18:07:44Z
 - https://systems-analysis.ru/int/Ajuste_fino_(aprendizaje_profundo)
@@ -680,17 +692,17 @@
 - https://systems-analysis.ru/int/Alternative_(decision-making)_—_代替案
   - Последнее сканирование: 2026-03-17T23:59:40Z
 - https://systems-analysis.ru/int/Alternative_(decision-making)_—_备选方案
-  - Последнее сканирование: 2026-03-03T08:32:32Z
+  - Последнее сканирование: 2026-03-30T07:03:39Z
 - https://systems-analysis.ru/int/Alucinações_e_respostas_incorretas_de_LLMs
   - Последнее сканирование: 2026-03-24T16:10:36Z
 - https://systems-analysis.ru/int/Ambiente_do_Sistema
-  - Последнее сканирование: 2026-02-07T18:01:02Z
+  - Последнее сканирование: 2026-03-31T13:25:28Z
 - https://systems-analysis.ru/int/Analisi_dei_sistemi
-  - Последнее сканирование: 2026-01-31T07:26:34Z
+  - Последнее сканирование: 2026-03-31T12:36:41Z
 - https://systems-analysis.ru/int/Analisis_sistem
   - Последнее сканирование: 2026-02-12T08:14:48Z
 - https://systems-analysis.ru/int/Analista_de_sistemas_(ES)
-  - Последнее сканирование: 2026-03-04T18:26:18Z
+  - Последнее сканирование: 2026-03-24T00:28:29Z
 - https://systems-analysis.ru/int/Analyse_PEST
   - Последнее сканирование: 2026-02-19T21:09:04Z
 - https://systems-analysis.ru/int/Analyse_PESTEL
@@ -710,9 +722,9 @@
 - https://systems-analysis.ru/int/Analyse_systémique_en_informatique
   - Последнее сканирование: 2026-02-07T16:03:27Z
 - https://systems-analysis.ru/int/Analytic_Hierarchy_Process_(AHP)_—_أسلوب_التحليل_الهرمي
-  - Последнее сканирование: 2026-03-13T01:08:08Z
+  - Последнее сканирование: 2026-03-31T00:23:37Z
 - https://systems-analysis.ru/int/Analytic_Hierarchy_Process_(AHP)_—_层次分析法
-  - Последнее сканирование: 2026-03-20T09:27:00Z
+  - Последнее сканирование: 2026-03-25T02:18:54Z
 - https://systems-analysis.ru/int/Analytic_Hierarchy_Process_(AHP)_—_階層分析法
   - Последнее сканирование: 2026-03-02T20:14:56Z
 - https://systems-analysis.ru/int/Anforderungen
@@ -758,23 +770,23 @@
 - https://systems-analysis.ru/int/Análise_de_Cenários
   - Последнее сканирование: 2026-03-04T21:48:48Z
 - https://systems-analysis.ru/int/Análise_de_Decisão_Multicritério
-  - Последнее сканирование: 2026-03-04T20:19:32Z
+  - Последнее сканирование: 2026-03-28T14:12:06Z
 - https://systems-analysis.ru/int/Análise_de_Sensibilidade
-  - Последнее сканирование: 2026-02-28T07:11:50Z
+  - Последнее сканирование: 2026-03-28T18:14:38Z
 - https://systems-analysis.ru/int/Análise_de_Sistemas
   - Последнее сканирование: 2025-12-14T05:28:11Z
+- https://systems-analysis.ru/int/Análise_de_Sistemas_em_TI
+  - Последнее сканирование: 2026-03-31T12:25:28Z
 - https://systems-analysis.ru/int/Análise_de_sistemas:_Rede_semântica
   - Последнее сканирование: 2026-03-21T07:30:26Z
 - https://systems-analysis.ru/int/Análise_estratégica:_Catálogo_da_seção
   - Последнее сканирование: 2026-03-24T14:42:43Z
-- https://systems-analysis.ru/int/Análisis_PEST
-  - Последнее сканирование: 2025-12-10T23:57:20Z
 - https://systems-analysis.ru/int/Análisis_PESTLE
   - Последнее сканирование: 2026-02-17T10:31:42Z
 - https://systems-analysis.ru/int/Análisis_SWOT
-  - Последнее сканирование: 2026-02-10T13:45:56Z
+  - Последнее сканирование: 2026-03-31T13:51:49Z
 - https://systems-analysis.ru/int/Análisis_coste-beneficio_(ACB)
-  - Последнее сканирование: 2026-01-29T07:30:00Z
+  - Последнее сканирование: 2026-03-31T10:24:16Z
 - https://systems-analysis.ru/int/Análisis_de_escenarios
   - Последнее сканирование: 2026-03-20T08:44:33Z
 - https://systems-analysis.ru/int/Análisis_de_sensibilidad
@@ -785,8 +797,6 @@
   - Последнее сканирование: 2026-02-24T15:56:59Z
 - https://systems-analysis.ru/int/Análisis_de_sistemas:_Red_semántica
   - Последнее сканирование: 2025-12-11T00:07:31Z
-- https://systems-analysis.ru/int/Análisis_de_sistemas_en_TI
-  - Последнее сканирование: 2026-02-08T13:31:10Z
 - https://systems-analysis.ru/int/Análisis_estratégico:_Catálogo_de_la_sección
   - Последнее сканирование: 2025-12-11T00:12:57Z
 - https://systems-analysis.ru/int/Análisis_multicriterio_de_decisiones
@@ -796,7 +806,7 @@
 - https://systems-analysis.ru/int/Apprentissage_automatique_et_analyse_de_données:_Catalogue_de_la_section
   - Последнее сканирование: 2026-03-02T21:49:30Z
 - https://systems-analysis.ru/int/Apprentissage_en_contexte
-  - Последнее сканирование: 2026-02-17T15:29:54Z
+  - Последнее сканирование: 2026-03-28T19:35:04Z
 - https://systems-analysis.ru/int/Approche_systémique
   - Последнее сканирование: 2026-03-24T00:58:51Z
 - https://systems-analysis.ru/int/Approche_systémique:_Catalogue_de_la_section
@@ -816,19 +826,19 @@
 - https://systems-analysis.ru/int/Architectures_des_LLM
   - Последнее сканирование: 2026-03-21T10:26:33Z
 - https://systems-analysis.ru/int/Arquiteturas_de_LLM
-  - Последнее сканирование: 2026-02-27T19:05:33Z
+  - Последнее сканирование: 2026-03-28T17:15:49Z
 - https://systems-analysis.ru/int/Atividade
   - Последнее сканирование: 2026-03-24T15:08:41Z
 - https://systems-analysis.ru/int/Aufgaben_des_Operations_Research
   - Последнее сканирование: 2026-03-24T16:42:29Z
 - https://systems-analysis.ru/int/AutoGPT_(FR)
   - Последнее сканирование: 2026-02-17T17:59:02Z
+- https://systems-analysis.ru/int/AutoGPT_(PT)
+  - Последнее сканирование: 2026-03-29T04:25:20Z
 - https://systems-analysis.ru/int/AutoGPT_—_أوتو_جي_بي_تي
   - Последнее сканирование: 2026-03-21T07:57:31Z
 - https://systems-analysis.ru/int/AutoGPT_—_オートGPT
-  - Последнее сканирование: 2026-01-13T11:51:23Z
-- https://systems-analysis.ru/int/AutoGPT_—_自主AI智能体
-  - Последнее сканирование: 2026-02-17T00:09:45Z
+  - Последнее сканирование: 2026-03-31T11:55:01Z
 - https://systems-analysis.ru/int/Automatic_Prompt_Engineer_(APE)_(DE)
   - Последнее сканирование: 2025-12-13T20:34:53Z
 - https://systems-analysis.ru/int/Automatic_Prompt_Engineer_(APE)_(ES)
@@ -840,19 +850,19 @@
 - https://systems-analysis.ru/int/Automatic_Prompt_Engineer_(APE)_—_مهندس_المُوجِّهات_الآلي
   - Последнее сканирование: 2026-01-09T12:35:04Z
 - https://systems-analysis.ru/int/Automatic_Prompt_Engineer_(APE)_—_自动化提示工程_(APE)
-  - Последнее сканирование: 2026-03-23T13:26:19Z
+  - Последнее сканирование: 2026-03-27T02:59:42Z
 - https://systems-analysis.ru/int/Avaliação_de_Alternativas
   - Последнее сканирование: 2026-02-12T10:38:41Z
 - https://systems-analysis.ru/int/Avaliação_de_LLMs
   - Последнее сканирование: 2026-02-15T12:43:40Z
 - https://systems-analysis.ru/int/BBQ_(Bias_Benchmark_for_Question_Answering)_—_معيار_التحيز_للإجابة_على_الأسئلة
-  - Последнее сканирование: 2026-02-20T13:49:46Z
+  - Последнее сканирование: 2026-03-28T03:38:29Z
 - https://systems-analysis.ru/int/BBQ_(Bias_Benchmark_for_Question_Answering)_—_質問応答バイアスベンチマーク
-  - Последнее сканирование: 2026-03-22T23:45:38Z
+  - Последнее сканирование: 2026-03-25T03:16:16Z
 - https://systems-analysis.ru/int/BBQ_(Bias_Benchmark_for_Question_Answering)_—_问答偏见基准
-  - Последнее сканирование: 2026-03-18T10:47:45Z
+  - Последнее сканирование: 2026-03-28T12:49:57Z
 - https://systems-analysis.ru/int/BERTScore_(metric)_(DE)
-  - Последнее сканирование: 2026-02-19T19:37:06Z
+  - Последнее сканирование: 2026-03-25T12:31:36Z
 - https://systems-analysis.ru/int/BERTScore_(metric)_(ES)
   - Последнее сканирование: 2026-03-22T11:23:44Z
 - https://systems-analysis.ru/int/BERTScore_(metric)_(FR)
@@ -860,23 +870,23 @@
 - https://systems-analysis.ru/int/BERTScore_(metric)_(PT)
   - Последнее сканирование: 2026-02-12T19:08:34Z
 - https://systems-analysis.ru/int/BERTScore_(metric)_—_BERTスコア
-  - Последнее сканирование: 2026-03-12T04:08:58Z
+  - Последнее сканирование: 2026-03-23T19:26:34Z
 - https://systems-analysis.ru/int/BERTScore_(metric)_—_BERT评分
-  - Последнее сканирование: 2026-03-21T19:09:30Z
+  - Последнее сканирование: 2026-03-31T12:59:06Z
 - https://systems-analysis.ru/int/BERTScore_(metric)_—_مقياس_بيرت_سكور
   - Последнее сканирование: 2026-03-23T11:50:37Z
 - https://systems-analysis.ru/int/BERT_(language_model)_—_بيرت
-  - Последнее сканирование: 2026-03-06T15:48:34Z
+  - Последнее сканирование: 2026-03-28T19:04:00Z
 - https://systems-analysis.ru/int/BERT_(language_model)_—_バート
   - Последнее сканирование: 2026-02-17T16:47:07Z
 - https://systems-analysis.ru/int/BERT_(modelo_de_lenguaje)
-  - Последнее сканирование: 2026-03-05T00:12:12Z
+  - Последнее сканирование: 2026-03-29T06:06:11Z
 - https://systems-analysis.ru/int/BERT_(modèle_de_langage)
   - Последнее сканирование: 2026-02-13T17:30:15Z
 - https://systems-analysis.ru/int/BIG-bench_(benchmark)_(DE)
   - Последнее сканирование: 2026-02-21T20:27:03Z
 - https://systems-analysis.ru/int/BIG-bench_(benchmark)_(ES)
-  - Последнее сканирование: 2026-03-05T00:28:18Z
+  - Последнее сканирование: 2026-03-29T05:35:56Z
 - https://systems-analysis.ru/int/BIG-bench_(benchmark)_(FR)
   - Последнее сканирование: 2026-02-15T15:44:13Z
 - https://systems-analysis.ru/int/BIG-bench_(benchmark)_(PT)
@@ -886,25 +896,23 @@
 - https://systems-analysis.ru/int/BIG-bench_(benchmark)_—_ビッグベンチ
   - Последнее сканирование: 2026-03-04T19:41:48Z
 - https://systems-analysis.ru/int/BIG-bench_(benchmark)_—_大规模基准测试
-  - Последнее сканирование: 2026-03-21T19:52:42Z
+  - Последнее сканирование: 2026-03-28T19:51:01Z
 - https://systems-analysis.ru/int/BLEU_(Bilingual_Evaluation_Understudy)_(DE)
   - Последнее сканирование: 2026-02-15T02:08:08Z
 - https://systems-analysis.ru/int/BLEU_(Bilingual_Evaluation_Understudy)_(FR)
-  - Последнее сканирование: 2026-02-19T17:20:56Z
+  - Последнее сканирование: 2026-03-28T19:58:04Z
 - https://systems-analysis.ru/int/BLEU_(Bilingual_Evaluation_Understudy)_(PT)
-  - Последнее сканирование: 2026-03-12T09:25:52Z
+  - Последнее сканирование: 2026-03-28T14:12:41Z
 - https://systems-analysis.ru/int/BLEU_(Bilingual_Evaluation_Understudy)_—_مقياس_بلو
-  - Последнее сканирование: 2026-01-09T23:51:23Z
+  - Последнее сканирование: 2026-03-31T12:01:49Z
 - https://systems-analysis.ru/int/BLEU_(Bilingual_Evaluation_Understudy)_—_ブルー
-  - Последнее сканирование: 2026-03-07T11:49:06Z
+  - Последнее сканирование: 2026-03-28T18:44:05Z
 - https://systems-analysis.ru/int/BLEU_(Bilingual_Evaluation_Understudy)_—_双语评估替补
-  - Последнее сканирование: 2026-03-24T00:05:51Z
+  - Последнее сканирование: 2026-03-28T05:44:26Z
 - https://systems-analysis.ru/int/BLOOM_(language_model)_—_بلوم
-  - Последнее сканирование: 2026-01-09T03:29:32Z
+  - Последнее сканирование: 2026-03-31T11:15:00Z
 - https://systems-analysis.ru/int/BLOOM_(language_model)_—_ブルーム
   - Последнее сканирование: 2026-03-24T16:16:38Z
-- https://systems-analysis.ru/int/BLOOM_(language_model)_—_大型开放多语言语言模型
-  - Последнее сканирование: 2026-03-06T14:32:14Z
 - https://systems-analysis.ru/int/BLOOM_(modelo_de_linguagem)
   - Последнее сканирование: 2026-02-18T12:09:36Z
 - https://systems-analysis.ru/int/BLOOM_(modèle_de_langage)
@@ -916,7 +924,7 @@
 - https://systems-analysis.ru/int/BOLD_(Bias_in_Open-Ended_Language_Generation_Dataset)_—_オープンエンド言語生成におけるバイアスデータセット
   - Последнее сканирование: 2026-03-24T13:35:55Z
 - https://systems-analysis.ru/int/BOLD_(Bias_in_Open-Ended_Language_Generation_Dataset)_—_开放式语言生成偏见数据集
-  - Последнее сканирование: 2026-03-16T08:26:16Z
+  - Последнее сканирование: 2026-03-30T21:49:59Z
 - https://systems-analysis.ru/int/Bancos_de_Dados_Vetoriais
   - Последнее сканирование: 2026-03-05T12:05:10Z
 - https://systems-analysis.ru/int/Base_de_datos_vectorial
@@ -934,19 +942,19 @@
 - https://systems-analysis.ru/int/Bayes_minimax_criterion_—_ベイズミニマックス基準
   - Последнее сканирование: 2026-03-15T19:30:46Z
 - https://systems-analysis.ru/int/Bayes_minimax_criterion_—_贝叶斯最小最大准则
-  - Последнее сканирование: 2026-03-21T09:35:31Z
+  - Последнее сканирование: 2026-03-30T22:25:27Z
 - https://systems-analysis.ru/int/Begriff
   - Последнее сканирование: 2026-03-20T20:33:50Z
 - https://systems-analysis.ru/int/Benchmarks_de_LLM_(ES)
-  - Последнее сканирование: 2026-03-06T18:08:25Z
+  - Последнее сканирование: 2026-03-30T16:14:27Z
 - https://systems-analysis.ru/int/Benchmarks_de_LLM_(PT)
-  - Последнее сканирование: 2026-03-20T04:43:46Z
+  - Последнее сканирование: 2026-03-31T11:10:27Z
 - https://systems-analysis.ru/int/Bewertung_von_Varianten
   - Последнее сканирование: 2026-02-20T11:35:31Z
 - https://systems-analysis.ru/int/Biais_cognitifs
   - Последнее сканирование: 2026-03-05T10:28:30Z
 - https://systems-analysis.ru/int/Biais_de_génération
-  - Последнее сканирование: 2026-02-17T06:53:13Z
+  - Последнее сканирование: 2026-03-28T11:52:31Z
 - https://systems-analysis.ru/int/Bias_in_der_Generierung
   - Последнее сканирование: 2026-02-18T06:30:35Z
 - https://systems-analysis.ru/int/Bibliographie_sur_la_théorie_de_la_décision
@@ -958,19 +966,19 @@
 - https://systems-analysis.ru/int/Black_box_—_ブラックボックス
   - Последнее сканирование: 2026-03-04T22:16:43Z
 - https://systems-analysis.ru/int/Black_box_—_黑箱
-  - Последнее сканирование: 2026-03-22T06:41:22Z
+  - Последнее сканирование: 2026-03-30T20:25:06Z
 - https://systems-analysis.ru/int/Boîte_noire
-  - Последнее сканирование: 2026-03-02T10:36:54Z
+  - Последнее сканирование: 2026-03-28T04:44:22Z
 - https://systems-analysis.ru/int/Branch-and-Bound-Verfahren
   - Последнее сканирование: 2026-02-07T16:19:43Z
 - https://systems-analysis.ru/int/Branch_and_bound_—_طريقة_الفروع_والحدود
   - Последнее сканирование: 2026-03-20T19:01:17Z
 - https://systems-analysis.ru/int/Branch_and_bound_—_分支定界法
-  - Последнее сканирование: 2026-03-23T07:15:30Z
+  - Последнее сканирование: 2026-03-30T21:20:23Z
 - https://systems-analysis.ru/int/Branch_and_bound_—_分枝限定法
-  - Последнее сканирование: 2026-03-15T19:36:15Z
+  - Последнее сканирование: 2026-03-28T09:07:35Z
 - https://systems-analysis.ru/int/Caja_negra
-  - Последнее сканирование: 2026-02-04T23:28:36Z
+  - Последнее сканирование: 2026-03-31T08:59:00Z
 - https://systems-analysis.ru/int/Caminho_Crítico
   - Последнее сканирование: 2026-02-13T17:27:33Z
 - https://systems-analysis.ru/int/Category:Core_LLM_concepts
@@ -1028,7 +1036,7 @@
 - https://systems-analysis.ru/int/Category:Turkish
   - Последнее сканирование: 2025-12-18T12:55:18Z
 - https://systems-analysis.ru/int/Chain-of-Thought_Prompting_(ES)
-  - Последнее сканирование: 2026-03-02T00:58:53Z
+  - Последнее сканирование: 2026-03-25T04:03:29Z
 - https://systems-analysis.ru/int/Chain-of-Thought_Prompting_(FR)
   - Последнее сканирование: 2026-02-15T01:40:28Z
 - https://systems-analysis.ru/int/Chain-of-Thought_Prompting_(PT)
@@ -1038,29 +1046,29 @@
 - https://systems-analysis.ru/int/Chain-of-Thought_Prompting_—_思维链提示
   - Последнее сканирование: 2026-03-15T23:55:35Z
 - https://systems-analysis.ru/int/Chain-of-Thought_Prompting_—_思考の連鎖プロンプティング
-  - Последнее сканирование: 2026-02-23T13:15:07Z
+  - Последнее сканирование: 2026-03-31T03:28:29Z
+- https://systems-analysis.ru/int/Chain-of-Verification_(DE)
+  - Последнее сканирование: 2026-04-01T01:54:47Z
 - https://systems-analysis.ru/int/Chain-of-Verification_(ES)
-  - Последнее сканирование: 2026-03-03T09:19:54Z
+  - Последнее сканирование: 2026-03-26T07:06:31Z
 - https://systems-analysis.ru/int/Chain-of-Verification_(FR)
   - Последнее сканирование: 2026-03-20T20:54:25Z
 - https://systems-analysis.ru/int/Chain-of-Verification_(PT)
   - Последнее сканирование: 2026-03-15T11:10:32Z
-- https://systems-analysis.ru/int/Chain-of-Verification_—_سلسلة_التحقق
-  - Последнее сканирование: 2026-03-23T13:22:30Z
 - https://systems-analysis.ru/int/Chain-of-Verification_—_チェーン・オブ・ベリフィケーション
-  - Последнее сканирование: 2026-03-07T14:00:10Z
+  - Последнее сканирование: 2026-03-28T19:15:05Z
 - https://systems-analysis.ru/int/Chain-of-Verification_—_验证链
   - Последнее сканирование: 2026-03-24T02:02:53Z
 - https://systems-analysis.ru/int/Chemin_critique
-  - Последнее сканирование: 2026-03-05T05:06:15Z
+  - Последнее сканирование: 2026-03-28T20:53:20Z
 - https://systems-analysis.ru/int/Chinchilla_(Sprachmodell)
-  - Последнее сканирование: 2026-03-03T11:16:29Z
+  - Последнее сканирование: 2026-03-29T11:52:38Z
 - https://systems-analysis.ru/int/Chinchilla_(language_model)_—_شينشيلا
   - Последнее сканирование: 2026-03-20T20:04:25Z
 - https://systems-analysis.ru/int/Chinchilla_(language_model)_—_チンチラ
   - Последнее сканирование: 2026-02-17T18:25:07Z
 - https://systems-analysis.ru/int/Chinchilla_(modelo_de_lenguaje)
-  - Последнее сканирование: 2025-12-11T00:06:24Z
+  - Последнее сканирование: 2026-03-31T10:37:22Z
 - https://systems-analysis.ru/int/Chinchilla_(modelo_de_linguagem)
   - Последнее сканирование: 2026-02-07T17:43:10Z
 - https://systems-analysis.ru/int/Chinchilla_(modèle_de_langage)
@@ -1068,7 +1076,7 @@
 - https://systems-analysis.ru/int/Choice_(decision-making)_—_الاختيار
   - Последнее сканирование: 2026-03-24T14:09:35Z
 - https://systems-analysis.ru/int/Choice_(decision-making)_—_选择
-  - Последнее сканирование: 2026-02-07T01:46:12Z
+  - Последнее сканирование: 2026-03-31T13:33:39Z
 - https://systems-analysis.ru/int/Choice_(decision-making)_—_選択
   - Последнее сканирование: 2026-02-19T21:22:33Z
 - https://systems-analysis.ru/int/Choix_collectif
@@ -1080,11 +1088,11 @@
 - https://systems-analysis.ru/int/Ciclo_de_Vida_do_Sistema
   - Последнее сканирование: 2026-02-15T01:13:54Z
 - https://systems-analysis.ru/int/Ciclo_de_vida_de_un_sistema
-  - Последнее сканирование: 2026-03-13T01:00:29Z
+  - Последнее сканирование: 2026-03-28T12:30:00Z
 - https://systems-analysis.ru/int/Clasificación_de_los_métodos_de_modelado_de_sistemas
-  - Последнее сканирование: 2025-12-11T00:08:12Z
+  - Последнее сканирование: 2026-03-26T16:02:14Z
 - https://systems-analysis.ru/int/Clasificación_de_sistemas
-  - Последнее сканирование: 2026-03-21T05:54:46Z
+  - Последнее сканирование: 2026-03-30T21:32:13Z
 - https://systems-analysis.ru/int/Classement_ELO_des_modèles
   - Последнее сканирование: 2026-02-15T02:22:31Z
 - https://systems-analysis.ru/int/Classical_methodologies_of_systems_analysis_—_المنهجيات_الكلاسيكية_في_تحليل_النظم
@@ -1092,27 +1100,27 @@
 - https://systems-analysis.ru/int/Classical_methodologies_of_systems_analysis_—_古典的なシステム分析手法
   - Последнее сканирование: 2026-02-20T13:59:50Z
 - https://systems-analysis.ru/int/Classical_methodologies_of_systems_analysis_—_系统分析的经典方法
-  - Последнее сканирование: 2026-02-07T00:11:37Z
+  - Последнее сканирование: 2026-03-31T13:28:11Z
 - https://systems-analysis.ru/int/Classification_of_system_modeling_methods_—_تصنيفات_أساليب_نمذجة_النظم
   - Последнее сканирование: 2026-03-04T22:14:26Z
 - https://systems-analysis.ru/int/Classification_of_system_modeling_methods_—_システムモデリング手法の分類
   - Последнее сканирование: 2026-03-04T22:52:25Z
 - https://systems-analysis.ru/int/Classification_of_system_modeling_methods_—_系统建模方法的分类
-  - Последнее сканирование: 2026-02-19T19:44:09Z
+  - Последнее сканирование: 2026-03-31T09:22:50Z
 - https://systems-analysis.ru/int/Classification_of_systems_—_تصنيفات_النظم
   - Последнее сканирование: 2026-03-21T08:49:44Z
 - https://systems-analysis.ru/int/Classification_of_systems_—_システムの分類
-  - Последнее сканирование: 2026-03-05T00:05:09Z
+  - Последнее сканирование: 2026-03-29T06:40:36Z
 - https://systems-analysis.ru/int/Classification_of_systems_—_系统分类
   - Последнее сканирование: 2026-02-15T02:04:59Z
 - https://systems-analysis.ru/int/Classifications_des_méthodes_de_modélisation_de_systèmes
   - Последнее сканирование: 2026-03-13T00:30:30Z
 - https://systems-analysis.ru/int/Classifications_des_systèmes
-  - Последнее сканирование: 2026-02-07T16:11:41Z
+  - Последнее сканирование: 2026-03-31T08:44:28Z
 - https://systems-analysis.ru/int/Classificações_de_Sistemas
   - Последнее сканирование: 2026-02-17T00:20:24Z
 - https://systems-analysis.ru/int/Classificações_de_métodos_de_modelagem_de_sistemas
-  - Последнее сканирование: 2026-02-07T17:58:24Z
+  - Последнее сканирование: 2026-03-31T13:10:55Z
 - https://systems-analysis.ru/int/Claude_(Anthropic)_(ES)
   - Последнее сканирование: 2026-03-21T08:18:50Z
 - https://systems-analysis.ru/int/Claude_(Anthropic)_(FR)
@@ -1120,7 +1128,7 @@
 - https://systems-analysis.ru/int/Claude_(Anthropic)_(PT)
   - Последнее сканирование: 2026-02-17T08:58:07Z
 - https://systems-analysis.ru/int/Claude_(Anthropic)_—_Claude（Anthropic_的大语言模型）
-  - Последнее сканирование: 2026-03-04T16:29:59Z
+  - Последнее сканирование: 2026-03-29T10:48:41Z
 - https://systems-analysis.ru/int/Claude_(Anthropic)_—_كلود
   - Последнее сканирование: 2026-01-09T13:01:39Z
 - https://systems-analysis.ru/int/Claude_(Anthropic)_—_クロード
@@ -1128,29 +1136,31 @@
 - https://systems-analysis.ru/int/Closed_system_(systems_theory)_—_النظام_المغلق
   - Последнее сканирование: 2026-03-15T21:16:58Z
 - https://systems-analysis.ru/int/Closed_system_(systems_theory)_—_封闭系统
-  - Последнее сканирование: 2026-02-15T00:51:39Z
+  - Последнее сканирование: 2026-03-31T14:07:16Z
 - https://systems-analysis.ru/int/Closed_system_(systems_theory)_—_閉鎖系
-  - Последнее сканирование: 2026-02-03T10:54:08Z
+  - Последнее сканирование: 2026-03-31T11:23:20Z
 - https://systems-analysis.ru/int/Cognitive_bias_—_الانحيازات_المعرفية
   - Последнее сканирование: 2026-03-20T19:33:16Z
 - https://systems-analysis.ru/int/Cognitive_bias_—_認知バイアス
   - Последнее сканирование: 2026-03-12T23:19:51Z
 - https://systems-analysis.ru/int/Cognitive_bias_—_认知偏差
-  - Последнее сканирование: 2026-03-11T19:32:25Z
+  - Последнее сканирование: 2026-03-28T09:07:34Z
 - https://systems-analysis.ru/int/Cohere_Inc._(DE)
   - Последнее сканирование: 2026-02-07T17:37:18Z
 - https://systems-analysis.ru/int/Cohere_Inc._(ES)
-  - Последнее сканирование: 2026-02-16T19:07:54Z
+  - Последнее сканирование: 2026-03-30T05:33:40Z
 - https://systems-analysis.ru/int/Cohere_Inc._(FR)
   - Последнее сканирование: 2026-02-15T01:03:31Z
 - https://systems-analysis.ru/int/Cohere_Inc._(PT)
   - Последнее сканирование: 2026-02-12T10:38:55Z
 - https://systems-analysis.ru/int/Cohere_Inc._—_كوهير
   - Последнее сканирование: 2026-03-24T15:25:21Z
+- https://systems-analysis.ru/int/Cohere_Inc._—_科希尔
+  - Последнее сканирование: 2026-03-31T03:20:29Z
 - https://systems-analysis.ru/int/Collective_choice_—_الاختيار_الجماعي
   - Последнее сканирование: 2026-03-10T06:11:22Z
 - https://systems-analysis.ru/int/Collective_choice_—_集体选择
-  - Последнее сканирование: 2026-03-21T16:32:21Z
+  - Последнее сканирование: 2026-03-28T21:55:57Z
 - https://systems-analysis.ru/int/Collective_choice_—_集団選択
   - Последнее сканирование: 2026-02-20T14:20:56Z
 - https://systems-analysis.ru/int/Comparación_de_alternativas
@@ -1162,25 +1172,25 @@
 - https://systems-analysis.ru/int/Comparison_of_alternatives_—_مقارنة_البدائل
   - Последнее сканирование: 2026-03-20T19:25:10Z
 - https://systems-analysis.ru/int/Comparison_of_alternatives_—_方案比较
-  - Последнее сканирование: 2026-02-22T15:42:48Z
+  - Последнее сканирование: 2026-03-29T12:03:12Z
 - https://systems-analysis.ru/int/Comparison_of_alternatives_—_選択肢の比較
   - Последнее сканирование: 2026-03-04T21:14:10Z
 - https://systems-analysis.ru/int/Complejidad_del_sistema
   - Последнее сканирование: 2026-03-04T20:50:24Z
 - https://systems-analysis.ru/int/Complexidade_Sistêmica
-  - Последнее сканирование: 2026-03-07T20:41:51Z
+  - Последнее сканирование: 2026-03-29T05:32:59Z
 - https://systems-analysis.ru/int/Complexité_systémique
-  - Последнее сканирование: 2026-02-23T19:28:07Z
+  - Последнее сканирование: 2026-03-27T23:07:35Z
 - https://systems-analysis.ru/int/Comportamento_do_Sistema
   - Последнее сканирование: 2026-03-04T21:46:41Z
 - https://systems-analysis.ru/int/Comportamiento_del_sistema
-  - Последнее сканирование: 2026-03-15T20:18:17Z
+  - Последнее сканирование: 2026-03-31T12:39:06Z
 - https://systems-analysis.ru/int/Comportement_du_système
   - Последнее сканирование: 2026-02-18T08:16:28Z
 - https://systems-analysis.ru/int/Compression_de_prompt
   - Последнее сканирование: 2026-03-02T18:46:59Z
 - https://systems-analysis.ru/int/Compressão_de_prompt
-  - Последнее сканирование: 2026-03-04T20:13:32Z
+  - Последнее сканирование: 2026-03-28T15:56:16Z
 - https://systems-analysis.ru/int/Conceito
   - Последнее сканирование: 2026-02-26T03:56:31Z
 - https://systems-analysis.ru/int/Conceito_de_sistema
@@ -1188,7 +1198,7 @@
 - https://systems-analysis.ru/int/Conceitos_Básicos_da_Análise_de_Sistemas
   - Последнее сканирование: 2026-03-18T05:34:10Z
 - https://systems-analysis.ru/int/Conceitos_básicos_da_abordagem_sistêmica
-  - Последнее сканирование: 2026-03-04T09:42:04Z
+  - Последнее сканирование: 2026-03-29T02:25:07Z
 - https://systems-analysis.ru/int/Concept
   - Последнее сканирование: 2026-02-17T18:28:26Z
 - https://systems-analysis.ru/int/Concept_de_système
@@ -1198,17 +1208,15 @@
 - https://systems-analysis.ru/int/Concept_of_a_system_—_システムの概念
   - Последнее сканирование: 2026-01-16T18:16:20Z
 - https://systems-analysis.ru/int/Concept_of_a_system_—_系统的概念
-  - Последнее сканирование: 2026-02-15T14:19:06Z
+  - Последнее сканирование: 2026-03-28T03:24:57Z
 - https://systems-analysis.ru/int/Concept_—_مفهوم
   - Последнее сканирование: 2026-03-07T18:01:21Z
 - https://systems-analysis.ru/int/Concept_—_概念
   - Последнее сканирование: 2026-03-19T04:34:37Z
 - https://systems-analysis.ru/int/Concept_概念
-  - Последнее сканирование: 2026-02-16T19:01:52Z
+  - Последнее сканирование: 2026-03-28T13:47:41Z
 - https://systems-analysis.ru/int/Conceptos_fundamentales_del_enfoque_de_sistemas
   - Последнее сканирование: 2026-02-12T02:36:45Z
-- https://systems-analysis.ru/int/Concepts_de_base_de_l'analyse_systémique
-  - Последнее сканирование: 2026-02-17T07:10:03Z
 - https://systems-analysis.ru/int/Conceptual_foundations_of_systems_—_الأسس_المفاهيمية_للنظم
   - Последнее сканирование: 2026-03-24T14:26:25Z
 - https://systems-analysis.ru/int/Conceptual_foundations_of_systems_—_システムの概念的基礎
@@ -1221,44 +1229,52 @@
   - Последнее сканирование: 2026-01-09T09:19:02Z
 - https://systems-analysis.ru/int/Connections_in_systems_—_システムにおける結合
   - Последнее сканирование: 2026-03-23T12:00:40Z
+- https://systems-analysis.ru/int/Connections_in_systems_—_系统中的连接
+  - Последнее сканирование: 2026-03-28T15:11:07Z
 - https://systems-analysis.ru/int/Constitutional_AI
   - Последнее сканирование: 2026-02-07T18:24:28Z
 - https://systems-analysis.ru/int/Constitutional_AI_—_الذكاء_الاصطناعي_الدستوري
   - Последнее сканирование: 2026-03-14T15:31:20Z
 - https://systems-analysis.ru/int/Constitutional_AI_—_宪法AI
-  - Последнее сканирование: 2026-03-12T18:58:06Z
+  - Последнее сканирование: 2026-03-29T17:15:06Z
+- https://systems-analysis.ru/int/Constitutional_AI_—_立憲AI
+  - Последнее сканирование: 2026-03-30T20:43:38Z
 - https://systems-analysis.ru/int/Constraints_—_قيود
-  - Последнее сканирование: 2026-02-22T13:59:47Z
+  - Последнее сканирование: 2026-03-30T23:13:53Z
 - https://systems-analysis.ru/int/Constraints_—_制約
-  - Последнее сканирование: 2026-03-04T18:16:36Z
+  - Последнее сканирование: 2026-03-28T16:04:18Z
 - https://systems-analysis.ru/int/Constraints_—_约束
-  - Последнее сканирование: 2026-03-22T14:52:26Z
+  - Последнее сканирование: 2026-03-30T20:19:11Z
 - https://systems-analysis.ru/int/Context_Window_—_コンテキストウィンドウ
   - Последнее сканирование: 2026-02-17T07:30:21Z
 - https://systems-analysis.ru/int/Context_Window_—_上下文窗口
-  - Последнее сканирование: 2026-02-17T07:25:20Z
+  - Последнее сканирование: 2026-03-29T14:09:29Z
 - https://systems-analysis.ru/int/Context_window_(language_models)_—_نافذة_السياق
   - Последнее сканирование: 2026-03-24T14:08:04Z
+- https://systems-analysis.ru/int/Contextual_forgetting_—_النسيان_السياقي
+  - Последнее сканирование: 2026-04-01T06:57:52Z
 - https://systems-analysis.ru/int/Contextual_forgetting_—_コンテキストの忘却
-  - Последнее сканирование: 2026-03-18T02:50:33Z
+  - Последнее сканирование: 2026-04-01T07:24:14Z
 - https://systems-analysis.ru/int/Contextual_forgetting_—_上下文遗忘
-  - Последнее сканирование: 2026-03-22T14:36:28Z
+  - Последнее сканирование: 2026-03-28T20:07:07Z
 - https://systems-analysis.ru/int/Contraintes
-  - Последнее сканирование: 2026-02-07T16:11:24Z
+  - Последнее сканирование: 2026-03-31T08:31:45Z
 - https://systems-analysis.ru/int/Core_concepts_of_systems_analysis_—_المفاهيم_الأساسية_لتحليل_النظم
   - Последнее сканирование: 2026-01-09T23:59:06Z
+- https://systems-analysis.ru/int/Core_concepts_of_systems_analysis_—_系统分析的基本概念
+  - Последнее сканирование: 2026-03-28T03:07:26Z
 - https://systems-analysis.ru/int/Core_concepts_of_systems_approach_—_المفاهيم_الأساسية_للمنهج_النظمي
   - Последнее сканирование: 2026-01-09T12:44:43Z
 - https://systems-analysis.ru/int/Core_concepts_of_systems_approach_—_システムアプローチの基本概念
-  - Последнее сканирование: 2025-12-15T09:24:41Z
+  - Последнее сканирование: 2026-03-31T11:00:25Z
 - https://systems-analysis.ru/int/Core_concepts_of_systems_approach_—_系统方法的基本概念
-  - Последнее сканирование: 2026-02-19T01:30:54Z
+  - Последнее сканирование: 2026-03-29T15:26:47Z
 - https://systems-analysis.ru/int/Core_prompt_engineering_techniques_—_Prompt_Engineering_的主要技术
-  - Последнее сканирование: 2026-02-20T09:59:14Z
+  - Последнее сканирование: 2026-03-29T19:10:59Z
 - https://systems-analysis.ru/int/Core_prompt_engineering_techniques_—_أساليب_هندسة_الموجّهات
   - Последнее сканирование: 2026-01-09T22:17:42Z
 - https://systems-analysis.ru/int/Core_prompt_engineering_techniques_—_プロンプトエンジニアリングの主な手法
-  - Последнее сканирование: 2026-03-02T14:01:03Z
+  - Последнее сканирование: 2026-03-26T09:02:08Z
 - https://systems-analysis.ru/int/Cost–benefit_analysis_(CBA)_—_تحليل_التكاليف_والمنافع
   - Последнее сканирование: 2026-03-15T20:37:59Z
 - https://systems-analysis.ru/int/Cost–benefit_analysis_(CBA)_—_成本效益分析
@@ -1266,23 +1282,23 @@
 - https://systems-analysis.ru/int/Cost–benefit_analysis_(CBA)_—_費用便益分析
   - Последнее сканирование: 2026-02-17T16:47:08Z
 - https://systems-analysis.ru/int/Criterio
-  - Последнее сканирование: 2025-12-11T00:05:43Z
+  - Последнее сканирование: 2026-03-31T12:38:11Z
 - https://systems-analysis.ru/int/Criterio_de_Hodges-Lehmann
   - Последнее сканирование: 2026-02-18T00:34:29Z
 - https://systems-analysis.ru/int/Criterio_de_Hurwicz_(ES)
-  - Последнее сканирование: 2026-03-12T02:52:44Z
+  - Последнее сканирование: 2026-03-31T11:18:37Z
 - https://systems-analysis.ru/int/Criterio_de_Laplace_(ES)
   - Последнее сканирование: 2026-03-23T23:47:05Z
 - https://systems-analysis.ru/int/Criterio_de_Laplace_(PT)
   - Последнее сканирование: 2026-02-13T17:43:35Z
 - https://systems-analysis.ru/int/Criterio_de_arrepentimiento_minimax_(criterio_de_Savage)
-  - Последнее сканирование: 2026-03-18T01:42:18Z
+  - Последнее сканирование: 2026-03-30T21:26:18Z
 - https://systems-analysis.ru/int/Criterio_de_optimización
   - Последнее сканирование: 2025-12-11T00:14:09Z
 - https://systems-analysis.ru/int/Criterio_maximax_(PT)
   - Последнее сканирование: 2026-03-23T00:07:25Z
 - https://systems-analysis.ru/int/Criterio_maximin_(criterio_de_Wald)
-  - Последнее сканирование: 2026-03-11T08:21:16Z
+  - Последнее сканирование: 2026-03-28T17:13:25Z
 - https://systems-analysis.ru/int/Criterio_minimax_de_Bayes
   - Последнее сканирование: 2026-03-20T21:17:57Z
 - https://systems-analysis.ru/int/Criterion_—_معيار
@@ -1290,31 +1306,29 @@
 - https://systems-analysis.ru/int/Criterion_—_准则_(Criterion)
   - Последнее сканирование: 2026-03-20T19:41:29Z
 - https://systems-analysis.ru/int/Criterion_—_基準
-  - Последнее сканирование: 2026-03-15T11:34:03Z
+  - Последнее сканирование: 2026-03-31T12:13:39Z
 - https://systems-analysis.ru/int/Criterios_de_toma_de_decisiones
   - Последнее сканирование: 2026-03-24T13:11:25Z
 - https://systems-analysis.ru/int/Critical_Path_—_クリティカルパス
-  - Последнее сканирование: 2026-03-11T23:04:19Z
-- https://systems-analysis.ru/int/Critical_Path_—_关键路径
-  - Последнее сканирование: 2026-02-15T01:43:56Z
+  - Последнее сканирование: 2026-03-31T09:02:00Z
 - https://systems-analysis.ru/int/Critical_path_method_(CPM)_—_المسار_الحرج
   - Последнее сканирование: 2026-03-18T04:19:16Z
 - https://systems-analysis.ru/int/Critical_path_method_(CPM)_—_منهج_المسار_الحرج
   - Последнее сканирование: 2026-03-20T19:08:37Z
 - https://systems-analysis.ru/int/Critical_path_method_(CPM)_—_关键路径法_(CPM)
-  - Последнее сканирование: 2026-02-17T21:14:45Z
+  - Последнее сканирование: 2026-03-29T04:10:17Z
 - https://systems-analysis.ru/int/Critère
   - Последнее сканирование: 2026-03-23T13:17:39Z
 - https://systems-analysis.ru/int/Critère_de_Bayes
-  - Последнее сканирование: 2026-02-17T11:04:31Z
+  - Последнее сканирование: 2026-03-30T17:01:58Z
 - https://systems-analysis.ru/int/Critère_de_Hurwicz
-  - Последнее сканирование: 2026-02-19T19:22:07Z
+  - Последнее сканирование: 2026-03-26T14:08:56Z
 - https://systems-analysis.ru/int/Critère_de_Laplace
-  - Последнее сканирование: 2026-03-22T12:57:30Z
+  - Последнее сканирование: 2026-03-30T19:33:38Z
 - https://systems-analysis.ru/int/Critère_de_Savage
-  - Последнее сканирование: 2026-03-18T04:50:32Z
+  - Последнее сканирование: 2026-03-30T08:46:42Z
 - https://systems-analysis.ru/int/Critère_de_Wald
-  - Последнее сканирование: 2026-03-17T12:38:07Z
+  - Последнее сканирование: 2026-03-31T12:06:22Z
 - https://systems-analysis.ru/int/Critère_maximax
   - Последнее сканирование: 2026-02-15T00:46:48Z
 - https://systems-analysis.ru/int/Critère_minimax_de_Bayes
@@ -1330,11 +1344,11 @@
 - https://systems-analysis.ru/int/Critério_de_Hodges-Lehmann
   - Последнее сканирование: 2026-02-15T02:43:48Z
 - https://systems-analysis.ru/int/Critério_de_Otimização
-  - Последнее сканирование: 2026-02-21T14:46:53Z
+  - Последнее сканирование: 2026-03-29T08:34:56Z
 - https://systems-analysis.ru/int/Critério_de_Savage
   - Последнее сканирование: 2026-02-14T19:06:15Z
 - https://systems-analysis.ru/int/Critério_de_Wald
-  - Последнее сканирование: 2026-03-15T04:24:32Z
+  - Последнее сканирование: 2026-03-27T17:12:14Z
 - https://systems-analysis.ru/int/Critérios_de_tomada_de_decisão
   - Последнее сканирование: 2026-02-17T12:24:03Z
 - https://systems-analysis.ru/int/DBRX_(Sprachmodell)
@@ -1342,23 +1356,23 @@
 - https://systems-analysis.ru/int/DBRX_(language_model)_—_DBRX
   - Последнее сканирование: 2026-02-17T07:37:24Z
 - https://systems-analysis.ru/int/DBRX_(language_model)_—_DBRX（语言模型）
-  - Последнее сканирование: 2026-02-25T18:45:19Z
+  - Последнее сканирование: 2026-03-31T14:21:48Z
 - https://systems-analysis.ru/int/DBRX_(language_model)_—_دي_بي_آر_إكس
   - Последнее сканирование: 2026-03-09T17:55:37Z
 - https://systems-analysis.ru/int/DBRX_(modelo_de_lenguaje)
   - Последнее сканирование: 2026-02-17T22:35:36Z
 - https://systems-analysis.ru/int/DBRX_(modelo_de_linguagem)
-  - Последнее сканирование: 2026-03-06T04:46:41Z
+  - Последнее сканирование: 2026-03-30T21:34:12Z
 - https://systems-analysis.ru/int/DBRX_(modèle_de_langage)
   - Последнее сканирование: 2026-03-02T20:51:22Z
 - https://systems-analysis.ru/int/Das_Objektive_und_Subjektive_in_der_Systemanalyse
-  - Последнее сканирование: 2026-02-07T17:14:07Z
+  - Последнее сканирование: 2026-03-31T12:23:39Z
 - https://systems-analysis.ru/int/Das_Problem_im_Kontext_der_Systemanalyse
   - Последнее сканирование: 2025-12-13T19:26:46Z
 - https://systems-analysis.ru/int/Data_Distortion_and_Bias_—_数据失真与偏见
-  - Последнее сканирование: 2026-03-19T03:28:39Z
+  - Последнее сканирование: 2026-03-28T18:55:58Z
 - https://systems-analysis.ru/int/Data_bias_—_انحياز_البيانات
-  - Последнее сканирование: 2026-01-09T12:59:10Z
+  - Последнее сканирование: 2026-03-31T13:37:16Z
 - https://systems-analysis.ru/int/Data_distortion_and_bias_—_データの歪みとバイアス
   - Последнее сканирование: 2026-03-19T03:16:35Z
 - https://systems-analysis.ru/int/Datenverzerrungen_und_Bias
@@ -1372,25 +1386,25 @@
 - https://systems-analysis.ru/int/Decision-making_matrix_model_—_矩阵决策模型
   - Последнее сканирование: 2026-03-21T07:04:22Z
 - https://systems-analysis.ru/int/Decision-making_problem_—_مسألة_اتخاذ_القرار
-  - Последнее сканирование: 2026-02-25T05:02:49Z
+  - Последнее сканирование: 2026-03-29T14:39:14Z
 - https://systems-analysis.ru/int/Decision-making_problem_—_决策问题_(ZH)
-  - Последнее сканирование: 2026-01-31T04:34:36Z
+  - Последнее сканирование: 2026-03-31T08:50:01Z
 - https://systems-analysis.ru/int/Decision-making_under_risk_—_اتخاذ_القرارات_في_ظل_المخاطر
   - Последнее сканирование: 2026-02-21T18:50:38Z
 - https://systems-analysis.ru/int/Decision-making_under_risk_—_リスク下での意思決定
-  - Последнее сканирование: 2026-02-07T02:56:00Z
+  - Последнее сканирование: 2026-03-31T14:17:48Z
 - https://systems-analysis.ru/int/Decision-making_under_risk_—_风险决策
-  - Последнее сканирование: 2026-01-24T02:12:00Z
+  - Последнее сканирование: 2026-03-31T13:53:38Z
 - https://systems-analysis.ru/int/Decision-making_under_uncertainty_—_اتخاذ_القرارات_في_ظل_عدم_اليقين
   - Последнее сканирование: 2026-03-01T23:39:01Z
 - https://systems-analysis.ru/int/Decision-making_under_uncertainty_—_不确定性下的决策
   - Последнее сканирование: 2026-03-05T11:27:11Z
 - https://systems-analysis.ru/int/Decision-making_under_uncertainty_—_不確実性下での意思決定
-  - Последнее сканирование: 2026-03-02T08:29:34Z
+  - Последнее сканирование: 2026-03-25T15:09:01Z
 - https://systems-analysis.ru/int/Decision-making_—_اتخاذ_القرار
   - Последнее сканирование: 2026-03-21T22:08:02Z
 - https://systems-analysis.ru/int/Decision-making_—_决策
-  - Последнее сканирование: 2026-02-28T17:12:12Z
+  - Последнее сканирование: 2026-03-28T06:52:41Z
 - https://systems-analysis.ru/int/Decision-making_—_意思決定
   - Последнее сканирование: 2026-03-02T17:21:26Z
 - https://systems-analysis.ru/int/Decision_criteria_—_معايير_اتخاذ_القرار
@@ -1404,17 +1418,19 @@
 - https://systems-analysis.ru/int/Decision_problem_—_مشكلة_اتخاذ_القرار
   - Последнее сканирование: 2026-02-24T05:25:20Z
 - https://systems-analysis.ru/int/Decision_problem_—_决策问题
-  - Последнее сканирование: 2026-02-20T09:03:56Z
+  - Последнее сканирование: 2026-03-29T09:01:11Z
 - https://systems-analysis.ru/int/Decision_problem_—_意思決定問題
   - Последнее сканирование: 2026-03-15T19:00:16Z
 - https://systems-analysis.ru/int/Decision_theory:_Literature_—_مؤلفات_في_نظرية_اتخاذ_القرار
   - Последнее сканирование: 2026-03-22T06:30:45Z
 - https://systems-analysis.ru/int/Decision_theory:_Literature_—_决策理论相关文献
   - Последнее сканирование: 2026-03-18T01:10:57Z
+- https://systems-analysis.ru/int/Decision_theory:_Section_catalog_—_نظرية_اتخاذ_القرار._فهرس_القسم
+  - Последнее сканирование: 2026-03-31T11:36:40Z
 - https://systems-analysis.ru/int/Decision_theory:_Section_catalog_—_决策理论。章节目录
-  - Последнее сканирование: 2026-02-18T06:49:23Z
+  - Последнее сканирование: 2026-03-28T08:37:31Z
 - https://systems-analysis.ru/int/Decision_theory:_Section_catalog_—_意思決定理論_-_セクションカタログ
-  - Последнее сканирование: 2026-02-20T17:19:38Z
+  - Последнее сканирование: 2026-03-28T17:42:16Z
 - https://systems-analysis.ru/int/Decision_theory:_Semantic_network_—_决策理论._语义网络
   - Последнее сканирование: 2026-02-06T22:25:49Z
 - https://systems-analysis.ru/int/Decision_theory:_Semantic_network_—_意思決定理論._セマンティックネットワーク
@@ -1422,17 +1438,17 @@
 - https://systems-analysis.ru/int/Decision_theory_—_نظرية_اتخاذ_القرار
   - Последнее сканирование: 2026-01-09T04:06:23Z
 - https://systems-analysis.ru/int/Decision_theory_—_决策理论
-  - Последнее сканирование: 2026-03-04T18:41:42Z
+  - Последнее сканирование: 2026-03-28T18:33:32Z
 - https://systems-analysis.ru/int/Decision_theory_—_意思決定理論
   - Последнее сканирование: 2026-03-24T00:12:57Z
 - https://systems-analysis.ru/int/Decision_tree_—_شجرة_القرار
   - Последнее сканирование: 2026-01-09T13:16:33Z
 - https://systems-analysis.ru/int/Decision_tree_—_决策树
-  - Последнее сканирование: 2026-01-30T19:31:05Z
+  - Последнее сканирование: 2026-03-31T09:11:48Z
 - https://systems-analysis.ru/int/Decision_tree_—_決定木
   - Последнее сканирование: 2026-01-26T02:23:14Z
 - https://systems-analysis.ru/int/Decisión_óptima
-  - Последнее сканирование: 2026-02-05T00:07:35Z
+  - Последнее сканирование: 2026-03-31T14:15:18Z
 - https://systems-analysis.ru/int/Decoder-only_models_(architecture)_(Decoder-Only-Modelle)_(DE)
   - Последнее сканирование: 2026-02-17T18:46:23Z
 - https://systems-analysis.ru/int/Decoder-only_models_(architecture)_(Modelos_Somente_Decodificador)
@@ -1446,17 +1462,19 @@
 - https://systems-analysis.ru/int/Decoder-only_models_(architecture)_—_デコーダオンリー
   - Последнее сканирование: 2026-03-23T00:58:06Z
 - https://systems-analysis.ru/int/Decoder-only_models_(architecture)_—_仅解码器
-  - Последнее сканирование: 2026-03-19T12:50:35Z
+  - Последнее сканирование: 2026-03-30T22:32:16Z
 - https://systems-analysis.ru/int/Decoder_(Transformador)
   - Последнее сканирование: 2026-03-23T01:38:38Z
 - https://systems-analysis.ru/int/Decoder_(Transformateur)
-  - Последнее сканирование: 2026-03-22T15:06:26Z
+  - Последнее сканирование: 2026-03-31T00:03:11Z
 - https://systems-analysis.ru/int/Decoder_(Transformator)_(DE)
   - Последнее сканирование: 2026-02-17T15:41:57Z
 - https://systems-analysis.ru/int/Decoder_(Transformer)
   - Последнее сканирование: 2026-02-15T01:20:24Z
 - https://systems-analysis.ru/int/Decoder_(Transformer)_—_مُفَكِّك_الشفرة
   - Последнее сканирование: 2026-02-25T10:24:36Z
+- https://systems-analysis.ru/int/Decoder_(Transformer)_—_デコーダ
+  - Последнее сканирование: 2026-03-31T00:37:16Z
 - https://systems-analysis.ru/int/Decoder_(Transformer)_—_解码器
   - Последнее сканирование: 2026-03-22T12:36:26Z
 - https://systems-analysis.ru/int/Decomposition_(分解)
@@ -1464,9 +1482,9 @@
 - https://systems-analysis.ru/int/Decomposition_—_تفكيك
   - Последнее сканирование: 2026-03-15T21:28:46Z
 - https://systems-analysis.ru/int/Decomposition_—_分解
-  - Последнее сканирование: 2026-03-13T16:01:45Z
+  - Последнее сканирование: 2026-03-28T10:36:32Z
 - https://systems-analysis.ru/int/Decomposição
-  - Последнее сканирование: 2026-02-07T17:18:59Z
+  - Последнее сканирование: 2026-03-31T13:20:00Z
 - https://systems-analysis.ru/int/DeepSeek_(Sprachmodell)
   - Последнее сканирование: 2026-03-24T13:46:38Z
 - https://systems-analysis.ru/int/DeepSeek_(modelo_de_linguagem)
@@ -1494,25 +1512,27 @@
 - https://systems-analysis.ru/int/Delphi-Methode
   - Последнее сканирование: 2026-03-22T13:26:47Z
 - https://systems-analysis.ru/int/Delphi_method_—_طريقة_دلفي
-  - Последнее сканирование: 2026-03-07T18:38:50Z
+  - Последнее сканирование: 2026-03-29T18:24:19Z
 - https://systems-analysis.ru/int/Delphi_method_—_デルファイ法
   - Последнее сканирование: 2026-02-17T18:21:07Z
 - https://systems-analysis.ru/int/Delphi_method_—_德尔菲法
-  - Последнее сканирование: 2026-03-22T16:12:23Z
+  - Последнее сканирование: 2026-03-30T03:22:01Z
 - https://systems-analysis.ru/int/Der_Begriff_des_Systems
   - Последнее сканирование: 2026-02-07T17:38:39Z
 - https://systems-analysis.ru/int/Der_Beobachter_im_systemischen_Ansatz
   - Последнее сканирование: 2026-02-07T18:02:21Z
 - https://systems-analysis.ru/int/Desarrollo_de_sistemas
   - Последнее сканирование: 2026-03-22T13:17:04Z
+- https://systems-analysis.ru/int/Descomposición
+  - Последнее сканирование: 2026-03-28T12:57:42Z
 - https://systems-analysis.ru/int/Desenvolvimento_da_Abordagem_Sistêmica
-  - Последнее сканирование: 2026-02-07T17:16:49Z
+  - Последнее сканирование: 2026-03-31T13:00:01Z
 - https://systems-analysis.ru/int/Desenvolvimento_da_Pesquisa_Operacional
   - Последнее сканирование: 2026-02-17T08:35:09Z
 - https://systems-analysis.ru/int/Desenvolvimento_de_Sistemas
-  - Последнее сканирование: 2026-02-07T16:24:07Z
+  - Последнее сканирование: 2026-03-31T12:00:01Z
 - https://systems-analysis.ru/int/Dinámica_de_sistemas
-  - Последнее сканирование: 2026-03-04T21:55:47Z
+  - Последнее сканирование: 2026-03-31T10:35:21Z
 - https://systems-analysis.ru/int/Dinâmica_de_sistemas
   - Последнее сканирование: 2026-02-17T11:58:58Z
 - https://systems-analysis.ru/int/Direct_Preference_Optimization_(DPO)_(DE)
@@ -1526,13 +1546,13 @@
 - https://systems-analysis.ru/int/Direct_Preference_Optimization_(DPO)_—_التحسين_المباشر_للتفضيلات
   - Последнее сканирование: 2026-02-17T18:22:07Z
 - https://systems-analysis.ru/int/Direct_Preference_Optimization_(DPO)_—_直接偏好优化
-  - Последнее сканирование: 2026-03-07T12:11:07Z
+  - Последнее сканирование: 2026-03-28T14:56:04Z
 - https://systems-analysis.ru/int/Direct_Preference_Optimization_(DPO)_—_直接選好最適化
   - Последнее сканирование: 2026-03-22T09:25:29Z
 - https://systems-analysis.ru/int/Distorsiones_de_datos_y_sesgos
   - Последнее сканирование: 2026-02-12T05:23:02Z
 - https://systems-analysis.ru/int/Distorções_de_Dados_e_Viés
-  - Последнее сканирование: 2026-03-08T17:36:13Z
+  - Последнее сканирование: 2026-03-30T21:53:55Z
 - https://systems-analysis.ru/int/Dynamic_programming_—_البرمجة_الديناميكية
   - Последнее сканирование: 2026-03-15T23:03:22Z
 - https://systems-analysis.ru/int/Dynamic_programming_—_动态规划
@@ -1550,21 +1570,21 @@
 - https://systems-analysis.ru/int/Dynamische_Programmierung
   - Последнее сканирование: 2026-02-07T17:28:47Z
 - https://systems-analysis.ru/int/Débat_multi-agents
-  - Последнее сканирование: 2026-03-01T23:44:02Z
+  - Последнее сканирование: 2026-03-24T12:57:18Z
 - https://systems-analysis.ru/int/Décomposition
   - Последнее сканирование: 2026-02-08T06:04:35Z
 - https://systems-analysis.ru/int/Définition_d'objectifs
-  - Последнее сканирование: 2026-02-07T16:15:42Z
+  - Последнее сканирование: 2026-03-31T10:00:09Z
 - https://systems-analysis.ru/int/Développement_de_la_recherche_opérationnelle
   - Последнее сканирование: 2026-03-04T22:17:50Z
 - https://systems-analysis.ru/int/Développement_des_systèmes
-  - Последнее сканирование: 2026-03-04T19:17:14Z
+  - Последнее сканирование: 2026-03-30T22:18:38Z
 - https://systems-analysis.ru/int/ELO-Ranking_von_Sprachmodellen
   - Последнее сканирование: 2026-01-18T21:22:55Z
 - https://systems-analysis.ru/int/Ebenen_der_Systemdarstellung
   - Последнее сканирование: 2026-02-17T18:41:47Z
 - https://systems-analysis.ru/int/Eigenschaften_von_Systemen
-  - Последнее сканирование: 2026-02-07T16:13:08Z
+  - Последнее сканирование: 2026-03-31T09:14:49Z
 - https://systems-analysis.ru/int/Eingänge_und_Ausgänge
   - Последнее сканирование: 2026-02-17T00:41:40Z
 - https://systems-analysis.ru/int/Einschränkung
@@ -1578,13 +1598,13 @@
 - https://systems-analysis.ru/int/Elemento_de_sistema
   - Последнее сканирование: 2026-01-17T07:53:44Z
 - https://systems-analysis.ru/int/Elemento_del_sistema
-  - Последнее сканирование: 2026-03-20T09:41:27Z
+  - Последнее сканирование: 2026-03-28T21:24:30Z
 - https://systems-analysis.ru/int/Elo_ranking_of_language_models_—_تصنيف_ELO_للنماذج
   - Последнее сканирование: 2026-03-18T04:51:42Z
 - https://systems-analysis.ru/int/Elo_ranking_of_language_models_—_モデルのELOランキング
-  - Последнее сканирование: 2026-03-07T17:44:48Z
+  - Последнее сканирование: 2026-03-28T20:00:06Z
 - https://systems-analysis.ru/int/Elo_ranking_of_language_models_—_模型的ELO排名
-  - Последнее сканирование: 2026-03-16T12:57:02Z
+  - Последнее сканирование: 2026-03-30T11:06:41Z
 - https://systems-analysis.ru/int/Embedding_(NLP)_(DE)
   - Последнее сканирование: 2025-12-13T23:57:20Z
 - https://systems-analysis.ru/int/Embedding_(NLP)_(ES)
@@ -1598,19 +1618,19 @@
 - https://systems-analysis.ru/int/Embedding_(NLP)_—_エンベディング
   - Последнее сканирование: 2026-03-15T14:07:12Z
 - https://systems-analysis.ru/int/Embedding_(NLP)_—_嵌入
-  - Последнее сканирование: 2026-03-11T14:46:43Z
+  - Последнее сканирование: 2026-03-28T11:54:20Z
 - https://systems-analysis.ru/int/Emergence_—_انبثاق
-  - Последнее сканирование: 2026-01-09T23:28:07Z
+  - Последнее сканирование: 2026-03-31T12:32:44Z
 - https://systems-analysis.ru/int/Emergence_—_創発
   - Последнее сканирование: 2026-03-20T21:03:14Z
 - https://systems-analysis.ru/int/Emergence_—_涌现
   - Последнее сканирование: 2026-02-15T00:24:54Z
 - https://systems-analysis.ru/int/Emergencia
-  - Последнее сканирование: 2026-02-08T13:09:58Z
+  - Последнее сканирование: 2026-03-28T14:23:12Z
 - https://systems-analysis.ru/int/Emergenz
   - Последнее сканирование: 2026-02-17T07:13:03Z
 - https://systems-analysis.ru/int/Emergência
-  - Последнее сканирование: 2026-02-07T17:18:37Z
+  - Последнее сканирование: 2026-03-31T13:08:11Z
 - https://systems-analysis.ru/int/Encoder-only_models_(Encoder-Only-Modelle)
   - Последнее сканирование: 2026-03-22T23:57:17Z
 - https://systems-analysis.ru/int/Encoder-only_models_(Modelos_solo_con_codificador)
@@ -1618,7 +1638,7 @@
 - https://systems-analysis.ru/int/Encoder-only_models_(Modelos_somente-encoder)
   - Последнее сканирование: 2026-02-17T16:57:02Z
 - https://systems-analysis.ru/int/Encoder-only_models_(Modèles_de_type_encodeur_seul)
-  - Последнее сканирование: 2026-03-20T03:53:59Z
+  - Последнее сканирование: 2026-03-29T17:02:52Z
 - https://systems-analysis.ru/int/Encoder-only_models_—_نماذج_المشفر_فقط
   - Последнее сканирование: 2026-01-09T23:50:53Z
 - https://systems-analysis.ru/int/Encoder-only_models_—_エンコーダのみのモデル
@@ -1630,7 +1650,7 @@
 - https://systems-analysis.ru/int/Encoder_(Transformador)_(PT)
   - Последнее сканирование: 2026-02-12T05:42:28Z
 - https://systems-analysis.ru/int/Encoder_(Transformateur)_(FR)
-  - Последнее сканирование: 2026-03-04T21:28:37Z
+  - Последнее сканирование: 2026-03-28T20:49:02Z
 - https://systems-analysis.ru/int/Encoder_(Transformator)_(DE)
   - Последнее сканирование: 2026-02-18T11:25:17Z
 - https://systems-analysis.ru/int/Encoder_(Transformer)_—_مُرَمِّز
@@ -1638,11 +1658,13 @@
 - https://systems-analysis.ru/int/Encoder_(Transformer)_—_エンコーダー
   - Последнее сканирование: 2026-01-19T23:54:59Z
 - https://systems-analysis.ru/int/Encoder_(Transformer)_—_编码器
-  - Последнее сканирование: 2026-03-04T07:28:01Z
+  - Последнее сканирование: 2026-03-28T16:32:17Z
 - https://systems-analysis.ru/int/Encoder–decoder_architecture_(Architecture_encodeur–décodeur)
-  - Последнее сканирование: 2026-03-04T20:33:07Z
+  - Последнее сканирование: 2026-03-28T13:10:59Z
 - https://systems-analysis.ru/int/Encoder–decoder_architecture_(Arquitectura_encoder–decoder)_(ES)
-  - Последнее сканирование: 2026-01-17T07:00:54Z
+  - Последнее сканирование: 2026-04-01T03:50:27Z
+- https://systems-analysis.ru/int/Encoder–decoder_architecture_(Arquitetura_encoder–decoder)_(PT)
+  - Последнее сканирование: 2026-03-31T09:50:06Z
 - https://systems-analysis.ru/int/Encoder–decoder_architecture_(Encoder-Decoder-Architektur)_(DE)
   - Последнее сканирование: 2026-02-15T02:21:49Z
 - https://systems-analysis.ru/int/Encoder–decoder_architecture_—_المُشفِّر-فَكُّ_التشفير
@@ -1652,7 +1674,7 @@
 - https://systems-analysis.ru/int/Encoder–decoder_architecture_—_编码器-解码器
   - Последнее сканирование: 2026-02-13T06:40:56Z
 - https://systems-analysis.ru/int/Enfoque_de_sistemas
-  - Последнее сканирование: 2026-03-16T14:03:08Z
+  - Последнее сканирование: 2026-03-28T13:44:19Z
 - https://systems-analysis.ru/int/Enfoque_de_sistemas:_Catálogo_de_la_sección
   - Последнее сканирование: 2025-12-10T23:56:47Z
 - https://systems-analysis.ru/int/Enfoque_de_sistemas:_Literatura
@@ -1670,13 +1692,13 @@
 - https://systems-analysis.ru/int/Engenharia_de_sistemas:_Rede_semântica
   - Последнее сканирование: 2026-03-24T15:12:51Z
 - https://systems-analysis.ru/int/Entorno_del_sistema
-  - Последнее сканирование: 2026-03-15T14:41:11Z
+  - Последнее сканирование: 2026-03-31T07:53:11Z
 - https://systems-analysis.ru/int/Entradas_e_Saídas
   - Последнее сканирование: 2026-02-17T22:01:28Z
 - https://systems-analysis.ru/int/Entradas_y_salidas_(teoría_de_sistemas)
-  - Последнее сканирование: 2026-03-14T18:00:04Z
+  - Последнее сканирование: 2026-03-25T14:57:28Z
 - https://systems-analysis.ru/int/Entraînement_des_grands_modèles_de_langage
-  - Последнее сканирование: 2026-02-15T02:01:40Z
+  - Последнее сканирование: 2026-03-29T07:08:39Z
 - https://systems-analysis.ru/int/Entrenamiento_de_grandes_modelos_de_lenguaje
   - Последнее сканирование: 2026-02-18T18:42:54Z
 - https://systems-analysis.ru/int/Entrées_et_sorties
@@ -1708,15 +1730,17 @@
 - https://systems-analysis.ru/int/Environnement_du_système
   - Последнее сканирование: 2026-02-17T00:37:25Z
 - https://systems-analysis.ru/int/Equifinalidad
-  - Последнее сканирование: 2026-03-15T18:20:14Z
+  - Последнее сканирование: 2026-03-28T13:33:12Z
 - https://systems-analysis.ru/int/Equifinalidade
   - Последнее сканирование: 2026-03-22T22:54:48Z
 - https://systems-analysis.ru/int/Equifinality_—_تكافؤ_النتائج
-  - Последнее сканирование: 2026-02-23T12:48:01Z
+  - Последнее сканирование: 2026-03-31T22:54:45Z
 - https://systems-analysis.ru/int/Equifinality_—_等結果性
   - Последнее сканирование: 2026-03-24T09:21:50Z
 - https://systems-analysis.ru/int/Equifinality_—_等终性
-  - Последнее сканирование: 2026-03-21T20:45:05Z
+  - Последнее сканирование: 2026-03-30T20:40:54Z
+- https://systems-analysis.ru/int/Equilibrio_del_sistema
+  - Последнее сканирование: 2026-03-31T09:20:50Z
 - https://systems-analysis.ru/int/Equilíbrio_de_Sistema
   - Последнее сканирование: 2026-03-23T11:05:58Z
 - https://systems-analysis.ru/int/Escolha
@@ -1724,27 +1748,29 @@
 - https://systems-analysis.ru/int/Escolha_Coletiva
   - Последнее сканирование: 2026-02-13T22:52:11Z
 - https://systems-analysis.ru/int/Escolha_Racional
-  - Последнее сканирование: 2026-02-16T19:25:16Z
+  - Последнее сканирование: 2026-03-31T19:50:06Z
 - https://systems-analysis.ru/int/Escolha_Ótima
   - Последнее сканирование: 2026-03-12T10:43:58Z
 - https://systems-analysis.ru/int/Esquecimento_Contextual
   - Последнее сканирование: 2026-02-15T03:24:37Z
 - https://systems-analysis.ru/int/Estabilidad_del_sistema
-  - Последнее сканирование: 2026-03-15T07:03:10Z
+  - Последнее сканирование: 2026-03-30T17:53:40Z
 - https://systems-analysis.ru/int/Estabilidade_de_Sistemas
-  - Последнее сканирование: 2026-02-07T16:18:29Z
+  - Последнее сканирование: 2026-03-31T10:30:20Z
 - https://systems-analysis.ru/int/Estado_del_sistema
-  - Последнее сканирование: 2026-03-21T14:15:26Z
+  - Последнее сканирование: 2026-03-29T16:43:15Z
 - https://systems-analysis.ru/int/Estado_do_sistema
   - Последнее сканирование: 2026-02-19T12:49:58Z
 - https://systems-analysis.ru/int/Estructura_del_sistema
-  - Последнее сканирование: 2026-03-17T12:23:05Z
+  - Последнее сканирование: 2026-03-28T19:01:59Z
 - https://systems-analysis.ru/int/Estructuración_de_sistemas
-  - Последнее сканирование: 2026-02-16T15:10:47Z
+  - Последнее сканирование: 2026-03-31T15:50:41Z
 - https://systems-analysis.ru/int/Estrutura_do_sistema
   - Последнее сканирование: 2026-03-22T12:03:56Z
+- https://systems-analysis.ru/int/Estruturação_de_Sistemas
+  - Последнее сканирование: 2026-03-28T14:12:41Z
 - https://systems-analysis.ru/int/Estándares_de_calidad
-  - Последнее сканирование: 2026-03-15T21:19:43Z
+  - Последнее сканирование: 2026-03-30T07:26:45Z
 - https://systems-analysis.ru/int/Estándares_de_gestión_de_proyectos
   - Последнее сканирование: 2026-02-09T09:53:56Z
 - https://systems-analysis.ru/int/Estándares_de_ingeniería_de_sistemas
@@ -1754,7 +1780,7 @@
 - https://systems-analysis.ru/int/Evaluation_of_alternatives_—_تقييم_البدائل
   - Последнее сканирование: 2026-02-24T05:59:58Z
 - https://systems-analysis.ru/int/Evaluation_of_alternatives_—_代替案の評価
-  - Последнее сканирование: 2026-02-19T14:29:58Z
+  - Последнее сканирование: 2026-03-31T12:41:09Z
 - https://systems-analysis.ru/int/Evaluation_of_alternatives_—_方案评估
   - Последнее сканирование: 2026-03-20T00:58:47Z
 - https://systems-analysis.ru/int/Exigences
@@ -1762,7 +1788,7 @@
 - https://systems-analysis.ru/int/Explainable_AI_—_الذكاء_الاصطناعي_القابل_للتفسير
   - Последнее сканирование: 2026-01-09T20:52:26Z
 - https://systems-analysis.ru/int/Explainable_AI_—_可解释人工智能
-  - Последнее сканирование: 2026-02-16T08:53:26Z
+  - Последнее сканирование: 2026-03-30T05:26:40Z
 - https://systems-analysis.ru/int/Explainable_AI_—_説明可能なAI
   - Последнее сканирование: 2026-02-17T09:31:52Z
 - https://systems-analysis.ru/int/FLORES-200_(DE)
@@ -1773,26 +1799,28 @@
   - Последнее сканирование: 2026-02-17T18:08:11Z
 - https://systems-analysis.ru/int/FLORES-200_(PT)
   - Последнее сканирование: 2025-12-13T22:12:38Z
+- https://systems-analysis.ru/int/FLORES-200_—_FLORES-200
+  - Последнее сканирование: 2026-03-21T09:48:11Z
 - https://systems-analysis.ru/int/FLORES-200_—_FLORES-200（多语言翻译基准）
-  - Последнее сканирование: 2026-03-20T19:10:40Z
+  - Последнее сканирование: 2026-03-30T21:19:24Z
 - https://systems-analysis.ru/int/Falcon_(familia_de_modelos_de_lenguaje)
-  - Последнее сканирование: 2026-02-15T14:59:44Z
+  - Последнее сканирование: 2026-03-31T09:29:51Z
 - https://systems-analysis.ru/int/Falcon_(famille_de_modèles_de_langage)
   - Последнее сканирование: 2026-02-15T01:06:31Z
 - https://systems-analysis.ru/int/Falcon_(família_de_modelos_de_linguagem)
   - Последнее сканирование: 2026-03-21T06:34:22Z
 - https://systems-analysis.ru/int/Falcon_(language_model_family)_—_فالكون
-  - Последнее сканирование: 2026-01-09T12:31:03Z
+  - Последнее сканирование: 2026-03-31T13:46:22Z
 - https://systems-analysis.ru/int/Falcon_(language_model_family)_—_ファルコン
-  - Последнее сканирование: 2026-02-17T06:03:00Z
+  - Последнее сканирование: 2026-03-30T18:01:48Z
 - https://systems-analysis.ru/int/Falcon_(language_model_family)_—_猎鹰模型
-  - Последнее сканирование: 2026-03-18T13:53:48Z
+  - Последнее сканирование: 2026-03-28T11:01:31Z
 - https://systems-analysis.ru/int/Feasible_region_—_منطقة_الحلول_الممكنة
   - Последнее сканирование: 2026-03-03T20:32:35Z
 - https://systems-analysis.ru/int/Feasible_region_—_可行域
-  - Последнее сканирование: 2026-03-23T08:45:32Z
+  - Последнее сканирование: 2026-03-30T20:54:43Z
 - https://systems-analysis.ru/int/Feasible_region_—_実行可能領域
-  - Последнее сканирование: 2026-02-20T10:03:15Z
+  - Последнее сканирование: 2026-03-30T18:13:21Z
 - https://systems-analysis.ru/int/Feedback
   - Последнее сканирование: 2025-12-18T22:03:40Z
 - https://systems-analysis.ru/int/Feedback_(systems)_—_التغذية_الراجعة
@@ -1806,13 +1834,13 @@
 - https://systems-analysis.ru/int/Few-Shot_and_Zero-Shot_Learning_—_フューショットとゼロショット
   - Последнее сканирование: 2026-03-22T11:02:59Z
 - https://systems-analysis.ru/int/Few-Shot_and_Zero-Shot_Learning_—_少样本学习与零样本学习
-  - Последнее сканирование: 2026-03-18T00:17:51Z
+  - Последнее сканирование: 2026-03-31T01:14:18Z
 - https://systems-analysis.ru/int/Fine-Tuning_(FR)
   - Последнее сканирование: 2026-03-23T13:37:47Z
 - https://systems-analysis.ru/int/Fine-tuning_(deep_learning)_—_الضبط_الدقيق
   - Последнее сканирование: 2026-03-24T13:17:33Z
 - https://systems-analysis.ru/int/Fine-tuning_(deep_learning)_—_ファインチューニング
-  - Последнее сканирование: 2026-02-25T21:26:49Z
+  - Последнее сканирование: 2026-04-01T06:26:40Z
 - https://systems-analysis.ru/int/Fine-tuning_(deep_learning)_—_微调
   - Последнее сканирование: 2026-03-22T22:42:24Z
 - https://systems-analysis.ru/int/FlashAttention-2_(DE)
@@ -1820,45 +1848,45 @@
 - https://systems-analysis.ru/int/FlashAttention-2_(PT)
   - Последнее сканирование: 2026-02-17T23:07:01Z
 - https://systems-analysis.ru/int/FlashAttention-2_—_FlashAttention-2
-  - Последнее сканирование: 2026-03-13T19:05:02Z
+  - Последнее сканирование: 2026-03-31T09:08:01Z
 - https://systems-analysis.ru/int/FlashAttention-2_—_فلاش_أتنشن-2
   - Последнее сканирование: 2026-02-28T06:16:38Z
 - https://systems-analysis.ru/int/FlashAttention-2_—_闪电注意力-2
-  - Последнее сканирование: 2026-03-06T23:42:24Z
+  - Последнее сканирование: 2026-03-31T22:41:18Z
 - https://systems-analysis.ru/int/FlashAttention-3_(DE)
   - Последнее сканирование: 2026-02-17T21:59:27Z
 - https://systems-analysis.ru/int/FlashAttention-3_(ES)
   - Последнее сканирование: 2025-12-14T05:59:48Z
 - https://systems-analysis.ru/int/FlashAttention-3_(FR)
-  - Последнее сканирование: 2026-02-07T16:23:31Z
+  - Последнее сканирование: 2026-03-31T11:46:41Z
 - https://systems-analysis.ru/int/FlashAttention-3_—_FlashAttention-3
-  - Последнее сканирование: 2026-03-01T16:32:44Z
+  - Последнее сканирование: 2026-03-26T07:22:36Z
 - https://systems-analysis.ru/int/FlashAttention-3_—_فلاش_أتنشن-3
   - Последнее сканирование: 2026-03-21T20:54:26Z
 - https://systems-analysis.ru/int/FlashAttention-3_—_闪电注意力-3
-  - Последнее сканирование: 2026-03-20T06:46:21Z
+  - Последнее сканирование: 2026-03-31T13:54:33Z
 - https://systems-analysis.ru/int/FlashAttention_(ES)
   - Последнее сканирование: 2026-03-04T22:47:29Z
 - https://systems-analysis.ru/int/FlashAttention_(FR)
   - Последнее сканирование: 2026-02-17T03:11:07Z
 - https://systems-analysis.ru/int/FlashAttention_(PT)
-  - Последнее сканирование: 2026-02-16T10:57:32Z
+  - Последнее сканирование: 2026-03-31T11:10:26Z
 - https://systems-analysis.ru/int/FlashAttention_—_فلاش_أتنشن
   - Последнее сканирование: 2026-02-25T17:10:08Z
 - https://systems-analysis.ru/int/FlashAttention_—_フラッシュアテンション
-  - Последнее сканирование: 2026-03-07T19:27:16Z
+  - Последнее сканирование: 2026-03-25T13:59:11Z
 - https://systems-analysis.ru/int/FlashAttention_—_闪电注意力
-  - Последнее сканирование: 2026-03-22T06:50:12Z
+  - Последнее сканирование: 2026-03-31T09:52:06Z
 - https://systems-analysis.ru/int/Fonction_objectif
   - Последнее сканирование: 2026-03-21T19:50:41Z
 - https://systems-analysis.ru/int/Fondements_conceptuels_des_systèmes
-  - Последнее сканирование: 2026-03-14T13:08:11Z
+  - Последнее сканирование: 2026-03-26T08:41:39Z
 - https://systems-analysis.ru/int/Fondements_théoriques
   - Последнее сканирование: 2026-02-17T00:26:47Z
 - https://systems-analysis.ru/int/Fondements_théoriques_des_LLM
-  - Последнее сканирование: 2026-03-11T22:00:12Z
+  - Последнее сканирование: 2026-03-29T06:25:20Z
 - https://systems-analysis.ru/int/Formalisation_des_modèles_de_systèmes
-  - Последнее сканирование: 2026-02-07T17:24:22Z
+  - Последнее сканирование: 2026-03-31T14:10:17Z
 - https://systems-analysis.ru/int/Formalisierung_von_Systemmodellen
   - Последнее сканирование: 2026-02-17T10:20:19Z
 - https://systems-analysis.ru/int/Formalización_de_modelos_de_sistemas
@@ -1868,7 +1896,7 @@
 - https://systems-analysis.ru/int/Formalization_of_system_models_—_システムモデルの形式化
   - Последнее сканирование: 2026-03-04T21:32:14Z
 - https://systems-analysis.ru/int/Formalization_of_system_models_—_系统模型的形式化
-  - Последнее сканирование: 2026-03-15T14:53:14Z
+  - Последнее сканирование: 2026-03-25T02:36:59Z
 - https://systems-analysis.ru/int/Formalização_de_modelos_de_sistemas
   - Последнее сканирование: 2026-03-22T08:21:03Z
 - https://systems-analysis.ru/int/Frameworks_multi-agents
@@ -1878,19 +1906,19 @@
 - https://systems-analysis.ru/int/Fronteiras_do_sistema
   - Последнее сканирование: 2026-02-07T17:35:56Z
 - https://systems-analysis.ru/int/Frontières_du_système
-  - Последнее сканирование: 2026-02-07T16:15:20Z
+  - Последнее сканирование: 2026-03-25T15:32:05Z
 - https://systems-analysis.ru/int/Función
   - Последнее сканирование: 2026-03-04T23:23:14Z
 - https://systems-analysis.ru/int/Función_objetivo
   - Последнее сканирование: 2026-03-21T02:49:57Z
 - https://systems-analysis.ru/int/Function_calling_(DE)
-  - Последнее сканирование: 2026-03-04T15:31:12Z
+  - Последнее сканирование: 2026-03-28T21:00:23Z
 - https://systems-analysis.ru/int/Function_calling_(LLM)_—_استدعاء_الدوال
   - Последнее сканирование: 2026-03-23T12:38:35Z
 - https://systems-analysis.ru/int/Function_calling_(LLM)_—_ファンクションコーリング
-  - Последнее сканирование: 2026-02-27T19:08:36Z
+  - Последнее сканирование: 2026-03-28T16:47:22Z
 - https://systems-analysis.ru/int/Function_calling_(LLM)_—_函数调用
-  - Последнее сканирование: 2026-02-07T01:28:17Z
+  - Последнее сканирование: 2026-03-31T13:32:44Z
 - https://systems-analysis.ru/int/Function_calling_(PT)
   - Последнее сканирование: 2026-03-23T01:20:23Z
 - https://systems-analysis.ru/int/Function_—_وظيفة
@@ -1899,22 +1927,28 @@
   - Последнее сканирование: 2026-03-24T15:52:29Z
 - https://systems-analysis.ru/int/Fundamentos_Conceituais_de_Sistemas
   - Последнее сканирование: 2026-03-04T20:44:50Z
+- https://systems-analysis.ru/int/Fundamentos_Teóricos_de_LLMs
+  - Последнее сканирование: 2026-03-31T09:20:49Z
 - https://systems-analysis.ru/int/Fundamentos_conceptuales_de_los_sistemas
-  - Последнее сканирование: 2026-03-19T02:50:14Z
+  - Последнее сканирование: 2026-03-20T17:40:15Z
 - https://systems-analysis.ru/int/Fundamentos_teóricos_(ES)
   - Последнее сканирование: 2025-12-14T05:20:35Z
 - https://systems-analysis.ru/int/Fundamentos_teóricos_(PT)
   - Последнее сканирование: 2026-03-23T12:21:25Z
+- https://systems-analysis.ru/int/Fundamentos_teóricos_de_los_grandes_modelos_de_lenguaje
+  - Последнее сканирование: 2026-04-01T08:21:58Z
 - https://systems-analysis.ru/int/Funktion
   - Последнее сканирование: 2026-03-05T00:58:54Z
 - https://systems-analysis.ru/int/Função
-  - Последнее сканирование: 2025-12-13T22:17:06Z
+  - Последнее сканирование: 2026-03-31T11:07:26Z
 - https://systems-analysis.ru/int/Função_objetivo
   - Последнее сканирование: 2026-03-22T11:21:26Z
 - https://systems-analysis.ru/int/Fuzzy-Logik_in_der_Entscheidungsfindung
   - Последнее сканирование: 2026-03-04T19:32:54Z
 - https://systems-analysis.ru/int/Fuzzy_logic_in_decision-making_—_المنطق_الضبابي_في_اتخاذ_القرار
   - Последнее сканирование: 2026-01-09T13:20:36Z
+- https://systems-analysis.ru/int/Fuzzy_logic_in_decision-making_—_决策中的模糊逻辑
+  - Последнее сканирование: 2026-03-31T15:40:30Z
 - https://systems-analysis.ru/int/Fuzzy_logic_in_decision-making_—_意思決定におけるファジィ論理
   - Последнее сканирование: 2026-03-21T09:30:21Z
 - https://systems-analysis.ru/int/GLUE_Benchmark_(DE)
@@ -1926,63 +1960,71 @@
 - https://systems-analysis.ru/int/GLUE_Benchmark_(PT)
   - Последнее сканирование: 2026-02-17T09:00:08Z
 - https://systems-analysis.ru/int/GLUE_Benchmark_—_GLUEベンチマーク
-  - Последнее сканирование: 2026-03-10T01:19:31Z
+  - Последнее сканирование: 2026-03-30T21:55:54Z
 - https://systems-analysis.ru/int/GLUE_Benchmark_—_GLUE基准
-  - Последнее сканирование: 2026-02-15T01:14:46Z
+  - Последнее сканирование: 2026-03-29T07:17:03Z
 - https://systems-analysis.ru/int/GLUE_Benchmark_—_معيار_GLUE
   - Последнее сканирование: 2026-03-21T20:52:36Z
 - https://systems-analysis.ru/int/GPT_(OpenAI)_(ES)
   - Последнее сканирование: 2026-03-17T00:42:33Z
 - https://systems-analysis.ru/int/GPT_(OpenAI)_(FR)
-  - Последнее сканирование: 2026-03-04T10:39:35Z
+  - Последнее сканирование: 2026-03-31T00:13:24Z
 - https://systems-analysis.ru/int/GPT_(OpenAI)_—_المُحوّل_التوليدي_المُدرَّب_مُسبقًا
-  - Последнее сканирование: 2026-02-28T06:36:58Z
+  - Последнее сканирование: 2026-03-29T19:15:00Z
 - https://systems-analysis.ru/int/GPT_(OpenAI)_—_生成可能な事前学習済みトランスフォーマー
   - Последнее сканирование: 2026-03-18T06:47:40Z
+- https://systems-analysis.ru/int/GSM8K_(Grade_School_Math_8K)_(DE)
+  - Последнее сканирование: 2026-03-28T07:18:55Z
 - https://systems-analysis.ru/int/GSM8K_(Grade_School_Math_8K)_(PT)
   - Последнее сканирование: 2026-02-20T00:39:16Z
 - https://systems-analysis.ru/int/GSM8K_(Grade_School_Math_8K)_—_جي_إس_إم_8_كي
   - Последнее сканирование: 2026-01-09T04:41:22Z
 - https://systems-analysis.ru/int/GSM8K_(Grade_School_Math_8K)_—_学童算数8K
-  - Последнее сканирование: 2026-03-21T04:04:26Z
+  - Последнее сканирование: 2026-03-30T23:39:19Z
 - https://systems-analysis.ru/int/GSM8K_(Grade_School_Math_8K)_—_小学数学8K
-  - Последнее сканирование: 2026-03-24T20:49:14Z
+  - Последнее сканирование: 2026-03-31T04:52:37Z
 - https://systems-analysis.ru/int/Ganzzahlige_Programmierung
-  - Последнее сканирование: 2026-02-07T18:24:09Z
+  - Последнее сканирование: 2026-03-30T09:25:38Z
 - https://systems-analysis.ru/int/Gemini_(Google)_(DE)
   - Последнее сканирование: 2026-02-13T17:28:23Z
 - https://systems-analysis.ru/int/Gemini_(Google)_(FR)
   - Последнее сканирование: 2026-01-18T08:16:43Z
+- https://systems-analysis.ru/int/Gemini_(Google)_(PT)
+  - Последнее сканирование: 2026-03-31T12:27:17Z
 - https://systems-analysis.ru/int/Gemini_(Google)_—_جيميني
   - Последнее сканирование: 2026-03-20T19:47:40Z
 - https://systems-analysis.ru/int/Gemini_(Google)_—_ジェミニ
   - Последнее сканирование: 2026-01-20T09:27:49Z
 - https://systems-analysis.ru/int/Gemini_(Google)_—_双子座
-  - Последнее сканирование: 2026-03-15T23:19:06Z
+  - Последнее сканирование: 2026-03-30T04:45:39Z
 - https://systems-analysis.ru/int/Gemma_(Google)_(DE)
   - Последнее сканирование: 2026-02-20T03:00:50Z
+- https://systems-analysis.ru/int/Gemma_(Google)_(FR)
+  - Последнее сканирование: 2026-03-31T09:55:07Z
 - https://systems-analysis.ru/int/Gemma_(Google)_(PT)
   - Последнее сканирование: 2026-02-17T17:49:03Z
 - https://systems-analysis.ru/int/Gemma_(Google)_—_جيما
   - Последнее сканирование: 2026-03-21T22:16:31Z
 - https://systems-analysis.ru/int/Generated_Knowledge_Prompting_(DE)
-  - Последнее сканирование: 2026-03-06T05:13:50Z
+  - Последнее сканирование: 2026-03-30T01:05:11Z
 - https://systems-analysis.ru/int/Generated_Knowledge_Prompting_(ES)
-  - Последнее сканирование: 2026-03-05T10:37:04Z
+  - Последнее сканирование: 2026-03-31T13:50:00Z
 - https://systems-analysis.ru/int/Generated_Knowledge_Prompting_(PT)
   - Последнее сканирование: 2026-02-12T05:11:28Z
 - https://systems-analysis.ru/int/Generated_Knowledge_Prompting_—_التوجيه_بالمعرفة_المولّدة
   - Последнее сканирование: 2026-01-09T23:31:45Z
 - https://systems-analysis.ru/int/Generated_Knowledge_Prompting_—_生成知識プロンプティング
-  - Последнее сканирование: 2025-12-18T22:03:09Z
+  - Последнее сканирование: 2026-03-31T10:09:13Z
 - https://systems-analysis.ru/int/Generated_Knowledge_Prompting_—_生成知识提示
-  - Последнее сканирование: 2026-03-14T08:53:08Z
+  - Последнее сканирование: 2026-03-28T00:15:24Z
 - https://systems-analysis.ru/int/Generation_bias_(LLM)_—_التحيز_في_التوليد
   - Последнее сканирование: 2026-01-09T22:46:52Z
 - https://systems-analysis.ru/int/Generation_bias_(LLM)_—_生成におけるバイアス
   - Последнее сканирование: 2026-02-17T16:30:03Z
 - https://systems-analysis.ru/int/Generation_bias_(LLM)_—_生成中的偏见
-  - Последнее сканирование: 2026-02-17T06:55:58Z
+  - Последнее сканирование: 2026-03-28T04:00:15Z
+- https://systems-analysis.ru/int/Generierung_synthetischer_Daten
+  - Последнее сканирование: 2026-02-17T13:54:30Z
 - https://systems-analysis.ru/int/Geração_de_Dados_Sintéticos
   - Последнее сканирование: 2026-02-15T01:25:28Z
 - https://systems-analysis.ru/int/Gerenciamento:_Catálogo_da_seção
@@ -2022,25 +2064,25 @@
 - https://systems-analysis.ru/int/Goal_(systems_analysis)_—_システム分析における目標
   - Последнее сканирование: 2026-02-17T22:14:34Z
 - https://systems-analysis.ru/int/Goal_(systems_analysis)_—_系统分析中的目标
-  - Последнее сканирование: 2026-02-16T08:02:12Z
+  - Последнее сканирование: 2026-03-31T12:50:00Z
 - https://systems-analysis.ru/int/Goal_setting_—_تحديد_الأهداف
   - Последнее сканирование: 2026-01-09T23:55:09Z
 - https://systems-analysis.ru/int/Goal_setting_—_目标设定
-  - Последнее сканирование: 2025-12-25T06:41:43Z
+  - Последнее сканирование: 2026-03-31T12:12:44Z
 - https://systems-analysis.ru/int/Goal_setting_—_目標設定
   - Последнее сканирование: 2026-02-21T08:29:00Z
 - https://systems-analysis.ru/int/Goal_—_الهدف
   - Последнее сканирование: 2026-03-15T20:16:17Z
 - https://systems-analysis.ru/int/Goal_—_目标
-  - Последнее сканирование: 2026-02-14T22:38:42Z
+  - Последнее сканирование: 2026-03-28T09:36:30Z
 - https://systems-analysis.ru/int/Goal_—_目的
   - Последнее сканирование: 2026-03-04T22:05:51Z
 - https://systems-analysis.ru/int/Google’s_large_language_models_—_Googleの大規模言語モデル
-  - Последнее сканирование: 2026-01-16T21:49:24Z
+  - Последнее сканирование: 2026-03-31T11:51:40Z
 - https://systems-analysis.ru/int/Google’s_large_language_models_—_نماذج_اللغة_الكبيرة_من_جوجل
   - Последнее сканирование: 2026-01-09T22:57:01Z
 - https://systems-analysis.ru/int/Google’s_large_language_models_—_谷歌大语言模型
-  - Последнее сканирование: 2026-03-16T08:59:52Z
+  - Последнее сканирование: 2026-03-26T10:14:45Z
 - https://systems-analysis.ru/int/Grandes_Modelos_de_Linguagem:_Catálogo_da_seção
   - Последнее сканирование: 2026-02-17T10:02:14Z
 - https://systems-analysis.ru/int/Grandes_Modelos_de_Linguagem:_Catálogo_de_modelos
@@ -2052,7 +2094,7 @@
 - https://systems-analysis.ru/int/Grandes_modelos_de_lenguaje
   - Последнее сканирование: 2026-03-02T15:56:06Z
 - https://systems-analysis.ru/int/Grandes_modelos_de_lenguaje:_Catálogo_de_la_sección
-  - Последнее сканирование: 2026-02-15T11:23:05Z
+  - Последнее сканирование: 2026-03-25T14:46:32Z
 - https://systems-analysis.ru/int/Grandes_modelos_de_lenguaje:_Catálogo_de_modelos
   - Последнее сканирование: 2026-03-20T09:00:00Z
 - https://systems-analysis.ru/int/Grandes_modelos_de_lenguaje_de_Google
@@ -2066,11 +2108,11 @@
 - https://systems-analysis.ru/int/Grands_modèles_de_langage_de_Google
   - Последнее сканирование: 2026-02-15T01:42:18Z
 - https://systems-analysis.ru/int/GraphRAG_—_グラフRAG
-  - Последнее сканирование: 2026-03-04T23:33:01Z
+  - Последнее сканирование: 2026-03-29T06:11:01Z
 - https://systems-analysis.ru/int/GraphRAG_—_图谱RAG
   - Последнее сканирование: 2026-03-04T05:36:20Z
 - https://systems-analysis.ru/int/Graph_of_Thoughts_(DE)
-  - Последнее сканирование: 2026-03-05T17:40:57Z
+  - Последнее сканирование: 2026-03-29T14:42:20Z
 - https://systems-analysis.ru/int/Graph_of_Thoughts_(ES)
   - Последнее сканирование: 2026-03-18T19:31:13Z
 - https://systems-analysis.ru/int/Graph_of_Thoughts_(FR)
@@ -2078,19 +2120,17 @@
 - https://systems-analysis.ru/int/Graph_of_Thoughts_—_مخطط_الأفكار
   - Последнее сканирование: 2026-03-21T06:41:25Z
 - https://systems-analysis.ru/int/Graph_of_Thoughts_—_思想图
-  - Последнее сканирование: 2026-03-15T14:04:12Z
+  - Последнее сканирование: 2026-03-28T18:46:06Z
 - https://systems-analysis.ru/int/Graph_of_Thoughts_—_思考のグラフ
   - Последнее сканирование: 2026-03-15T01:43:23Z
 - https://systems-analysis.ru/int/Grok_(xAI)_(DE)
   - Последнее сканирование: 2026-02-13T18:08:08Z
 - https://systems-analysis.ru/int/Grok_(xAI)_(FR)
   - Последнее сканирование: 2026-02-15T01:22:22Z
-- https://systems-analysis.ru/int/Grok_(xAI)_—_Grok（xAI_的大语言模型）
-  - Последнее сканирование: 2026-03-21T15:59:01Z
 - https://systems-analysis.ru/int/Grok_(xAI)_—_غروك
   - Последнее сканирование: 2026-03-21T06:46:27Z
 - https://systems-analysis.ru/int/Grok_(xAI)_—_グロック
-  - Последнее сканирование: 2026-03-14T01:38:35Z
+  - Последнее сканирование: 2026-03-30T23:12:02Z
 - https://systems-analysis.ru/int/Große_Sprachmodelle:_Abschnittskatalog
   - Последнее сканирование: 2026-02-25T13:46:06Z
 - https://systems-analysis.ru/int/Große_Sprachmodelle:_Katalog_der_Modelle
@@ -2098,9 +2138,9 @@
 - https://systems-analysis.ru/int/Grundbegriffe_des_systemischen_Ansatzes
   - Последнее сканирование: 2026-03-04T21:30:42Z
 - https://systems-analysis.ru/int/Grundkonzepte_der_Systemanalyse
-  - Последнее сканирование: 2026-03-02T00:17:04Z
+  - Последнее сканирование: 2026-03-30T22:11:48Z
 - https://systems-analysis.ru/int/Grundlegende_Techniken_des_Prompt_Engineering
-  - Последнее сканирование: 2025-12-13T20:46:13Z
+  - Последнее сканирование: 2026-03-31T10:19:15Z
 - https://systems-analysis.ru/int/Génération_de_données_synthétiques
   - Последнее сканирование: 2026-03-20T08:56:06Z
 - https://systems-analysis.ru/int/Hauptseite
@@ -2112,37 +2152,37 @@
 - https://systems-analysis.ru/int/HellaSwag_Benchmark_(PT)
   - Последнее сканирование: 2026-02-17T22:54:54Z
 - https://systems-analysis.ru/int/HellaSwag_Benchmark_—_HellaSwag_基准测试
-  - Последнее сканирование: 2026-02-06T08:25:37Z
+  - Последнее сканирование: 2026-03-31T08:37:33Z
 - https://systems-analysis.ru/int/HellaSwag_Benchmark_—_HellaSwagベンチマーク
-  - Последнее сканирование: 2026-03-12T22:50:03Z
+  - Последнее сканирование: 2026-03-20T09:10:32Z
 - https://systems-analysis.ru/int/HellaSwag_Benchmark_—_معيار_HellaSwag
   - Последнее сканирование: 2026-03-21T22:19:21Z
 - https://systems-analysis.ru/int/Hierarchie
-  - Последнее сканирование: 2026-02-07T17:19:43Z
+  - Последнее сканирование: 2026-03-31T13:31:49Z
 - https://systems-analysis.ru/int/Hierarchy_—_الهرمية
-  - Последнее сканирование: 2026-02-24T05:17:18Z
+  - Последнее сканирование: 2026-03-28T05:36:25Z
 - https://systems-analysis.ru/int/Hierarchy_—_层级
-  - Последнее сканирование: 2026-03-15T18:51:14Z
+  - Последнее сканирование: 2026-03-28T16:54:24Z
 - https://systems-analysis.ru/int/Hierarchy_—_階層
   - Последнее сканирование: 2026-03-06T10:05:43Z
 - https://systems-analysis.ru/int/Hierarquia
   - Последнее сканирование: 2026-03-04T14:53:04Z
 - https://systems-analysis.ru/int/Historia_de_la_investigación_de_operaciones
-  - Последнее сканирование: 2026-03-23T15:32:31Z
+  - Последнее сканирование: 2026-03-31T02:11:38Z
 - https://systems-analysis.ru/int/Historia_del_enfoque_de_sistemas
-  - Последнее сканирование: 2026-03-11T07:33:40Z
+  - Последнее сканирование: 2026-03-25T23:39:26Z
 - https://systems-analysis.ru/int/History_of_operations_research_—_تطور_بحوث_العمليات
   - Последнее сканирование: 2026-03-09T01:03:17Z
 - https://systems-analysis.ru/int/History_of_operations_research_—_オペレーションズ・リサーチの発展
   - Последнее сканирование: 2026-03-24T16:12:37Z
 - https://systems-analysis.ru/int/History_of_operations_research_—_运筹学的发展
-  - Последнее сканирование: 2026-02-07T23:53:05Z
+  - Последнее сканирование: 2026-03-31T12:30:55Z
 - https://systems-analysis.ru/int/History_of_the_systems_approach_—_تطور_المنهج_النظمي
   - Последнее сканирование: 2026-01-09T09:33:09Z
 - https://systems-analysis.ru/int/History_of_the_systems_approach_—_システムアプローチの発展
   - Последнее сканирование: 2026-03-22T08:13:24Z
 - https://systems-analysis.ru/int/History_of_the_systems_approach_—_系统方法的演进
-  - Последнее сканирование: 2026-03-15T19:52:41Z
+  - Последнее сканирование: 2026-03-27T19:23:40Z
 - https://systems-analysis.ru/int/Hiérarchie
   - Последнее сканирование: 2026-02-07T16:16:59Z
 - https://systems-analysis.ru/int/Hodges-Lehmann-Kriterium
@@ -2158,21 +2198,21 @@
 - https://systems-analysis.ru/int/Holismo_sistémico
   - Последнее сканирование: 2026-02-08T19:31:27Z
 - https://systems-analysis.ru/int/Homeostase
-  - Последнее сканирование: 2026-02-07T16:25:34Z
+  - Последнее сканирование: 2026-03-31T12:14:33Z
 - https://systems-analysis.ru/int/Homeostasis
   - Последнее сканирование: 2026-02-22T17:57:07Z
 - https://systems-analysis.ru/int/Homeostasis_—_الاستتباب
-  - Последнее сканирование: 2026-02-17T08:31:07Z
+  - Последнее сканирование: 2026-03-31T08:07:17Z
 - https://systems-analysis.ru/int/Homeostasis_—_恒常性
-  - Последнее сканирование: 2026-02-20T11:36:18Z
+  - Последнее сканирование: 2026-03-30T03:53:51Z
 - https://systems-analysis.ru/int/Homeostasis_—_稳态
-  - Последнее сканирование: 2026-02-23T01:25:27Z
+  - Последнее сканирование: 2026-03-29T02:46:08Z
 - https://systems-analysis.ru/int/Homéostasie
   - Последнее сканирование: 2026-02-08T06:03:08Z
 - https://systems-analysis.ru/int/Homöostase
   - Последнее сканирование: 2026-03-04T21:35:56Z
 - https://systems-analysis.ru/int/Huawei_PanGu_(ES)
-  - Последнее сканирование: 2026-02-21T14:57:55Z
+  - Последнее сканирование: 2026-03-30T19:28:38Z
 - https://systems-analysis.ru/int/Huawei_PanGu_(FR)
   - Последнее сканирование: 2026-03-15T21:00:34Z
 - https://systems-analysis.ru/int/Hugging_Face_(DE)
@@ -2182,11 +2222,11 @@
 - https://systems-analysis.ru/int/Hugging_Face_(PT)
   - Последнее сканирование: 2026-03-04T20:48:14Z
 - https://systems-analysis.ru/int/Hugging_Face_—_AI社区与平台
-  - Последнее сканирование: 2026-02-07T01:06:13Z
+  - Последнее сканирование: 2026-03-31T13:30:01Z
 - https://systems-analysis.ru/int/Hugging_Face_—_هَغِنْغ_فِيس
   - Последнее сканирование: 2026-02-23T14:57:28Z
 - https://systems-analysis.ru/int/Hugging_Face_—_ハギングフェイス
-  - Последнее сканирование: 2026-01-10T21:52:42Z
+  - Последнее сканирование: 2026-03-31T11:28:20Z
 - https://systems-analysis.ru/int/HumanEval-Benchmark_(DE)
   - Последнее сканирование: 2026-03-13T17:25:54Z
 - https://systems-analysis.ru/int/HumanEval_Benchmark_(ES)
@@ -2196,9 +2236,9 @@
 - https://systems-analysis.ru/int/HumanEval_Benchmark_(PT)
   - Последнее сканирование: 2026-02-12T02:31:08Z
 - https://systems-analysis.ru/int/HumanEval_Benchmark_—_HumanEval_基准测试
-  - Последнее сканирование: 2026-02-15T03:51:40Z
+  - Последнее сканирование: 2026-03-29T10:10:11Z
 - https://systems-analysis.ru/int/HumanEval_Benchmark_—_HumanEvalベンチマーク
-  - Последнее сканирование: 2026-03-13T03:55:26Z
+  - Последнее сканирование: 2026-03-28T21:12:27Z
 - https://systems-analysis.ru/int/HumanEval_Benchmark_—_معيار_HumanEval
   - Последнее сканирование: 2026-03-24T14:11:21Z
 - https://systems-analysis.ru/int/Humanity's_Last_Exam_(benchmark)_(DE)
@@ -2212,15 +2252,17 @@
 - https://systems-analysis.ru/int/Hurwicz_criterion_—_フルビッツの基準
   - Последнее сканирование: 2026-02-25T18:01:17Z
 - https://systems-analysis.ru/int/Hurwicz_criterion_—_赫维茨准则
-  - Последнее сканирование: 2026-02-15T00:58:20Z
+  - Последнее сканирование: 2026-03-29T14:20:36Z
 - https://systems-analysis.ru/int/Hybrid_retrieval_—_الاسترجاع_الهجين
   - Последнее сканирование: 2026-01-09T23:12:43Z
 - https://systems-analysis.ru/int/Hybrid_retrieval_—_混合检索
-  - Последнее сканирование: 2026-02-26T03:25:55Z
+  - Последнее сканирование: 2026-03-28T16:20:15Z
+- https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(DE)
+  - Последнее сканирование: 2026-03-31T12:15:28Z
 - https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_—_توسيع_المستند_الافتراضي
   - Последнее сканирование: 2026-01-09T23:04:15Z
 - https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_—_假设性文档扩展
-  - Последнее сканирование: 2026-03-18T00:22:24Z
+  - Последнее сканирование: 2026-03-29T04:28:23Z
 - https://systems-analysis.ru/int/IA_Constitutionnelle
   - Последнее сканирование: 2026-02-15T01:03:23Z
 - https://systems-analysis.ru/int/IA_Explicável_(Explainable_AI)
@@ -2234,41 +2276,43 @@
 - https://systems-analysis.ru/int/IBM_Granite_(language_model)_—_IBM_グラナイト
   - Последнее сканирование: 2026-02-19T19:57:14Z
 - https://systems-analysis.ru/int/IBM_Granite_(language_model)_—_آي_بي_إم_جرانيت
-  - Последнее сканирование: 2026-02-23T04:12:59Z
+  - Последнее сканирование: 2026-03-31T13:42:27Z
 - https://systems-analysis.ru/int/IBM_Granite_(modelo_de_linguagem)
-  - Последнее сканирование: 2026-03-04T19:23:07Z
+  - Последнее сканирование: 2026-03-24T15:15:49Z
 - https://systems-analysis.ru/int/IBM_Granite_(modèle_de_langage)
   - Последнее сканирование: 2026-02-15T02:02:05Z
 - https://systems-analysis.ru/int/Ideal_and_material_models_—_النماذج_المثالية_والمادية
   - Последнее сканирование: 2026-03-04T19:51:49Z
 - https://systems-analysis.ru/int/Ideal_and_material_models_—_理想模型与物理模型
-  - Последнее сканирование: 2026-02-15T16:45:19Z
+  - Последнее сканирование: 2026-04-01T08:56:05Z
 - https://systems-analysis.ru/int/Ideal_and_material_models_—_観念モデルと物理モデル
-  - Последнее сканирование: 2026-02-17T11:31:52Z
+  - Последнее сканирование: 2026-03-31T09:35:52Z
 - https://systems-analysis.ru/int/Ideelle_und_materielle_Modelle
   - Последнее сканирование: 2026-03-05T11:39:12Z
 - https://systems-analysis.ru/int/In-Context_Learning_(DE)
   - Последнее сканирование: 2026-02-15T00:47:17Z
 - https://systems-analysis.ru/int/In-Context_Learning_(ES)
-  - Последнее сканирование: 2026-03-04T23:57:04Z
+  - Последнее сканирование: 2026-03-28T23:40:16Z
 - https://systems-analysis.ru/int/In-Context_Learning_(PT)
   - Последнее сканирование: 2026-02-15T00:44:19Z
 - https://systems-analysis.ru/int/In-Context_Learning_—_التعلم_في_السياق
-  - Последнее сканирование: 2026-01-09T12:57:21Z
+  - Последнее сканирование: 2026-03-31T13:39:06Z
+- https://systems-analysis.ru/int/In-Context_Learning_—_インコンテキスト学習
+  - Последнее сканирование: 2026-03-25T16:02:31Z
 - https://systems-analysis.ru/int/In-Context_Learning_—_上下文学习
-  - Последнее сканирование: 2026-03-22T12:43:56Z
+  - Последнее сканирование: 2026-03-28T20:31:59Z
 - https://systems-analysis.ru/int/Incerteza
   - Последнее сканирование: 2026-02-12T06:27:42Z
 - https://systems-analysis.ru/int/Incertidumbre
   - Последнее сканирование: 2026-02-20T05:14:52Z
 - https://systems-analysis.ru/int/Incertidumbre_en_un_sistema
-  - Последнее сканирование: 2026-02-04T23:49:47Z
+  - Последнее сканирование: 2026-03-31T13:02:44Z
 - https://systems-analysis.ru/int/Incertitude_dans_un_système
   - Последнее сканирование: 2026-02-07T18:24:14Z
 - https://systems-analysis.ru/int/Ingeniería_de_prompts:_Catálogo_de_la_sección
   - Последнее сканирование: 2026-02-25T10:08:23Z
 - https://systems-analysis.ru/int/Ingeniería_de_sistemas
-  - Последнее сканирование: 2025-12-11T00:06:40Z
+  - Последнее сканирование: 2026-03-31T12:46:22Z
 - https://systems-analysis.ru/int/Ingeniería_de_sistemas:_Catálogo_de_la_sección
   - Последнее сканирование: 2025-12-11T00:12:45Z
 - https://systems-analysis.ru/int/Ingeniería_de_sistemas:_Literatura
@@ -2288,21 +2332,21 @@
 - https://systems-analysis.ru/int/Inputs_and_outputs_(systems_theory)_—_入力と出力
   - Последнее сканирование: 2026-03-24T14:40:42Z
 - https://systems-analysis.ru/int/Inputs_and_outputs_(systems_theory)_—_输入与输出
-  - Последнее сканирование: 2026-02-15T00:53:35Z
+  - Последнее сканирование: 2026-03-29T15:18:27Z
 - https://systems-analysis.ru/int/Integer_programming_—_البرمجة_الصحيحة
-  - Последнее сканирование: 2026-02-18T23:11:55Z
+  - Последнее сканирование: 2026-03-26T08:05:00Z
 - https://systems-analysis.ru/int/Integer_programming_—_整数规划
-  - Последнее сканирование: 2026-03-23T07:46:19Z
+  - Последнее сканирование: 2026-03-30T14:41:42Z
 - https://systems-analysis.ru/int/Integer_programming_—_整数計画法
   - Последнее сканирование: 2026-03-20T18:44:17Z
 - https://systems-analysis.ru/int/Integridad_del_sistema
   - Последнее сканирование: 2026-02-09T08:20:35Z
 - https://systems-analysis.ru/int/Integridade_Sistêmica
-  - Последнее сканирование: 2026-02-07T16:25:01Z
+  - Последнее сканирование: 2026-03-31T12:02:44Z
 - https://systems-analysis.ru/int/Inteligencia_artificial_explicable
-  - Последнее сканирование: 2026-02-17T00:04:58Z
+  - Последнее сканирование: 2026-02-27T22:44:33Z
 - https://systems-analysis.ru/int/Inteligência_Artificial_Constitucional
-  - Последнее сканирование: 2026-02-16T17:29:57Z
+  - Последнее сканирование: 2026-03-28T21:51:07Z
 - https://systems-analysis.ru/int/Intégrité_systémique
   - Последнее сканирование: 2026-02-17T08:48:18Z
 - https://systems-analysis.ru/int/Investigación_de_operaciones
@@ -2318,15 +2362,15 @@
 - https://systems-analysis.ru/int/Jailbreaks_(LLM)_(ES)
   - Последнее сканирование: 2026-02-07T05:52:33Z
 - https://systems-analysis.ru/int/Jailbreaks_(LLM)_(FR)
-  - Последнее сканирование: 2026-03-05T00:02:07Z
+  - Последнее сканирование: 2026-03-28T18:39:32Z
 - https://systems-analysis.ru/int/Jailbreaks_(LLM)_(PT)
   - Последнее сканирование: 2026-02-15T15:00:13Z
 - https://systems-analysis.ru/int/Jailbreaks_(LLM)_—_كسر_الحماية
-  - Последнее сканирование: 2026-03-06T16:11:33Z
+  - Последнее сканирование: 2026-03-30T22:27:43Z
 - https://systems-analysis.ru/int/Jailbreaks_(LLM)_—_ジェイルブレイク
-  - Последнее сканирование: 2026-02-23T07:47:21Z
+  - Последнее сканирование: 2026-03-29T16:34:12Z
 - https://systems-analysis.ru/int/Jailbreaks_(LLM)_—_越狱
-  - Последнее сканирование: 2026-03-19T17:46:06Z
+  - Последнее сканирование: 2026-03-28T13:16:32Z
 - https://systems-analysis.ru/int/Jais_(Sprachmodell)
   - Последнее сканирование: 2026-02-15T01:43:05Z
 - https://systems-analysis.ru/int/Jais_(language_model)_—_Jais（语言模型）
@@ -2338,11 +2382,15 @@
 - https://systems-analysis.ru/int/Jais_(modelo_de_lenguaje)
   - Последнее сканирование: 2026-02-20T20:26:07Z
 - https://systems-analysis.ru/int/Jais_(modelo_de_linguagem)
-  - Последнее сканирование: 2026-03-06T16:23:35Z
+  - Последнее сканирование: 2026-03-31T13:15:27Z
+- https://systems-analysis.ru/int/Jais_(modèle_de_langage)
+  - Последнее сканирование: 2026-03-28T17:35:10Z
 - https://systems-analysis.ru/int/Jamba_(language_model)_—_جامبا
   - Последнее сканирование: 2026-03-15T19:20:18Z
 - https://systems-analysis.ru/int/Jamba_(language_model)_—_ジャンバ
   - Последнее сканирование: 2026-01-18T08:17:40Z
+- https://systems-analysis.ru/int/Jamba_(language_model)_—_混合架构模型
+  - Последнее сканирование: 2026-03-29T14:37:13Z
 - https://systems-analysis.ru/int/Jamba_(modelo_de_lenguaje)
   - Последнее сканирование: 2026-02-17T16:33:04Z
 - https://systems-analysis.ru/int/Jamba_(modelo_de_linguagem)
@@ -2350,17 +2398,19 @@
 - https://systems-analysis.ru/int/Jamba_(modèle_de_langage)
   - Последнее сканирование: 2026-02-15T00:48:24Z
 - https://systems-analysis.ru/int/Jerarquía
-  - Последнее сканирование: 2026-02-27T20:18:58Z
+  - Последнее сканирование: 2026-03-23T23:40:23Z
 - https://systems-analysis.ru/int/Klassifikationen_von_Methoden_der_Systemmodellierung
   - Последнее сканирование: 2026-02-07T18:24:11Z
+- https://systems-analysis.ru/int/Klassische_Methoden_der_Systemanalyse
+  - Последнее сканирование: 2026-03-29T16:40:13Z
 - https://systems-analysis.ru/int/Kognitive_Verzerrungen
   - Последнее сканирование: 2026-01-17T06:58:20Z
 - https://systems-analysis.ru/int/Kollektive_Entscheidung
   - Последнее сканирование: 2026-02-14T23:19:59Z
 - https://systems-analysis.ru/int/Kontextfenster
-  - Последнее сканирование: 2026-02-19T23:32:06Z
+  - Последнее сканирование: 2026-03-28T10:08:01Z
 - https://systems-analysis.ru/int/Kontextuelles_Vergessen
-  - Последнее сканирование: 2026-03-04T22:29:53Z
+  - Последнее сканирование: 2026-03-26T09:59:21Z
 - https://systems-analysis.ru/int/Konzept
   - Последнее сканирование: 2026-02-15T01:55:01Z
 - https://systems-analysis.ru/int/Konzeptionelle_Grundlagen_von_Systemen
@@ -2374,27 +2424,29 @@
 - https://systems-analysis.ru/int/Kritischer_Pfad
   - Последнее сканирование: 2026-03-24T15:58:32Z
 - https://systems-analysis.ru/int/LLM-Architekturen
-  - Последнее сканирование: 2026-03-02T15:08:19Z
+  - Последнее сканирование: 2026-03-28T19:29:00Z
 - https://systems-analysis.ru/int/LLM-Benchmarks
   - Последнее сканирование: 2026-02-13T18:06:41Z
 - https://systems-analysis.ru/int/LLM-Bewertung
   - Последнее сканирование: 2026-02-21T08:15:53Z
 - https://systems-analysis.ru/int/LLM-as-a-Judge_(DE)
-  - Последнее сканирование: 2026-02-16T09:32:43Z
+  - Последнее сканирование: 2026-03-29T03:39:16Z
 - https://systems-analysis.ru/int/LLM-as-a-Judge_(ES)
   - Последнее сканирование: 2026-03-21T08:10:02Z
 - https://systems-analysis.ru/int/LLM-as-a-Judge_—_LLM_كقاضٍ
   - Последнее сканирование: 2026-02-25T18:25:08Z
 - https://systems-analysis.ru/int/LLM-as-a-Judge_—_由LLM担当评判者
-  - Последнее сканирование: 2026-03-23T20:54:07Z
+  - Последнее сканирование: 2026-03-30T20:11:44Z
 - https://systems-analysis.ru/int/LLM-as-a-Judge_—_裁判官としてのLLM
   - Последнее сканирование: 2026-03-16T00:50:52Z
+- https://systems-analysis.ru/int/LLM_benchmarks_—_LLM_评测基准
+  - Последнее сканирование: 2026-03-30T15:57:01Z
 - https://systems-analysis.ru/int/LLM_benchmarks_—_LLMベンチマーク
   - Последнее сканирование: 2026-03-21T22:06:12Z
 - https://systems-analysis.ru/int/LLM_benchmarks_—_معايير_تقييم_نماذج_اللغة_الكبيرة
-  - Последнее сканирование: 2026-02-23T21:18:08Z
+  - Последнее сканирование: 2026-03-28T04:08:38Z
 - https://systems-analysis.ru/int/LLM_cost_optimization_—_LLM利用コストの最適化
-  - Последнее сканирование: 2026-03-04T21:22:56Z
+  - Последнее сканирование: 2026-03-28T18:18:57Z
 - https://systems-analysis.ru/int/LLM_cost_optimization_—_تحسين_تكاليف_استخدام_نماذج_اللغة_الكبيرة_(LLM)
   - Последнее сканирование: 2026-03-21T21:08:42Z
 - https://systems-analysis.ru/int/LLM_cost_optimization_—_优化LLM使用成本
@@ -2410,13 +2462,13 @@
 - https://systems-analysis.ru/int/LLM_evaluation_—_تقييم_نماذج_اللغة_الكبيرة
   - Последнее сканирование: 2026-03-20T19:04:30Z
 - https://systems-analysis.ru/int/LLM_hallucinations_—_LLMのハルシネーションと不正確な応答
-  - Последнее сканирование: 2026-01-18T20:51:22Z
+  - Последнее сканирование: 2026-03-31T12:30:01Z
 - https://systems-analysis.ru/int/LLM_hallucinations_—_LLM幻觉与错误回答
-  - Последнее сканирование: 2026-03-13T13:44:59Z
+  - Последнее сканирование: 2026-03-26T15:45:17Z
 - https://systems-analysis.ru/int/LLM_hallucinations_—_الهلوسة_والإجابات_غير_الصحيحة_لنماذج_اللغة_الكبيرة_(LLM)
-  - Последнее сканирование: 2026-03-06T17:27:10Z
+  - Последнее сканирование: 2026-03-31T11:26:40Z
 - https://systems-analysis.ru/int/LLM_multimodaux
-  - Последнее сканирование: 2026-02-07T16:25:57Z
+  - Последнее сканирование: 2026-03-31T12:11:49Z
 - https://systems-analysis.ru/int/LLM_quality_metrics_—_LLMの品質メトリクス
   - Последнее сканирование: 2026-01-13T12:17:37Z
 - https://systems-analysis.ru/int/LLM_quality_metrics_—_مقاييس_جودة_LLM
@@ -2428,25 +2480,27 @@
 - https://systems-analysis.ru/int/LLaMA_(Meta_AI)_—_لاما
   - Последнее сканирование: 2026-03-04T20:19:59Z
 - https://systems-analysis.ru/int/LLaMA_(Meta_AI)_—_大型语言模型Meta_AI
-  - Последнее сканирование: 2026-02-15T00:57:06Z
+  - Последнее сканирование: 2026-03-31T09:38:01Z
 - https://systems-analysis.ru/int/LMArena_(Chatbot_Arena)_(DE)
   - Последнее сканирование: 2026-02-15T01:12:05Z
 - https://systems-analysis.ru/int/LMArena_(Chatbot_Arena)_(ES)
-  - Последнее сканирование: 2026-03-24T04:36:14Z
+  - Последнее сканирование: 2026-03-30T23:40:19Z
 - https://systems-analysis.ru/int/LMArena_(Chatbot_Arena)_(FR)
-  - Последнее сканирование: 2026-03-14T11:11:19Z
+  - Последнее сканирование: 2026-03-30T20:56:40Z
 - https://systems-analysis.ru/int/LMArena_(Chatbot_Arena)_(PT)
-  - Последнее сканирование: 2026-02-15T16:11:12Z
+  - Последнее сканирование: 2026-03-28T16:35:18Z
 - https://systems-analysis.ru/int/LMArena_(Chatbot_Arena)_—_ساحة_النماذج_الكبيرة
-  - Последнее сканирование: 2026-03-07T09:45:24Z
+  - Последнее сканирование: 2026-03-28T19:37:05Z
 - https://systems-analysis.ru/int/LMArena_(Chatbot_Arena)_—_大模型竞技场
-  - Последнее сканирование: 2026-03-24T23:41:02Z
+  - Последнее сканирование: 2026-03-29T13:19:12Z
 - https://systems-analysis.ru/int/LMArena_(Chatbot_Arena)_—_大規模モデルアリーナ
   - Последнее сканирование: 2026-03-15T13:43:09Z
 - https://systems-analysis.ru/int/LaMDA_(Google)_(DE)
   - Последнее сканирование: 2026-02-15T01:05:51Z
 - https://systems-analysis.ru/int/LaMDA_(Google)_(ES)
   - Последнее сканирование: 2026-02-17T01:01:01Z
+- https://systems-analysis.ru/int/LaMDA_(Google)_(FR)
+  - Последнее сканирование: 2026-03-31T02:10:19Z
 - https://systems-analysis.ru/int/LaMDA_(Google)_(PT)
   - Последнее сканирование: 2026-02-12T17:44:15Z
 - https://systems-analysis.ru/int/LaMDA_(Google)_—_لامدا
@@ -2461,16 +2515,18 @@
   - Последнее сканирование: 2026-02-15T00:31:11Z
 - https://systems-analysis.ru/int/LangChain_(PT)
   - Последнее сканирование: 2026-03-04T20:58:00Z
+- https://systems-analysis.ru/int/LangChain_—_LLM开发框架
+  - Последнее сканирование: 2026-03-31T10:05:11Z
 - https://systems-analysis.ru/int/LangChain_—_لانغ_تشين
   - Последнее сканирование: 2026-03-20T19:02:27Z
 - https://systems-analysis.ru/int/LangChain_—_ラングチェーン
   - Последнее сканирование: 2026-03-18T03:47:44Z
 - https://systems-analysis.ru/int/Langage_de_description_de_systèmes
-  - Последнее сканирование: 2026-02-07T16:18:48Z
+  - Последнее сканирование: 2026-03-31T10:32:20Z
 - https://systems-analysis.ru/int/Languages_for_system_description_—_لغة_وصف_النظم
   - Последнее сканирование: 2026-03-20T19:39:26Z
 - https://systems-analysis.ru/int/Languages_for_system_description_—_システム記述言語
-  - Последнее сканирование: 2026-02-20T14:56:42Z
+  - Последнее сканирование: 2026-03-29T08:03:37Z
 - https://systems-analysis.ru/int/Languages_for_system_description_—_系统描述语言
   - Последнее сканирование: 2026-02-15T10:25:13Z
 - https://systems-analysis.ru/int/Laplace-Kriterium
@@ -2478,21 +2534,21 @@
 - https://systems-analysis.ru/int/Laplace_criterion_—_معيار_لابلاس
   - Последнее сканирование: 2026-03-23T01:34:35Z
 - https://systems-analysis.ru/int/Laplace_criterion_—_ラプラスの基準
-  - Последнее сканирование: 2026-03-18T11:13:46Z
+  - Последнее сканирование: 2026-03-31T19:50:06Z
 - https://systems-analysis.ru/int/Laplace_criterion_—_拉普拉斯准则
   - Последнее сканирование: 2026-03-15T22:52:17Z
 - https://systems-analysis.ru/int/Large_language_model_architectures_—_LLM_架构
   - Последнее сканирование: 2026-03-25T09:11:46Z
 - https://systems-analysis.ru/int/Large_language_model_architectures_—_LLMアーキテクチャ
-  - Последнее сканирование: 2026-03-07T16:29:49Z
+  - Последнее сканирование: 2026-03-28T19:25:58Z
 - https://systems-analysis.ru/int/Large_language_model_architectures_—_معماريات_LLM
-  - Последнее сканирование: 2026-02-21T12:44:50Z
+  - Последнее сканирование: 2026-03-29T13:20:13Z
 - https://systems-analysis.ru/int/Large_language_model_—_نماذج_اللغة_الكبيرة
   - Последнее сканирование: 2026-01-09T22:11:18Z
 - https://systems-analysis.ru/int/Large_language_model_—_大規模言語モデル
   - Последнее сканирование: 2026-01-18T08:34:08Z
 - https://systems-analysis.ru/int/Large_language_model_—_大语言模型
-  - Последнее сканирование: 2026-02-14T20:47:58Z
+  - Последнее сканирование: 2026-03-29T14:03:27Z
 - https://systems-analysis.ru/int/Large_language_models:_Catalog_—_كتالوج_نماذج_اللغة_الكبيرة
   - Последнее сканирование: 2026-01-09T22:52:26Z
 - https://systems-analysis.ru/int/Large_language_models:_Catalog_—_大規模言語モデルのカタログ
@@ -2502,23 +2558,21 @@
 - https://systems-analysis.ru/int/Large_language_models:_Section_catalog_—_نماذج_اللغة_الكبيرة._فهرس_القسم
   - Последнее сканирование: 2026-02-27T18:45:38Z
 - https://systems-analysis.ru/int/Large_language_models:_Section_catalog_—_大型语言模型：主题目录
-  - Последнее сканирование: 2026-03-10T06:38:51Z
+  - Последнее сканирование: 2026-03-29T08:09:55Z
 - https://systems-analysis.ru/int/Large_language_models:_Section_catalog_—_大規模言語モデル：セクションカタログ
-  - Последнее сканирование: 2026-02-20T02:51:48Z
+  - Последнее сканирование: 2026-03-28T20:55:21Z
 - https://systems-analysis.ru/int/Le_processus_de_modélisation
-  - Последнее сканирование: 2026-02-07T16:27:42Z
+  - Последнее сканирование: 2026-03-31T12:24:33Z
 - https://systems-analysis.ru/int/Least-to-most_Prompting_(DE)
   - Последнее сканирование: 2026-02-15T01:42:49Z
-- https://systems-analysis.ru/int/Least-to-most_Prompting_(ES)
-  - Последнее сканирование: 2026-02-21T06:41:47Z
 - https://systems-analysis.ru/int/Least-to-most_Prompting_(FR)
-  - Последнее сканирование: 2026-02-06T22:43:25Z
+  - Последнее сканирование: 2026-03-31T01:24:18Z
 - https://systems-analysis.ru/int/Least-to-most_Prompting_—_Least-to-Mostプロンプティング
-  - Последнее сканирование: 2026-03-20T00:07:53Z
+  - Последнее сканирование: 2026-03-29T20:39:53Z
 - https://systems-analysis.ru/int/Least-to-most_Prompting_—_التوجيه_من_الأقل_إلى_الأكثر
   - Последнее сканирование: 2026-01-09T04:38:09Z
 - https://systems-analysis.ru/int/Least-to-most_Prompting_—_由简入难提示
-  - Последнее сканирование: 2026-03-25T01:28:36Z
+  - Последнее сканирование: 2026-04-01T05:25:15Z
 - https://systems-analysis.ru/int/Levels_of_system_representation_—_مستويات_تمثيل_النظم
   - Последнее сканирование: 2026-03-24T14:24:53Z
 - https://systems-analysis.ru/int/Levels_of_system_representation_—_システムの表現レベル
@@ -2526,15 +2580,15 @@
 - https://systems-analysis.ru/int/Levels_of_system_representation_—_系统表示的层次
   - Последнее сканирование: 2026-03-21T19:56:12Z
 - https://systems-analysis.ru/int/Liaisons_dans_les_systèmes
-  - Последнее сканирование: 2026-02-07T17:18:52Z
+  - Последнее сканирование: 2026-03-31T13:11:49Z
 - https://systems-analysis.ru/int/Linear_programming_—_البرمجة_الخطية
   - Последнее сканирование: 2026-03-06T12:37:45Z
 - https://systems-analysis.ru/int/Linear_programming_—_線形計画法
   - Последнее сканирование: 2026-03-04T19:42:42Z
 - https://systems-analysis.ru/int/Linear_programming_—_线性规划
-  - Последнее сканирование: 2026-03-10T08:57:23Z
+  - Последнее сканирование: 2026-03-28T17:25:30Z
 - https://systems-analysis.ru/int/Lineare_Programmierung
-  - Последнее сканирование: 2026-02-07T16:28:15Z
+  - Последнее сканирование: 2026-03-31T12:16:22Z
 - https://systems-analysis.ru/int/Linguagem_de_Descrição_de_Sistemas
   - Последнее сканирование: 2026-02-07T17:46:51Z
 - https://systems-analysis.ru/int/Literatur
@@ -2588,27 +2642,27 @@
 - https://systems-analysis.ru/int/Low-Rank_Adaptation_(LoRA)_(PT)
   - Последнее сканирование: 2026-02-14T23:02:53Z
 - https://systems-analysis.ru/int/Low-Rank_Adaptation_(LoRA)_—_التكييف_منخفض_الرتبة
-  - Последнее сканирование: 2026-02-21T14:00:52Z
+  - Последнее сканирование: 2026-03-31T19:49:17Z
 - https://systems-analysis.ru/int/Low-Rank_Adaptation_(LoRA)_—_低ランク適応
   - Последнее сканирование: 2026-03-04T22:10:55Z
 - https://systems-analysis.ru/int/Low-Rank_Adaptation_(LoRA)_—_低秩自适应
-  - Последнее сканирование: 2026-03-24T13:08:22Z
+  - Последнее сканирование: 2026-03-31T05:30:26Z
 - https://systems-analysis.ru/int/Límites_del_sistema
   - Последнее сканирование: 2026-03-25T06:24:47Z
 - https://systems-analysis.ru/int/Lógica_Difusa_na_Tomada_de_Decisão
-  - Последнее сканирование: 2026-02-20T07:30:29Z
+  - Последнее сканирование: 2026-03-28T10:51:21Z
 - https://systems-analysis.ru/int/Lógica_difusa_en_la_toma_de_decisiones
   - Последнее сканирование: 2026-03-04T21:22:56Z
 - https://systems-analysis.ru/int/MATH-Benchmark
   - Последнее сканирование: 2026-02-12T04:47:43Z
 - https://systems-analysis.ru/int/MATH_Benchmark_(FR)
-  - Последнее сканирование: 2026-02-19T08:14:13Z
+  - Последнее сканирование: 2026-03-28T05:33:36Z
 - https://systems-analysis.ru/int/MATH_Benchmark_(PT)
   - Последнее сканирование: 2026-03-04T20:56:54Z
 - https://systems-analysis.ru/int/MATH_Benchmark_—_MATH_基准测试
-  - Последнее сканирование: 2026-03-14T20:16:41Z
+  - Последнее сканирование: 2026-03-31T08:19:02Z
 - https://systems-analysis.ru/int/MATH_Benchmark_—_MATHベンチマーク
-  - Последнее сканирование: 2026-03-02T01:13:14Z
+  - Последнее сканирование: 2026-03-25T02:48:48Z
 - https://systems-analysis.ru/int/MATH_Benchmark_—_معيار_MATH
   - Последнее сканирование: 2026-03-24T14:14:11Z
 - https://systems-analysis.ru/int/MAUVE_(Metrik)
@@ -2636,7 +2690,7 @@
 - https://systems-analysis.ru/int/METEOR_(métrique)
   - Последнее сканирование: 2026-02-15T00:26:10Z
 - https://systems-analysis.ru/int/MM-RAG_(Multimodal_RAG)_(FR)
-  - Последнее сканирование: 2026-02-15T02:56:25Z
+  - Последнее сканирование: 2026-03-30T21:58:52Z
 - https://systems-analysis.ru/int/MM-RAG_(Multimodal_RAG)_(PT)
   - Последнее сканирование: 2026-02-15T00:15:28Z
 - https://systems-analysis.ru/int/MM-RAG_(Multimodal_RAG)_—_التوليد_المعزز_بالاسترجاع_متعدد_الوسائط
@@ -2646,11 +2700,11 @@
 - https://systems-analysis.ru/int/MM-RAG_(Multimodales_RAG)
   - Последнее сканирование: 2025-12-18T07:43:01Z
 - https://systems-analysis.ru/int/MMLU_Benchmark
-  - Последнее сканирование: 2026-02-18T02:05:16Z
+  - Последнее сканирование: 2026-03-30T08:25:40Z
 - https://systems-analysis.ru/int/MMLU_Benchmark_—_MMLU_基准测试
-  - Последнее сканирование: 2026-03-14T23:52:22Z
+  - Последнее сканирование: 2026-03-26T07:38:22Z
 - https://systems-analysis.ru/int/MMLU_Benchmark_—_MMLUベンチマーク
-  - Последнее сканирование: 2026-03-04T06:52:12Z
+  - Последнее сканирование: 2026-03-28T00:41:29Z
 - https://systems-analysis.ru/int/MMLU_Benchmark_—_مقياس_أداء_MMLU
   - Последнее сканирование: 2026-03-24T13:38:58Z
 - https://systems-analysis.ru/int/MT-Bench_(benchmark)_(FR)
@@ -2658,7 +2712,7 @@
 - https://systems-analysis.ru/int/MT-Bench_(benchmark)_(PT)
   - Последнее сканирование: 2026-03-15T14:35:13Z
 - https://systems-analysis.ru/int/MT-Bench_(benchmark)_—_MT-Bench_基准测试
-  - Последнее сканирование: 2026-03-25T03:38:29Z
+  - Последнее сканирование: 2026-03-30T22:23:11Z
 - https://systems-analysis.ru/int/MT-Bench_(benchmark)_—_MT-Benchベンチマーク
   - Последнее сканирование: 2026-03-22T13:08:56Z
 - https://systems-analysis.ru/int/MT-Bench_(benchmark)_—_معيار_التقييم_MT-Bench
@@ -2672,19 +2726,19 @@
 - https://systems-analysis.ru/int/Machine_learning:_Literature_—_機械学習に関する文献
   - Последнее сканирование: 2025-12-14T23:42:25Z
 - https://systems-analysis.ru/int/Machine_learning_and_data_analysis:_Section_catalog_—_التعلم_الآلي_وتحليل_البيانات._فهرس_القسم
-  - Последнее сканирование: 2025-12-16T08:12:54Z
+  - Последнее сканирование: 2026-03-31T12:31:49Z
 - https://systems-analysis.ru/int/Machine_learning_and_data_analysis:_Section_catalog_—_机器学习与数据分析._板块目录
-  - Последнее сканирование: 2026-01-31T14:07:59Z
+  - Последнее сканирование: 2026-03-30T23:19:51Z
 - https://systems-analysis.ru/int/Main_Page_—_メインページ
-  - Последнее сканирование: 2026-02-21T11:35:06Z
+  - Последнее сканирование: 2026-03-29T05:08:56Z
 - https://systems-analysis.ru/int/Main_Page_—_主页
   - Последнее сканирование: 2026-03-24T10:57:47Z
 - https://systems-analysis.ru/int/Management
-  - Последнее сканирование: 2026-03-01T21:17:02Z
+  - Последнее сканирование: 2026-03-30T19:54:42Z
 - https://systems-analysis.ru/int/Management:_Abschnittskatalog
   - Последнее сканирование: 2026-02-13T22:40:08Z
 - https://systems-analysis.ru/int/Management:_Section_Index_—_الإدارة._فهرس_القسم
-  - Последнее сканирование: 2026-02-25T16:46:17Z
+  - Последнее сканирование: 2026-03-31T10:32:20Z
 - https://systems-analysis.ru/int/Management:_Section_Index_—_マネジメント_-_セクションカタログ
   - Последнее сканирование: 2026-01-12T07:56:02Z
 - https://systems-analysis.ru/int/Management:_Section_Index_—_管理._章节目录
@@ -2708,9 +2762,9 @@
 - https://systems-analysis.ru/int/Matemáticas:_Catálogo_de_la_sección
   - Последнее сканирование: 2025-12-11T00:02:30Z
 - https://systems-analysis.ru/int/Mathematical_model_—_النموذج_الرياضي
-  - Последнее сканирование: 2026-03-06T15:30:38Z
+  - Последнее сканирование: 2026-03-28T20:34:00Z
 - https://systems-analysis.ru/int/Mathematical_model_—_数学模型
-  - Последнее сканирование: 2026-03-15T16:57:10Z
+  - Последнее сканирование: 2026-03-31T02:47:49Z
 - https://systems-analysis.ru/int/Mathematical_model_—_数理モデル
   - Последнее сканирование: 2026-03-22T15:38:28Z
 - https://systems-analysis.ru/int/Mathematical_modeling:_Literature_—_أدبيات_حول_النمذجة_الرياضية
@@ -2728,13 +2782,13 @@
 - https://systems-analysis.ru/int/Mathematical_modeling:_Semantic_network_—_النمذجة_الرياضية._الشبكة_الدلالية
   - Последнее сканирование: 2026-02-24T05:12:52Z
 - https://systems-analysis.ru/int/Mathematical_modeling:_Semantic_network_—_数学建模._语义网络
-  - Последнее сканирование: 2026-02-16T16:02:59Z
+  - Последнее сканирование: 2026-03-30T19:57:42Z
 - https://systems-analysis.ru/int/Mathematical_modeling:_Semantic_network_—_数学的モデリング。セマンティックネットワーク
-  - Последнее сканирование: 2025-12-15T03:56:11Z
+  - Последнее сканирование: 2026-03-31T12:43:38Z
 - https://systems-analysis.ru/int/Mathematical_modeling_—_النمذجة_الرياضية
   - Последнее сканирование: 2026-03-15T20:03:43Z
 - https://systems-analysis.ru/int/Mathematical_modeling_—_数学建模
-  - Последнее сканирование: 2026-03-03T17:57:15Z
+  - Последнее сканирование: 2026-03-28T03:22:27Z
 - https://systems-analysis.ru/int/Mathematical_modeling_—_数理モデリング
   - Последнее сканирование: 2026-02-28T07:21:49Z
 - https://systems-analysis.ru/int/Mathematics:_Section_catalog_—_الرياضيات._فهرس_القسم
@@ -2748,7 +2802,7 @@
 - https://systems-analysis.ru/int/Mathematische_Modellierung:_Semantisches_Netz
   - Последнее сканирование: 2025-12-14T13:23:12Z
 - https://systems-analysis.ru/int/Mathematisches_Modell
-  - Последнее сканирование: 2026-03-18T05:11:58Z
+  - Последнее сканирование: 2026-03-31T00:33:51Z
 - https://systems-analysis.ru/int/Mathématiques:_Catalogue_de_la_section
   - Последнее сканирование: 2026-03-04T21:20:51Z
 - https://systems-analysis.ru/int/Matrixmodell_der_Entscheidungsfindung
@@ -2760,7 +2814,7 @@
 - https://systems-analysis.ru/int/Maximax_criterion_—_マキシマックス基準
   - Последнее сканирование: 2026-02-07T10:09:06Z
 - https://systems-analysis.ru/int/Maximax_criterion_—_最大最大准则
-  - Последнее сканирование: 2026-02-16T16:53:44Z
+  - Последнее сканирование: 2026-03-20T13:58:40Z
 - https://systems-analysis.ru/int/Maximin_criterion_(Wald_criterion)_—_معيار_فالد
   - Последнее сканирование: 2026-01-09T13:13:37Z
 - https://systems-analysis.ru/int/Maximin_criterion_(Wald_criterion)_—_ワルドの基準
@@ -2768,31 +2822,31 @@
 - https://systems-analysis.ru/int/Maximin_criterion_(Wald_criterion)_—_瓦尔德准则
   - Последнее сканирование: 2026-03-24T17:29:50Z
 - https://systems-analysis.ru/int/Meta_Prompting_(ES)
-  - Последнее сканирование: 2026-03-04T21:43:33Z
+  - Последнее сканирование: 2026-03-24T18:28:10Z
 - https://systems-analysis.ru/int/Meta_Prompting_(PT)
-  - Последнее сканирование: 2026-01-19T23:57:20Z
+  - Последнее сканирование: 2026-03-31T12:19:06Z
 - https://systems-analysis.ru/int/Meta_Prompting_—_التوجيه_الفوقي
   - Последнее сканирование: 2026-03-06T16:46:39Z
 - https://systems-analysis.ru/int/Meta_Prompting_—_メタプロンプティング
   - Последнее сканирование: 2026-03-18T08:22:44Z
 - https://systems-analysis.ru/int/Meta_Prompting_—_元提示
-  - Последнее сканирование: 2026-03-12T15:02:36Z
+  - Последнее сканирование: 2026-03-25T03:35:43Z
 - https://systems-analysis.ru/int/Metasistema
   - Последнее сканирование: 2026-03-23T13:30:09Z
 - https://systems-analysis.ru/int/Metassistema
-  - Последнее сканирование: 2026-02-07T15:56:33Z
+  - Последнее сканирование: 2026-04-01T02:27:07Z
 - https://systems-analysis.ru/int/Metasystem_—_النظام_الفوقي
-  - Последнее сканирование: 2026-02-21T08:39:38Z
+  - Последнее сканирование: 2026-03-30T21:58:53Z
 - https://systems-analysis.ru/int/Metasystem_—_メタシステム
-  - Последнее сканирование: 2026-03-15T07:44:31Z
+  - Последнее сканирование: 2026-03-30T21:51:57Z
 - https://systems-analysis.ru/int/Metasystem_—_元系统
-  - Последнее сканирование: 2026-02-15T08:55:39Z
+  - Последнее сканирование: 2026-03-28T18:17:56Z
 - https://systems-analysis.ru/int/Methodik_der_Systemanalyse
-  - Последнее сканирование: 2026-02-07T17:29:58Z
+  - Последнее сканирование: 2026-03-28T21:34:10Z
 - https://systems-analysis.ru/int/Methodologie_des_Operations_Research
-  - Последнее сканирование: 2026-03-04T22:38:22Z
+  - Последнее сканирование: 2026-03-28T20:56:22Z
 - https://systems-analysis.ru/int/Methodologie_und_Epistemologie:_Abschnittskatalog
-  - Последнее сканирование: 2025-12-13T20:28:47Z
+  - Последнее сканирование: 2026-03-31T10:15:14Z
 - https://systems-analysis.ru/int/Methodology_and_epistemology:_Section_catalog_—_المنهجية_ونظرية_المعرفة._فهرس_القسم
   - Последнее сканирование: 2026-01-09T13:21:50Z
 - https://systems-analysis.ru/int/Methodology_and_epistemology:_Section_catalog_—_方法論と認識論。セクション目次
@@ -2808,13 +2862,13 @@
 - https://systems-analysis.ru/int/Metodologias_Clássicas_de_Análise_de_Sistemas
   - Последнее сканирование: 2026-02-07T18:02:14Z
 - https://systems-analysis.ru/int/Metodología_de_la_investigación_de_operaciones
-  - Последнее сканирование: 2026-03-18T00:15:35Z
+  - Последнее сканирование: 2026-03-31T14:19:23Z
 - https://systems-analysis.ru/int/Metodología_del_análisis_de_sistemas
   - Последнее сканирование: 2026-03-20T20:07:21Z
 - https://systems-analysis.ru/int/Metodología_y_epistemología:_Catálogo_de_la_sección
   - Последнее сканирование: 2026-03-07T11:41:03Z
 - https://systems-analysis.ru/int/Metodologías_clásicas_del_análisis_de_sistemas
-  - Последнее сканирование: 2026-03-05T00:13:12Z
+  - Последнее сканирование: 2026-03-29T05:56:30Z
 - https://systems-analysis.ru/int/Minimax_regret_criterion_(Savage_criterion)_—_معيار_سافاج
   - Последнее сканирование: 2026-03-18T04:40:30Z
 - https://systems-analysis.ru/int/Minimax_regret_criterion_(Savage_criterion)_—_サベージの基準
@@ -2825,12 +2879,14 @@
   - Последнее сканирование: 2026-03-04T20:10:35Z
 - https://systems-analysis.ru/int/Mistral_AI_(ES)
   - Последнее сканирование: 2026-03-04T22:50:41Z
+- https://systems-analysis.ru/int/Mistral_AI_(FR)
+  - Последнее сканирование: 2026-03-31T13:44:33Z
 - https://systems-analysis.ru/int/Mistral_AI_(PT)
   - Последнее сканирование: 2026-03-24T14:58:16Z
 - https://systems-analysis.ru/int/Mistral_AI_—_ميسترال
   - Последнее сканирование: 2026-01-09T13:19:36Z
 - https://systems-analysis.ru/int/Mistral_AI_—_ミストラル
-  - Последнее сканирование: 2026-01-13T12:08:27Z
+  - Последнее сканирование: 2026-03-31T12:09:06Z
 - https://systems-analysis.ru/int/Mistral_AI_—_米斯特拉尔
   - Последнее сканирование: 2026-03-19T04:12:50Z
 - https://systems-analysis.ru/int/Mixtral_(Mistral_AI)_(DE)
@@ -2839,6 +2895,8 @@
   - Последнее сканирование: 2026-02-17T07:28:20Z
 - https://systems-analysis.ru/int/Mixtral_(Mistral_AI)_(PT)
   - Последнее сканирование: 2026-02-17T23:12:05Z
+- https://systems-analysis.ru/int/Mixtral_(Mistral_AI)_—_Mixtral（Mistral_AI_的专家混合模型）
+  - Последнее сканирование: 2026-03-29T16:05:06Z
 - https://systems-analysis.ru/int/Mixtral_(Mistral_AI)_—_مكسترال
   - Последнее сканирование: 2026-01-09T09:58:15Z
 - https://systems-analysis.ru/int/Mixtral_(Mistral_AI)_—_ミクストラル
@@ -2850,19 +2908,21 @@
 - https://systems-analysis.ru/int/Mixture-of-Experts_(MoE)_—_مزيج_الخبراء
   - Последнее сканирование: 2026-03-24T15:38:24Z
 - https://systems-analysis.ru/int/Mixture-of-Experts_(MoE)_—_专家混合模型
-  - Последнее сканирование: 2026-03-13T01:16:57Z
+  - Последнее сканирование: 2026-03-29T05:50:37Z
 - https://systems-analysis.ru/int/Mixture-of-Experts_(MoE)_—_専門家混合モデル
-  - Последнее сканирование: 2026-01-12T07:46:46Z
+  - Последнее сканирование: 2026-03-31T11:43:20Z
 - https://systems-analysis.ru/int/Model_—_نموذج
   - Последнее сканирование: 2026-03-15T20:55:06Z
 - https://systems-analysis.ru/int/Model_—_モデル
   - Последнее сканирование: 2026-03-12T22:25:02Z
+- https://systems-analysis.ru/int/Model_—_模型
+  - Последнее сканирование: 2026-03-28T06:36:25Z
 - https://systems-analysis.ru/int/Modelado:_Catálogo_de_la_sección
   - Последнее сканирование: 2025-12-11T00:06:08Z
 - https://systems-analysis.ru/int/Modelado_(científico)
   - Последнее сканирование: 2026-03-20T21:00:18Z
 - https://systems-analysis.ru/int/Modelado_matemático
-  - Последнее сканирование: 2026-03-02T23:57:22Z
+  - Последнее сканирование: 2026-03-25T12:39:38Z
 - https://systems-analysis.ru/int/Modelado_matemático:_Catálogo_de_la_sección
   - Последнее сканирование: 2025-12-11T00:15:26Z
 - https://systems-analysis.ru/int/Modelado_matemático:_Literatura
@@ -2878,11 +2938,11 @@
 - https://systems-analysis.ru/int/Modeling:_Section_catalog_—_النمذجة._فهرس_القسم
   - Последнее сканирование: 2026-01-09T12:36:15Z
 - https://systems-analysis.ru/int/Modeling:_Section_catalog_—_モデリング：目次
-  - Последнее сканирование: 2025-12-15T03:27:13Z
+  - Последнее сканирование: 2026-03-31T11:40:00Z
 - https://systems-analysis.ru/int/Modeling:_Section_catalog_—_建模（目录）
   - Последнее сканирование: 2026-02-23T07:51:58Z
 - https://systems-analysis.ru/int/Modeling_(scientific)_—_النمذجة
-  - Последнее сканирование: 2026-03-17T23:28:20Z
+  - Последнее сканирование: 2026-03-31T16:28:11Z
 - https://systems-analysis.ru/int/Modeling_(scientific)_—_モデリング
   - Последнее сканирование: 2026-03-24T14:34:41Z
 - https://systems-analysis.ru/int/Modeling_(scientific)_—_建模
@@ -2892,7 +2952,7 @@
 - https://systems-analysis.ru/int/Modeling_process_—_モデリングプロセス
   - Последнее сканирование: 2026-03-23T12:34:48Z
 - https://systems-analysis.ru/int/Modeling_process_—_建模过程
-  - Последнее сканирование: 2026-02-16T07:56:12Z
+  - Последнее сканирование: 2026-03-29T15:18:28Z
 - https://systems-analysis.ru/int/Modell
   - Последнее сканирование: 2026-02-17T00:03:57Z
 - https://systems-analysis.ru/int/Modellierung
@@ -2901,16 +2961,18 @@
   - Последнее сканирование: 2026-03-23T12:25:13Z
 - https://systems-analysis.ru/int/Modellierungsprozess
   - Последнее сканирование: 2026-02-20T10:37:55Z
+- https://systems-analysis.ru/int/Modelo_(ES)
+  - Последнее сканирование: 2026-03-28T10:42:33Z
 - https://systems-analysis.ru/int/Modelo_de_red_(investigación_de_operaciones)
-  - Последнее сканирование: 2026-03-15T04:56:05Z
+  - Последнее сканирование: 2026-03-31T01:32:50Z
 - https://systems-analysis.ru/int/Modelo_de_sistema_(ES)
-  - Последнее сканирование: 2026-02-03T14:53:26Z
+  - Последнее сканирование: 2026-03-31T14:12:17Z
 - https://systems-analysis.ru/int/Modelo_matemático_(ES)
-  - Последнее сканирование: 2026-02-28T07:31:50Z
+  - Последнее сканирование: 2026-03-28T14:34:19Z
 - https://systems-analysis.ru/int/Modelo_matricial_de_toma_de_decisiones
   - Последнее сканирование: 2026-02-10T02:51:32Z
 - https://systems-analysis.ru/int/Modelos_de_investigación_de_operaciones
-  - Последнее сканирование: 2026-03-14T03:14:19Z
+  - Последнее сканирование: 2026-03-30T01:06:48Z
 - https://systems-analysis.ru/int/Modelos_ideales_y_materiales
   - Последнее сканирование: 2026-02-09T19:50:41Z
 - https://systems-analysis.ru/int/Modelos_open-weight_y_closed-weight
@@ -2918,13 +2980,13 @@
 - https://systems-analysis.ru/int/Modèle
   - Последнее сканирование: 2025-12-13T21:59:44Z
 - https://systems-analysis.ru/int/Modèle_de_système
-  - Последнее сканирование: 2026-03-16T01:38:13Z
+  - Последнее сканирование: 2026-03-31T17:57:11Z
 - https://systems-analysis.ru/int/Modèle_mathématique
   - Последнее сканирование: 2026-03-23T13:11:08Z
 - https://systems-analysis.ru/int/Modèle_matriciel_de_prise_de_décision
   - Последнее сканирование: 2026-03-05T10:43:07Z
 - https://systems-analysis.ru/int/Modèles_de_recherche_opérationnelle
-  - Последнее сканирование: 2026-03-15T08:15:35Z
+  - Последнее сканирование: 2026-03-29T17:40:07Z
 - https://systems-analysis.ru/int/Modèles_de_réseau
   - Последнее сканирование: 2026-03-04T22:35:08Z
 - https://systems-analysis.ru/int/Modélisation_mathématique:_Catalogue_de_la_section
@@ -2934,15 +2996,15 @@
 - https://systems-analysis.ru/int/Multi-Agent_Debate_—_مناظرة_متعددة_الوكلاء
   - Последнее сканирование: 2026-01-09T23:40:13Z
 - https://systems-analysis.ru/int/Multi-Agent_Debate_—_マルチエージェントディベート
-  - Последнее сканирование: 2026-03-15T09:51:27Z
+  - Последнее сканирование: 2026-03-29T05:27:06Z
 - https://systems-analysis.ru/int/Multi-Agent_Debate_—_多智能体辩论
-  - Последнее сканирование: 2026-03-19T02:05:39Z
+  - Последнее сканирование: 2026-03-29T15:54:14Z
 - https://systems-analysis.ru/int/Multi-agent_frameworks_—_أطر_العمل_متعددة_الوكلاء
   - Последнее сканирование: 2026-01-09T21:34:08Z
 - https://systems-analysis.ru/int/Multi-agent_frameworks_—_マルチエージェントフレームワーク
   - Последнее сканирование: 2026-03-24T14:06:31Z
 - https://systems-analysis.ru/int/Multi-agent_prompting_(DE)
-  - Последнее сканирование: 2026-03-02T12:46:01Z
+  - Последнее сканирование: 2026-03-31T11:50:01Z
 - https://systems-analysis.ru/int/Multi-agent_prompting_—_توجيه_متعدد_الوكلاء
   - Последнее сканирование: 2026-02-22T06:29:01Z
 - https://systems-analysis.ru/int/Multi-agent_prompting_—_マルチエージェントプロンプティング
@@ -2954,11 +3016,11 @@
 - https://systems-analysis.ru/int/Multi-criteria_decision_analysis_—_多准则决策分析
   - Последнее сканирование: 2026-03-20T18:13:15Z
 - https://systems-analysis.ru/int/Multi-criteria_decision_analysis_—_多基準意思決定分析
-  - Последнее сканирование: 2026-02-17T17:23:10Z
+  - Последнее сканирование: 2026-03-31T02:30:19Z
 - https://systems-analysis.ru/int/Multi-objective_optimization_—_التحسين_متعدد_الأهداف
   - Последнее сканирование: 2026-03-15T12:23:02Z
 - https://systems-analysis.ru/int/Multi-objective_optimization_—_多目标优化
-  - Последнее сканирование: 2026-02-15T06:03:57Z
+  - Последнее сканирование: 2026-03-28T04:09:04Z
 - https://systems-analysis.ru/int/Multikriterielle_Entscheidungsanalyse
   - Последнее сканирование: 2026-03-20T19:16:50Z
 - https://systems-analysis.ru/int/Multikriterielle_Optimierung
@@ -2970,19 +3032,19 @@
 - https://systems-analysis.ru/int/Multimodal_CoT_Prompting_—_マルチモーダル思考の連鎖プロンプティング
   - Последнее сканирование: 2026-03-04T21:58:21Z
 - https://systems-analysis.ru/int/Multimodal_CoT_Prompting_—_多模态思维链提示
-  - Последнее сканирование: 2026-03-24T03:52:04Z
+  - Последнее сканирование: 2026-03-28T21:39:00Z
 - https://systems-analysis.ru/int/Multimodal_large_language_models_—_نماذج_اللغة_الكبيرة_متعددة_الوسائط
   - Последнее сканирование: 2026-03-20T17:57:44Z
 - https://systems-analysis.ru/int/Multimodal_large_language_models_—_マルチモーダルLLM
   - Последнее сканирование: 2026-02-17T19:29:27Z
 - https://systems-analysis.ru/int/Multimodal_large_language_models_—_多模态大语言模型
-  - Последнее сканирование: 2026-03-06T16:02:37Z
+  - Последнее сканирование: 2026-04-01T03:55:43Z
 - https://systems-analysis.ru/int/Multimodal_reasoning_—_الاستدلال_متعدد_الوسائط
-  - Последнее сканирование: 2026-03-01T21:55:47Z
+  - Последнее сканирование: 2026-03-28T10:47:34Z
 - https://systems-analysis.ru/int/Multimodal_reasoning_—_マルチモーダル推論
   - Последнее сканирование: 2026-03-21T09:56:12Z
 - https://systems-analysis.ru/int/Multimodal_reasoning_—_多模态推理
-  - Последнее сканирование: 2026-02-15T08:42:43Z
+  - Последнее сканирование: 2026-03-30T02:06:43Z
 - https://systems-analysis.ru/int/Multimodale_LLMs
   - Последнее сканирование: 2026-02-18T02:30:19Z
 - https://systems-analysis.ru/int/Multimodales_Schließen
@@ -2992,33 +3054,33 @@
 - https://systems-analysis.ru/int/Méthodologie_et_épistémologie:_Catalogue_de_la_section
   - Последнее сканирование: 2026-02-21T11:34:05Z
 - https://systems-analysis.ru/int/Método_Delphi_(ES)
-  - Последнее сканирование: 2026-02-16T15:49:36Z
+  - Последнее сканирование: 2026-03-29T17:03:53Z
 - https://systems-analysis.ru/int/Método_PERT_(ES)
-  - Последнее сканирование: 2026-03-18T11:26:49Z
+  - Последнее сканирование: 2026-03-28T23:18:56Z
+- https://systems-analysis.ru/int/Método_de_la_ruta_crítica_(CPM)
+  - Последнее сканирование: 2026-03-31T12:26:22Z
 - https://systems-analysis.ru/int/Método_de_ramificación_y_acotación
-  - Последнее сканирование: 2026-03-22T11:05:17Z
+  - Последнее сканирование: 2026-03-24T18:36:30Z
 - https://systems-analysis.ru/int/Métricas_de_calidad_de_los_LLM
   - Последнее сканирование: 2026-03-19T17:21:45Z
 - https://systems-analysis.ru/int/Network_model_(operations_research)_—_النماذج_الشبكية
   - Последнее сканирование: 2026-02-11T00:05:06Z
 - https://systems-analysis.ru/int/Network_model_(operations_research)_—_ネットワークモデル
-  - Последнее сканирование: 2026-03-07T20:19:14Z
+  - Последнее сканирование: 2026-03-31T06:45:12Z
 - https://systems-analysis.ru/int/Network_model_(operations_research)_—_网络模型
-  - Последнее сканирование: 2026-02-14T22:15:56Z
+  - Последнее сканирование: 2026-03-29T22:50:51Z
 - https://systems-analysis.ru/int/Netzwerkmodelle
-  - Последнее сканирование: 2026-02-07T17:14:28Z
+  - Последнее сканирование: 2026-03-31T12:28:11Z
 - https://systems-analysis.ru/int/Nichtlineare_Programmierung
-  - Последнее сканирование: 2026-02-07T16:21:55Z
+  - Последнее сканирование: 2026-03-31T10:29:19Z
 - https://systems-analysis.ru/int/Niveles_de_representación_de_sistemas
   - Последнее сканирование: 2026-02-12T11:36:30Z
 - https://systems-analysis.ru/int/Nonlinear_programming_—_البرمجة_غير_الخطية
   - Последнее сканирование: 2026-03-20T18:40:15Z
 - https://systems-analysis.ru/int/Nonlinear_programming_—_非線形計画法
-  - Последнее сканирование: 2026-02-20T11:32:20Z
+  - Последнее сканирование: 2026-03-27T02:46:39Z
 - https://systems-analysis.ru/int/Nonlinear_programming_—_非线性规划
-  - Последнее сканирование: 2026-02-14T19:36:09Z
-- https://systems-analysis.ru/int/Normes_de_l'ingénierie_des_systèmes
-  - Последнее сканирование: 2026-02-17T09:24:20Z
+  - Последнее сканирование: 2026-03-28T20:21:58Z
 - https://systems-analysis.ru/int/Nutzentheorie
   - Последнее сканирование: 2026-02-15T02:46:14Z
 - https://systems-analysis.ru/int/O_Observador_na_Abordagem_Sistêmica
@@ -3028,13 +3090,13 @@
 - https://systems-analysis.ru/int/Objective_and_subjective_in_systems_analysis_—_システム分析における客観性と主観性
   - Последнее сканирование: 2026-02-17T07:35:23Z
 - https://systems-analysis.ru/int/Objective_and_subjective_in_systems_analysis_—_系统分析中的客观与主观
-  - Последнее сканирование: 2026-02-21T00:54:35Z
+  - Последнее сканирование: 2026-03-28T23:04:58Z
 - https://systems-analysis.ru/int/Objective_function_—_دالة_الهدف
   - Последнее сканирование: 2026-03-15T21:33:47Z
 - https://systems-analysis.ru/int/Objective_function_—_目标函数
-  - Последнее сканирование: 2026-03-23T20:41:07Z
+  - Последнее сканирование: 2026-03-30T21:14:27Z
 - https://systems-analysis.ru/int/Objective_function_—_目的関数
-  - Последнее сканирование: 2026-03-13T06:30:48Z
+  - Последнее сканирование: 2026-03-30T23:59:46Z
 - https://systems-analysis.ru/int/Objetivo_(ES)
   - Последнее сканирование: 2026-02-15T15:18:56Z
 - https://systems-analysis.ru/int/Observer_in_the_systems_approach_—_المراقب_في_المنهج_النظمي
@@ -3042,11 +3104,13 @@
 - https://systems-analysis.ru/int/Observer_in_the_systems_approach_—_システムアプローチにおける観察者
   - Последнее сканирование: 2026-03-02T17:32:27Z
 - https://systems-analysis.ru/int/Observer_in_the_systems_approach_—_系统方法中的观察者
-  - Последнее сканирование: 2026-02-20T11:10:28Z
+  - Последнее сканирование: 2026-03-31T13:14:35Z
 - https://systems-analysis.ru/int/Offenes_System
   - Последнее сканирование: 2026-02-07T17:27:44Z
 - https://systems-analysis.ru/int/Olvido_contextual
   - Последнее сканирование: 2026-02-18T10:22:37Z
+- https://systems-analysis.ru/int/Open-Weight_und_Closed-Weight-Modelle
+  - Последнее сканирование: 2026-02-14T23:45:13Z
 
 ## ⚠️ Не проиндексированные страницы
 
@@ -3075,9 +3139,6 @@
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/eng/BERT_(language_model)**
-  - Причина: URL is unknown to Google
-  - Статус: INDEXING_STATE_UNSPECIFIED
-- **https://systems-analysis.ru/eng/BLOOM_(language_model)**
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/eng/BOLD_(Bias_in_Open-Ended_Language_Generation_Dataset)**
@@ -3230,22 +3291,13 @@
 - **https://systems-analysis.ru/eng/DBRX_(language_model)**
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
-- **https://systems-analysis.ru/eng/Decision-making_under_risk**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/eng/Decision_theory:_Literature**
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
-- **https://systems-analysis.ru/eng/Decision_tree**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/eng/Decoder_(Transformer)**
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/eng/Direct_Preference_Optimization_(DPO)**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/eng/Dynamic_programming**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/eng/Emergence**
@@ -3257,7 +3309,7 @@
 - **https://systems-analysis.ru/eng/Feedback_(systems)**
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
-- **https://systems-analysis.ru/eng/Formalization_of_system_models**
+- **https://systems-analysis.ru/eng/FlashAttention-3**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/eng/Function_calling_(LLM)**
@@ -3297,6 +3349,9 @@
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/eng/LLM_benchmarks**
+  - Причина: Crawled - currently not indexed
+  - Статус: INDEXING_ALLOWED
+- **https://systems-analysis.ru/eng/LLM_quality_metrics**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/eng/LLaMA_(Meta_AI)**
@@ -3371,6 +3426,9 @@
 - **https://systems-analysis.ru/eng/PEFT_(Parameter-Efficient_Fine-Tuning)**
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
+- **https://systems-analysis.ru/eng/Packaging_&_Context_Handling**
+  - Причина: Alternate page with proper canonical tag
+  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/eng/PanGu_(Huawei)**
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
@@ -3395,10 +3453,10 @@
 - **https://systems-analysis.ru/eng/Prompt_engineering:_Section_catalog**
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
+- **https://systems-analysis.ru/eng/Quality_standards**
+  - Причина: Crawled - currently not indexed
+  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/eng/Qwen_(Alibaba)**
-  - Причина: URL is unknown to Google
-  - Статус: INDEXING_STATE_UNSPECIFIED
-- **https://systems-analysis.ru/eng/ROUGE_(metric)**
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/eng/Rational_choice_(decision_theory)**
@@ -3422,15 +3480,9 @@
 - **https://systems-analysis.ru/eng/SuperGLUE_(benchmark)**
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
-- **https://systems-analysis.ru/eng/Synthetic_data_generation**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/eng/System:_Semantic_network**
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
-- **https://systems-analysis.ru/eng/System_development**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/eng/Systemness**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
@@ -3443,16 +3495,13 @@
 - **https://systems-analysis.ru/eng/Systems_Research_Yearbook_1973**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/eng/Systems_Research_Yearbook_1980**
+- **https://systems-analysis.ru/eng/Systems_Research_Yearbook_1974**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/eng/Systems_analysis:_Literature**
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/eng/Systems_analysis_in_IT**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/eng/Systems_analyst**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/eng/Systems_approach:_Semantic_network**
@@ -3470,16 +3519,13 @@
 - **https://systems-analysis.ru/eng/Tokenization_(NLP)**
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
-- **https://systems-analysis.ru/eng/Transformer_architecture**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/AI_Agent_(ES)**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/AI_Agent_—_AIエージェント**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/AI_Agent_—_AI智能体**
+- **https://systems-analysis.ru/int/Activity_—_活动**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Adaptivität_von_Systemen**
@@ -3488,7 +3534,7 @@
 - **https://systems-analysis.ru/int/AgentHarm_(PT)**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/AgentHarm_—_智能体危害基准**
+- **https://systems-analysis.ru/int/AgentHarm_—_エージェントハーム**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Alternativa**
@@ -3524,7 +3570,10 @@
 - **https://systems-analysis.ru/int/Anuario_de_investigación_de_sistemas_1972**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Análise_de_Sistemas_em_TI**
+- **https://systems-analysis.ru/int/Análisis_PEST**
+  - Причина: Excluded by ‘noindex’ tag
+  - Статус: BLOCKED_BY_META_TAG
+- **https://systems-analysis.ru/int/Análisis_de_sistemas_en_TI**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Architecture_Transformer**
@@ -3545,7 +3594,7 @@
 - **https://systems-analysis.ru/int/AutoGPT_(ES)**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/AutoGPT_(PT)**
+- **https://systems-analysis.ru/int/AutoGPT_—_自主AI智能体**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Automatic_Prompt_Engineer_(APE)_—_自動プロンプトエンジニア_(APE)**
@@ -3578,6 +3627,9 @@
 - **https://systems-analysis.ru/int/BLOOM_(Sprachmodell)**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
+- **https://systems-analysis.ru/int/BLOOM_(language_model)_—_大型开放多语言语言模型**
+  - Причина: Crawled - currently not indexed
+  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/BLOOM_(modelo_de_lenguaje)**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
@@ -3606,7 +3658,7 @@
   - Причина: Discovered - currently not indexed
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/int/Category:AI_Agents**
-  - Причина: Discovered - currently not indexed
+  - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/int/Category:Analysis_methods**
   - Причина: Discovered - currently not indexed
@@ -3660,7 +3712,7 @@
   - Причина: Discovered - currently not indexed
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/int/Category:German**
-  - Причина: Discovered - currently not indexed
+  - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/int/Category:Global_languages**
   - Причина: Crawled - currently not indexed
@@ -3678,7 +3730,7 @@
   - Причина: Discovered - currently not indexed
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/int/Category:Indexes**
-  - Причина: URL is unknown to Google
+  - Причина: Discovered - currently not indexed
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/int/Category:Indonesian**
   - Причина: Discovered - currently not indexed
@@ -3827,7 +3879,7 @@
 - **https://systems-analysis.ru/int/Chain-of-Thought_Prompting_(DE)**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Chain-of-Verification_(DE)**
+- **https://systems-analysis.ru/int/Chain-of-Verification_—_سلسلة_التحقق**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Chinchilla_(language_model)_—_龙猫**
@@ -3842,9 +3894,6 @@
 - **https://systems-analysis.ru/int/Cohere_Inc._—_コヒア**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Cohere_Inc._—_科希尔**
-  - Причина: URL is unknown to Google
-  - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/int/Compresión_de_prompts**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
@@ -3857,22 +3906,13 @@
 - **https://systems-analysis.ru/int/Conceptos_fundamentales_del_análisis_de_sistemas**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
+- **https://systems-analysis.ru/int/Concepts_de_base_de_l'analyse_systémique**
+  - Причина: Alternate page with proper canonical tag
+  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Concepts_fondamentaux_de_l'approche_systémique**
   - Причина: Alternate page with proper canonical tag
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Connections_in_systems_—_系统中的连接**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Constitutional_AI_—_立憲AI**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Contextual_forgetting_—_النسيان_السياقي**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Core_concepts_of_systems_analysis_—_システム分析の基本概念**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Core_concepts_of_systems_analysis_—_系统分析的基本概念**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Criterio_Maximax**
@@ -3899,13 +3939,7 @@
 - **https://systems-analysis.ru/int/Decision_theory:_Literature_—_意思決定理論に関する文献**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Decision_theory:_Section_catalog_—_نظرية_اتخاذ_القرار._فهرس_القسم**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Decision_theory:_Semantic_network_—_نظرية_اتخاذ_القرار._الشبكة_الدلالية**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Decoder_(Transformer)_—_デコーダ**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/DeepSeek_(modelo_de_lenguaje)**
@@ -3915,9 +3949,6 @@
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Definições_de_sistema**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Descomposición**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Distorsions_des_données_et_biais**
@@ -3932,28 +3963,16 @@
 - **https://systems-analysis.ru/int/El_observador_en_el_enfoque_de_sistemas**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Encoder–decoder_architecture_(Arquitetura_encoder–decoder)_(PT)**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Equilibrio_del_sistema**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Erklärbare_KI**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Establecimiento_de_objetivos**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Estruturação_de_Sistemas**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Evaluación_de_alternativas**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Expansion_de_document_hypothétique**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/FLORES-200_—_FLORES-200**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/FLORES-200_—_فْلورِس-200**
@@ -4001,15 +4020,6 @@
 - **https://systems-analysis.ru/int/Function_—_功能**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Fundamentos_Teóricos_de_LLMs**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Fundamentos_teóricos_de_los_grandes_modelos_de_lenguaje**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Fuzzy_logic_in_decision-making_—_决策中的模糊逻辑**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/GPT_(OpenAI)_(DE)**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
@@ -4019,9 +4029,6 @@
 - **https://systems-analysis.ru/int/GPT_(OpenAI)_—_生成式预训练变换模型**
   - Причина: Excluded by ‘noindex’ tag
   - Статус: BLOCKED_BY_META_TAG
-- **https://systems-analysis.ru/int/GSM8K_(Grade_School_Math_8K)_(DE)**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/GSM8K_(Grade_School_Math_8K)_(ES)**
   - Причина: Excluded by ‘noindex’ tag
   - Статус: BLOCKED_BY_META_TAG
@@ -4031,13 +4038,7 @@
 - **https://systems-analysis.ru/int/Gemini_(Google)_(ES)**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Gemini_(Google)_(PT)**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Gemma_(Google)_(ES)**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Gemma_(Google)_(FR)**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Gemma_(Google)_—_Gemma_模型**
@@ -4052,14 +4053,11 @@
 - **https://systems-analysis.ru/int/Generated_Knowledge_Prompting_(FR)**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Generierung_synthetischer_Daten**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Gestion_des_risques**
   - Причина: Discovered - currently not indexed
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/int/Grandes_Modelos_de_Linguagem**
-  - Причина: Discovered - currently not indexed
+  - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/int/Grands_modèles_de_langage**
   - Причина: Crawled - currently not indexed
@@ -4080,6 +4078,9 @@
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Grok_(xAI)_(ES)**
+  - Причина: Crawled - currently not indexed
+  - Статус: INDEXING_ALLOWED
+- **https://systems-analysis.ru/int/Grok_(xAI)_(PT)**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Große_Sprachmodelle**
@@ -4133,9 +4134,6 @@
 - **https://systems-analysis.ru/int/Hybrid_retrieval_—_ハイブリッド検索**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(DE)**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(ES)**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
@@ -4151,9 +4149,6 @@
 - **https://systems-analysis.ru/int/IBM_Granite_(modelo_de_lenguaje)**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/In-Context_Learning_—_インコンテキスト学習**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Incerteza_em_um_sistema**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
@@ -4166,22 +4161,13 @@
 - **https://systems-analysis.ru/int/Ingénierie_des_systèmes**
   - Причина: Excluded by ‘noindex’ tag
   - Статус: BLOCKED_BY_META_TAG
-- **https://systems-analysis.ru/int/Jais_(modèle_de_langage)**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Jamba_(Sprachmodell)**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Jamba_(language_model)_—_混合架构模型**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Janela_de_Contexto**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Klassifikationen_von_Systemen**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Klassische_Methoden_der_Systemanalyse**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/L'objectif_et_le_subjectif_en_analyse_systémique**
@@ -4196,9 +4182,6 @@
 - **https://systems-analysis.ru/int/LLM-as-a-Judge_(PT)**
   - Причина: Excluded by ‘noindex’ tag
   - Статус: BLOCKED_BY_META_TAG
-- **https://systems-analysis.ru/int/LLM_benchmarks_—_LLM_评测基准**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/LLM_error_mitigation_—_减少_LLM_错误**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
@@ -4220,13 +4203,7 @@
 - **https://systems-analysis.ru/int/LLaMA_(Meta_AI)_—_ラマ**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/LaMDA_(Google)_(FR)**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/LaMDA_(Google)_—_対話アプリケーション用言語モデル**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/LangChain_—_LLM开发框架**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Le_Dernier_Examen_de_l'Humanité**
@@ -4234,6 +4211,9 @@
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Le_problème_dans_le_contexte_de_l'analyse_systémique**
   - Причина: Alternate page with proper canonical tag
+  - Статус: INDEXING_ALLOWED
+- **https://systems-analysis.ru/int/Least-to-most_Prompting_(ES)**
+  - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Least-to-most_Prompting_(PT)**
   - Причина: Crawled - currently not indexed
@@ -4316,19 +4296,10 @@
 - **https://systems-analysis.ru/int/Methode_des_kritischen_Pfades_(CPM)**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Mistral_AI_(FR)**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Mixtral_(Mistral_AI)_(FR)**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Mixtral_(Mistral_AI)_—_Mixtral（Mistral_AI_的专家混合模型）**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Mixture-of-Experts_(MoE)_(DE)**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Model_—_模型**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Modelado_de_simulación**
@@ -4346,14 +4317,11 @@
 - **https://systems-analysis.ru/int/Modelle_des_Operations_Research**
   - Причина: Crawled - currently not indexed
   - Статус: INDEXING_ALLOWED
-- **https://systems-analysis.ru/int/Modelo_(ES)**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Modelo_(PT)**
   - Причина: Discovered - currently not indexed
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/int/Modelo_de_sistema_(PT)**
-  - Причина: URL is unknown to Google
+  - Причина: Discovered - currently not indexed
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/int/Modelo_matemático_(PT)**
   - Причина: URL is unknown to Google
@@ -4368,7 +4336,7 @@
   - Причина: Discovered - currently not indexed
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/int/Modelos_de_Rede**
-  - Причина: Discovered - currently not indexed
+  - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/int/Modelos_ideais_e_materiais**
   - Причина: Discovered - currently not indexed
@@ -4419,7 +4387,7 @@
   - Причина: Discovered - currently not indexed
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/int/Multimodal_CoT_Prompting_(PT)**
-  - Причина: URL is unknown to Google
+  - Причина: Discovered - currently not indexed
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/int/Méta-prompting**
   - Причина: URL is unknown to Google
@@ -4451,9 +4419,6 @@
 - **https://systems-analysis.ru/int/Método_PERT_(PT)**
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
-- **https://systems-analysis.ru/int/Método_de_la_ruta_crítica_(CPM)**
-  - Причина: Crawled - currently not indexed
-  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Método_do_Caminho_Crítico_(CPM)**
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
@@ -4467,8 +4432,11 @@
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
 - **https://systems-analysis.ru/int/Normes_de_gestion_de_projet**
-  - Причина: Discovered - currently not indexed
+  - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
+- **https://systems-analysis.ru/int/Normes_de_l'ingénierie_des_systèmes**
+  - Причина: Crawled - currently not indexed
+  - Статус: INDEXING_ALLOWED
 - **https://systems-analysis.ru/int/Normes_de_qualité**
   - Причина: URL is unknown to Google
   - Статус: INDEXING_STATE_UNSPECIFIED
@@ -4502,10 +4470,10 @@
 
 ## ❌ Ошибки
 
-- https://systems-analysis.ru/int/AgentHarm_—_エージェントハーム: EOF occurred in violation of protocol (_ssl.c:2427)
-- https://systems-analysis.ru/int/Grok_(xAI)_(PT): EOF occurred in violation of protocol (_ssl.c:2427)
+- https://systems-analysis.ru/int/AgentHarm_—_智能体危害基准: EOF occurred in violation of protocol (_ssl.c:2427)
+- https://systems-analysis.ru/int/Critical_Path_—_关键路径: EOF occurred in violation of protocol (_ssl.c:2427)
+- https://systems-analysis.ru/int/Grok_(xAI)_—_Grok（xAI_的大语言模型）: EOF occurred in violation of protocol (_ssl.c:2427)
 - https://systems-analysis.ru/int/Mixture-of-Experts_(MoE)_(FR): EOF occurred in violation of protocol (_ssl.c:2427)
-- https://systems-analysis.ru/int/Open-Weight_und_Closed-Weight-Modelle: <HttpError 429 when requesting https://searchconsole.googleapis.com/v1/urlInspection/index:inspect?a
 - https://systems-analysis.ru/int/Open-weight_and_closed-weight_models_—_النماذج_مفتوحة_الوزن_ومغلقة_الوزن: <HttpError 429 when requesting https://searchconsole.googleapis.com/v1/urlInspection/index:inspect?a
 - https://systems-analysis.ru/int/Open-weight_and_closed-weight_models_—_オープンウェイトモデルとクローズドウェイトモデル: <HttpError 429 when requesting https://searchconsole.googleapis.com/v1/urlInspection/index:inspect?a
 - https://systems-analysis.ru/int/Open-weight_and_closed-weight_models_—_开放权重与封闭权重模型: <HttpError 429 when requesting https://searchconsole.googleapis.com/v1/urlInspection/index:inspect?a
