@@ -1,0 +1,1009 @@
+{
+  "timestamp": "20260408_070420",
+  "action": "URL_UPDATED",
+  "total": 200,
+  "success": 200,
+  "errors": 0,
+  "results": [
+    {
+      "url": "https://systems-analysis.ru/int/BERT_(language_model)_—_بيرت",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BERT_(language_model)_—_バート",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BERT_(language_model)_—_来自变换器的双向编码器表示",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BERT_(modelo_de_lenguaje)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BERT_(modelo_de_linguagem)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BERT_(modèle_de_langage)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BIG-bench_(benchmark)_(DE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BIG-bench_(benchmark)_(ES)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BIG-bench_(benchmark)_(FR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BIG-bench_(benchmark)_(PT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BIG-bench_(benchmark)_—_معيار_بيغ-بنش",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BIG-bench_(benchmark)_—_ビッグベンチ",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BIG-bench_(benchmark)_—_大规模基准测试",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BLEU_(Bilingual_Evaluation_Understudy)_(DE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BLEU_(Bilingual_Evaluation_Understudy)_(ES)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BLEU_(Bilingual_Evaluation_Understudy)_(FR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BLEU_(Bilingual_Evaluation_Understudy)_(PT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BLEU_(Bilingual_Evaluation_Understudy)_—_مقياس_بلو",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BLEU_(Bilingual_Evaluation_Understudy)_—_ブルー",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BLEU_(Bilingual_Evaluation_Understudy)_—_双语评估替补",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BLOOM_(Sprachmodell)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BLOOM_(language_model)_—_بلوم",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BLOOM_(language_model)_—_ブルーム",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BLOOM_(language_model)_—_大型开放多语言语言模型",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BLOOM_(modelo_de_lenguaje)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BLOOM_(modelo_de_linguagem)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BLOOM_(modèle_de_langage)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BOLD_(Bias_in_Open-Ended_Language_Generation_Dataset)_(DE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BOLD_(Bias_in_Open-Ended_Language_Generation_Dataset)_(ES)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BOLD_(Bias_in_Open-Ended_Language_Generation_Dataset)_(FR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BOLD_(Bias_in_Open-Ended_Language_Generation_Dataset)_(PT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BOLD_(Bias_in_Open-Ended_Language_Generation_Dataset)_—_BOLD",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BOLD_(Bias_in_Open-Ended_Language_Generation_Dataset)_—_オープンエンド言語生成におけるバイアスデータセット",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BOLD_(Bias_in_Open-Ended_Language_Generation_Dataset)_—_开放式语言生成偏见数据集",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Bancos_de_Dados_Vetoriais",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Base_de_datos_vectorial",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Bases_de_données_vectorielles",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Bayes-Kriterium",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Bayes-Minimax-Kriterium",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Bayes_criterion_—_معيار_بايز",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Bayes_criterion_—_ベイズの基準",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Bayes_criterion_—_贝叶斯准则",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Bayes_minimax_criterion_—_معيار_المينيماكس_البايزي",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Bayes_minimax_criterion_—_ベイズミニマックス基準",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Bayes_minimax_criterion_—_贝叶斯最小最大准则",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Begriff",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Benchmarks_de_LLM_(ES)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Benchmarks_de_LLM_(PT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Benchmarks_des_LLM",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Bewertung_von_Varianten",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Biais_cognitifs",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Biais_de_génération",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Bias_in_der_Generierung",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Bibliographie_sur_l'analyse_systémique",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Bibliographie_sur_la_théorie_de_la_décision",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Black_box",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Black_box_—_الصندوق_الأسود",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Black_box_—_ブラックボックス",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Black_box_—_黑箱",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Boîte_noire",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Branch-and-Bound-Verfahren",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Branch_and_bound_—_طريقة_الفروع_والحدود",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Branch_and_bound_—_分支定界法",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Branch_and_bound_—_分枝限定法",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Caixa_preta",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Caja_negra",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Caminho_Crítico",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:AI_Agents",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Analysis_methods",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Arabic",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Basic_concepts",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Bengali",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Bibliography",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Bulgarian",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Catalogs",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Chinese",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Control",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Core_LLM_concepts",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Croatian",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Czech",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Danish",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Data_science",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Decision-making",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Decision_theory",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Dutch",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:English",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Epistemology",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:European_languages",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Finnish",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:French",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:German",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Global_languages",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Google",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Greek",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Hausa",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Hebrew",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Hindi",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Hugging_Face",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Hungarian",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Indexes",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Indonesian",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Italian",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Japanese",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Javanese",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Korean",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:LLM_benchmarks",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:LLM_core_concepts",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:LLM_evaluation",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:LLM_families",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Language",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Large_language_model",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Large_language_models",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Literature",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Machine_learning",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Malay",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Management",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Marathi",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Marketing",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Mathematical_modeling",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Mathematics",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Methodology",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Modeling",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Norwegian",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:OpenAI",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Operations_research",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Optimization",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Pages_with_reference_errors",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Persian",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Planning",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Polish",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Portuguese",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Probability_theory",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Project_management",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Prompt_engineering",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Punjabi",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Regional_languages",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Risk_management",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Romanian",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Russian",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Semantic_network",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Serbian",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Slovak",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Slovenian",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Software",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Spanish",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Standards",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Strategic_management",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Swahili",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Swedish",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:System",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Systems_analysis",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Systems_analysis_terminology",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Systems_analysis_terms",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Systems_approach",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Systems_engineering",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Systems_research",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Systems_theory",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Systems_thinking",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Tagalog",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Tamil",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Telugu",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Terminology",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Terms",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Thai",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Turkish",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Urdu",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Category:Vietnamese",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chain-of-Thought_Prompting_(DE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chain-of-Thought_Prompting_(ES)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chain-of-Thought_Prompting_(FR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chain-of-Thought_Prompting_(PT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chain-of-Thought_Prompting_—_توجيه_سلسلة_الأفكار",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chain-of-Thought_Prompting_—_思维链提示",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chain-of-Thought_Prompting_—_思考の連鎖プロンプティング",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chain-of-Verification_(DE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chain-of-Verification_(ES)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chain-of-Verification_(FR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chain-of-Verification_(PT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chain-of-Verification_—_سلسلة_التحقق",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chain-of-Verification_—_チェーン・オブ・ベリフィケーション",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chain-of-Verification_—_验证链",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chemin_critique",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chinchilla_(Sprachmodell)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chinchilla_(language_model)_—_شينشيلا",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chinchilla_(language_model)_—_チンチラ",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chinchilla_(language_model)_—_龙猫",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chinchilla_(modelo_de_lenguaje)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chinchilla_(modelo_de_linguagem)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Chinchilla_(modèle_de_langage)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Choice_(decision-making)_—_الاختيار",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Choice_(decision-making)_—_选择",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Choice_(decision-making)_—_選択",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Choix",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Choix_collectif",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Choix_optimal",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Choix_rationnel",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ciclo_de_Vida_do_Sistema",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ciclo_de_vida_de_un_sistema",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Clasificación_de_los_métodos_de_modelado_de_sistemas",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Clasificación_de_sistemas",
+      "status": "success",
+      "notifyTime": ""
+    }
+  ]
+}
