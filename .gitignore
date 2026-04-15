@@ -20,3 +20,4 @@ Thumbs.db
 # Временные файлы
 _urls.txt
 _sitemap_urls.txt
+.claude/settings.local.json
