@@ -265,8 +265,10 @@ def main():
 
     if args.no_rotate:
         batch = all_urls[: args.batch_size]
-        _, processed, success_count = run_batch_inspection(batch, args.site)
+        _, processed, success_count, quota_hit = run_batch_inspection(batch, args.site)
         if processed > 0 and success_count == 0:
+            sys.exit(1)
+        if quota_hit:
             sys.exit(1)
         return
 
