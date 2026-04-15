@@ -170,7 +170,7 @@ def run_batch_inspection(urls, site_url):
     """Run inspection on a batch of URLs, stop on quota exhaustion.
 
     Returns:
-        (results, actually_processed_count)
+        (results, actually_processed_count, success_count)
     """
     credentials = get_credentials(SCOPES)
     service = build("searchconsole", "v1", credentials=credentials)
@@ -257,8 +257,8 @@ def main():
 
     if args.no_rotate:
         batch = all_urls[: args.batch_size]
-        _, _, success_count = run_batch_inspection(batch, args.site)
-        if len(batch) > 0 and success_count == 0:
+        _, processed, success_count = run_batch_inspection(batch, args.site)
+        if processed > 0 and success_count == 0:
             sys.exit(1)
         return
 

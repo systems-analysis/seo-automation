@@ -230,7 +230,7 @@ def main():
 
     if args.url:
         log_data, _ = request_indexing([args.url], action=args.action)
-        if log_data["processed"] > 0 and log_data["success"] == 0:
+        if log_data["success"] == 0:
             sys.exit(1)
         return
 
