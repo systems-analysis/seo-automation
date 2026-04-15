@@ -75,7 +75,7 @@ jobs:
           retention-days: 30
 
       - name: "\U0001F4E4 Commit to repo"
-        if: always()
+        if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

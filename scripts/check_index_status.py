@@ -235,6 +235,10 @@ def main():
     parser.add_argument("--no-rotate", action="store_true")
     args = parser.parse_args()
 
+    if args.batch_size < 1:
+        print(f"❌ --batch-size должен быть >= 1, получено: {args.batch_size}")
+        sys.exit(1)
+
     if args.url:
         # Single URL mode — no rotation, no state
         credentials = get_credentials(SCOPES)
