@@ -57,10 +57,6 @@ jobs:
             python scripts/check_index_status.py --urls _urls.txt --batch-size 1800
           fi
 
-      - name: "\U0001F4CA Generate report"
-        if: always()
-        run: python scripts/generate_index_report.py
-
       - name: "\U0001F4BE Save logs"
         if: always()
         uses: actions/upload-artifact@v4
