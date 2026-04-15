@@ -171,19 +171,19 @@ def run_batch_inspection(urls, site_url):
     """Run inspection on a batch of URLs, stop on quota exhaustion.
 
     Returns:
-        (results, actually_processed_count, success_count)
+        (results, actually_processed_count, success_count, quota_hit)
     """
     credentials = get_credentials(SCOPES)
     service = build("searchconsole", "v1", credentials=credentials)
 
     os.makedirs(DATA_DIR, exist_ok=True)
     timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
-    log_file = os.path.join(DATA_DIR, f"index_status_{timestamp}.json")
 
     results = []
     success_count = 0
     error_count = 0
     processed = 0
+    quota_hit = False
 
     print(f"\n🔍 Проверка статуса индексации: {len(urls)} URL\n")
 
@@ -193,6 +193,7 @@ def run_batch_inspection(urls, site_url):
         if should_stop:
             # Quota exhausted — don't count this URL as processed
             results.append(result)
+            quota_hit = True
             print(f"\n🛑 Квота исчерпана на [{i}/{len(urls)}]")
             break
 
@@ -213,16 +214,18 @@ def run_batch_inspection(urls, site_url):
         if i < len(urls):
             time.sleep(RATE_LIMIT_SLEEP)
 
-    # Save results
+    # Save results — mark partial files explicitly
+    suffix = "_partial" if quota_hit else ""
+    log_file = os.path.join(DATA_DIR, f"index_status_{timestamp}{suffix}.json")
     with open(log_file, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
     print(f"\n📊 Результат: {success_count} ✅ / {error_count} ❌")
-    if processed < len(urls):
+    if quota_hit:
         print(f"🛑 Остановлено по квоте после {processed} URL")
     print(f"📝 Лог: {log_file}")
 
-    return results, processed, success_count
+    return results, processed, success_count, quota_hit
 
 
 def main():
@@ -271,7 +274,9 @@ def main():
         all_urls, manifest_hash, args.batch_size
     )
 
-    results, actually_processed, success_count = run_batch_inspection(batch, args.site)
+    results, actually_processed, success_count, quota_hit = run_batch_inspection(
+        batch, args.site
+    )
 
     # Save state AFTER processing — cursor advances even on all-error batch
     # to avoid deadlocking rotation on a permanently bad slice
@@ -296,6 +301,10 @@ def main():
     # Hard failure: exit non-zero AFTER state is saved
     if actually_processed > 0 and success_count == 0:
         print("❌ Все запросы завершились ошибкой")
+        sys.exit(1)
+
+    if quota_hit:
+        print("❌ Данные неполные (quota) — завершаем с ошибкой")
         sys.exit(1)
 
 
