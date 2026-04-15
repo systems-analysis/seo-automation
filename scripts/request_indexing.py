@@ -10,31 +10,16 @@
 import argparse
 import json
 import os
-import sys
 import time
 from datetime import datetime, timezone
 
-from google.oauth2 import service_account
+from common import get_credentials
 from googleapiclient.discovery import build
 
 DAILY_LIMIT = 200
 SCOPES = ["https://www.googleapis.com/auth/indexing"]
 DATA_DIR = "data_indexing"
 STATE_FILE = "data_indexing/indexing_state.json"
-
-
-def get_credentials():
-    key_env = os.environ.get("GOOGLE_SERVICE_ACCOUNT_KEY")
-    key_file = os.environ.get("GOOGLE_SERVICE_ACCOUNT_FILE", "service_account.json")
-
-    if key_env:
-        info = json.loads(key_env)
-        return service_account.Credentials.from_service_account_info(info, scopes=SCOPES)
-    elif os.path.exists(key_file):
-        return service_account.Credentials.from_service_account_file(key_file, scopes=SCOPES)
-    else:
-        print("❌ Ключ сервисного аккаунта не найден.")
-        sys.exit(1)
 
 
 def load_urls_from_file(filepath):
@@ -80,7 +65,7 @@ def get_batch(urls, batch_size):
 
 
 def request_indexing(urls, action="URL_UPDATED"):
-    credentials = get_credentials()
+    credentials = get_credentials(SCOPES)
     service = build("indexing", "v3", credentials=credentials)
 
     os.makedirs(DATA_DIR, exist_ok=True)

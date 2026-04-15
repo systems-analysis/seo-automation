@@ -2,7 +2,7 @@ name: "\U0001F50D Check Index Status"
 
 on:
   schedule:
-    - cron: '0 7 * * 3'
+    - cron: '37 7 * * *'
   workflow_dispatch:
     inputs:
       source:
@@ -17,6 +17,10 @@ on:
         description: 'URL (для режима single-url)'
         required: false
         type: string
+
+concurrency:
+  group: check-index-status
+  cancel-in-progress: false
 
 env:
   URLS_SOURCE: "https://raw.githubusercontent.com/systems-analysis/sitemap-data/refs/heads/main/sitemap/sitemap.txt"
@@ -50,7 +54,7 @@ jobs:
           if [ "$SOURCE" = "single-url" ]; then
             python scripts/check_index_status.py --url "${{ github.event.inputs.url }}"
           else
-            python scripts/check_index_status.py --urls _urls.txt
+            python scripts/check_index_status.py --urls _urls.txt --batch-size 1800
           fi
 
       - name: "\U0001F4CA Generate report"

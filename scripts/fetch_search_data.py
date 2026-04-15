@@ -1,6 +1,10 @@
 """
 Сбор данных из Google Search Console.
 
+Поддерживает пагинацию: API возвращает "top rows" по кликам,
+rowLimit до 25 000 за запрос. Для больших выборок (>25 000 комбинаций
+query/page/date) данные могут быть неполными — это ограничение API.
+
 Использование:
     python scripts/fetch_search_data.py --days 7
     python scripts/fetch_search_data.py --days 30 --query "системный анализ"
@@ -13,33 +17,22 @@ import os
 import sys
 from datetime import datetime, timedelta, timezone
 
-from google.oauth2 import service_account
+from common import get_credentials
 from googleapiclient.discovery import build
 
 SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
 DATA_DIR = "data_search"
-
-
-def get_credentials():
-    key_env = os.environ.get("GOOGLE_SERVICE_ACCOUNT_KEY")
-    key_file = os.environ.get("GOOGLE_SERVICE_ACCOUNT_FILE", "service_account.json")
-
-    if key_env:
-        info = json.loads(key_env)
-        return service_account.Credentials.from_service_account_info(info, scopes=SCOPES)
-    elif os.path.exists(key_file):
-        return service_account.Credentials.from_service_account_file(key_file, scopes=SCOPES)
-    else:
-        print("❌ Ключ сервисного аккаунта не найден.")
-        sys.exit(1)
+PAGE_SIZE = 25000
+MAX_PAGES = 10
 
 
 def fetch_search_analytics(site_url, days=7, query_filter=None, dimensions=None):
-    credentials = get_credentials()
+    credentials = get_credentials(SCOPES)
     service = build("searchconsole", "v1", credentials=credentials)
 
     end_date = datetime.now(timezone.utc).date() - timedelta(days=3)
-    start_date = end_date - timedelta(days=days)
+    # Search Console treats both dates as inclusive, so subtract days-1
+    start_date = end_date - timedelta(days=days - 1)
 
     if dimensions is None:
         dimensions = ["query", "page", "date"]
@@ -48,7 +41,8 @@ def fetch_search_analytics(site_url, days=7, query_filter=None, dimensions=None)
         "startDate": start_date.isoformat(),
         "endDate": end_date.isoformat(),
         "dimensions": dimensions,
-        "rowLimit": 5000,
+        "rowLimit": PAGE_SIZE,
+        "startRow": 0,
     }
 
     if query_filter:
@@ -66,24 +60,46 @@ def fetch_search_analytics(site_url, days=7, query_filter=None, dimensions=None)
 
     print(f"📊 Запрос данных Search Console")
     print(f"   Сайт: {site_url}")
-    print(f"   Период: {start_date} — {end_date}")
+    print(f"   Период: {start_date} — {end_date} ({days} дн.)")
     if query_filter:
         print(f"   Фильтр: «{query_filter}»")
     print()
 
-    try:
-        response = (
-            service.searchanalytics()
-            .query(siteUrl=site_url, body=request_body)
-            .execute()
-        )
-    except Exception as e:
-        print(f"❌ Ошибка API: {e}")
-        sys.exit(1)
+    all_rows = []
+    page_num = 0
 
-    rows = response.get("rows", [])
-    print(f"✅ Получено {len(rows)} строк данных\n")
-    return rows, dimensions
+    while page_num < MAX_PAGES:
+        page_num += 1
+        try:
+            response = (
+                service.searchanalytics()
+                .query(siteUrl=site_url, body=request_body)
+                .execute()
+            )
+        except Exception as e:
+            print(f"❌ Ошибка API (страница {page_num}): {e}")
+            if all_rows:
+                print(f"⚠️  Сохраняем {len(all_rows)} строк, собранных до ошибки")
+                break
+            sys.exit(1)
+
+        rows = response.get("rows", [])
+        all_rows.extend(rows)
+        print(f"   📄 Страница {page_num}: {len(rows)} строк (всего: {len(all_rows)})")
+
+        if len(rows) < PAGE_SIZE:
+            break
+
+        request_body["startRow"] += PAGE_SIZE
+
+    print(f"\n✅ Получено {len(all_rows)} строк данных")
+    if page_num >= MAX_PAGES:
+        print(f"⚠️  Достигнут лимит страниц ({MAX_PAGES}), данные могут быть неполными")
+    elif len(all_rows) > 0 and len(all_rows) % PAGE_SIZE == 0:
+        print(f"⚠️  Данные могут быть неполными (API возвращает top rows)")
+    print()
+
+    return all_rows, dimensions
 
 
 def save_to_csv(rows, dimensions, filename):
