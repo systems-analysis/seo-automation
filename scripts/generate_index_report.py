@@ -65,72 +65,12 @@ def main():
             print(f"    Ошибка: {r.get('error', 'N/A')[:100]}")
             print()
 
-    # Build markdown report
-    os.makedirs(DATA_DIR, exist_ok=True)
-    report_path = os.path.join(DATA_DIR, "index_report.md")
-    basename = os.path.basename(latest).replace("index_status_", "").replace(".json", "")
-
-    with open(report_path, "w", encoding="utf-8") as f:
-        f.write("# Отчёт по индексации\n\n")
-
-        # Cycle status section
-        cycle_state = load_cycle_state()
-        if cycle_state:
-            cycle_pos = cycle_state.get("cycle_position", "N/A")
-            parts = cycle_pos.split("/")
-            if len(parts) == 2:
-                try:
-                    done, total = int(parts[0]), int(parts[1])
-                    coverage_pct = f"{done / total * 100:.1f}%" if total > 0 else "N/A"
-                except ValueError:
-                    coverage_pct = "N/A"
-            else:
-                coverage_pct = "N/A"
-
-            f.write("## Статус цикла проверки\n\n")
-            f.write("| Метрика | Значение |\n|---------|----------|\n")
-            f.write(f"| Прогресс цикла | {cycle_pos} ({coverage_pct}) |\n")
-            f.write(f"| Начало цикла | {cycle_state.get('cycle_started', 'N/A')} |\n")
-            f.write(f"| Последний запуск | {cycle_state.get('last_run', 'N/A')} |\n")
-            f.write(f"| Всего обработано | {cycle_state.get('total_processed', 'N/A')} |\n")
-            f.write(f"| Hash манифеста | `{cycle_state.get('manifest_hash', 'N/A')}` |\n\n")
-            if coverage_pct != "100.0%" and coverage_pct != "N/A":
-                f.write("> Цикл не завершён. Данные ниже относятся к последнему запуску, "
-                        "а не ко всему сайту.\n\n")
-
-        f.write("## Результат последнего запуска\n\n")
-        f.write(f"Файл: `{os.path.basename(latest)}`\n\n")
-        f.write("| Метрика | Значение |\n|---------|----------|\n")
-        f.write(f"| Всего в батче | {len(inspected)} |\n")
-        f.write(f"| ✅ Проиндексировано | {len(indexed)} |\n")
-        f.write(f"| ⚠️ Не проиндексировано | {len(not_indexed)} |\n")
-        f.write(f"| ❌ Ошибки | {len(errors)} |\n")
-        if len(inspected) > 0:
-            index_rate = len(indexed) / len(inspected) * 100
-            f.write(f"| Доля индексации | {index_rate:.1f}% |\n")
-        f.write("\n")
-
-        if indexed:
-            f.write("## ✅ Проиндексированные страницы\n\n")
-            for r in indexed:
-                f.write(f"- {r['url']}\n")
-                f.write(f"  - Последнее сканирование: {r.get('lastCrawlTime', 'N/A')}\n")
-            f.write("\n")
-
-        if not_indexed:
-            f.write("## ⚠️ Не проиндексированные страницы\n\n")
-            for r in not_indexed:
-                f.write(f"- **{r['url']}**\n")
-                f.write(f"  - Причина: {r.get('coverageState', 'N/A')}\n")
-                f.write(f"  - Статус: {r.get('indexingState', 'N/A')}\n")
-            f.write("\n")
-
-        if errors:
-            f.write("## ❌ Ошибки\n\n")
-            for r in errors:
-                f.write(f"- {r['url']}: {r.get('error', 'N/A')[:100]}\n")
-
-    print(f"📄 Отчёт сохранён: {report_path}")
+    # Cycle status
+    cycle_state = load_cycle_state()
+    if cycle_state:
+        cycle_pos = cycle_state.get("cycle_position", "N/A")
+        print(f"📋 Цикл: {cycle_pos}")
+        print(f"   Последний запуск: {cycle_state.get('last_run', 'N/A')}")
 
 
 if __name__ == "__main__":
