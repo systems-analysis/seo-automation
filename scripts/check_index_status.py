@@ -62,11 +62,11 @@ def save_state(state):
 
 
 def load_and_lock_manifest(filepath):
-    """Load URL list, sort deterministically, compute hash for change detection."""
+    """Load URL list, deduplicate, sort deterministically, compute hash."""
     with open(filepath, "r", encoding="utf-8") as f:
-        urls = sorted(
+        urls = sorted(set(
             line.strip() for line in f if line.strip() and not line.startswith("#")
-        )
+        ))
     manifest_hash = hashlib.sha256("\n".join(urls).encode()).hexdigest()[:16]
     return urls, manifest_hash
 
@@ -221,12 +221,7 @@ def run_batch_inspection(urls, site_url):
         print(f"🛑 Остановлено по квоте после {processed} URL")
     print(f"📝 Лог: {log_file}")
 
-    # Hard failure: zero successes means API is down or misconfigured
-    if processed > 0 and success_count == 0:
-        print("❌ Все запросы завершились ошибкой — выход с ненулевым кодом")
-        sys.exit(1)
-
-    return results, processed
+    return results, processed, success_count
 
 
 def main():
@@ -254,6 +249,7 @@ def main():
         else:
             print(f"  ❌ {args.url}")
             print(f"      {result.get('error', 'N/A')[:100]}")
+            sys.exit(1)
         return
 
     # Batch mode
@@ -261,16 +257,19 @@ def main():
 
     if args.no_rotate:
         batch = all_urls[: args.batch_size]
-        run_batch_inspection(batch, args.site)
+        _, _, success_count = run_batch_inspection(batch, args.site)
+        if len(batch) > 0 and success_count == 0:
+            sys.exit(1)
         return
 
     batch, start_offset, is_new_cycle = compute_batch(
         all_urls, manifest_hash, args.batch_size
     )
 
-    results, actually_processed = run_batch_inspection(batch, args.site)
+    results, actually_processed, success_count = run_batch_inspection(batch, args.site)
 
-    # Save state AFTER processing — based on actual progress only
+    # Save state AFTER processing — cursor advances even on all-error batch
+    # to avoid deadlocking rotation on a permanently bad slice
     state = load_state()
     effective_pos = start_offset + actually_processed
     if effective_pos >= len(all_urls):
@@ -288,6 +287,11 @@ def main():
 
     print(f"\n📌 State сохранён: offset={state['last_offset']}, "
           f"cycle={state['cycle_position']}")
+
+    # Hard failure: exit non-zero AFTER state is saved
+    if actually_processed > 0 and success_count == 0:
+        print("❌ Все запросы завершились ошибкой")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

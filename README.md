@@ -15,7 +15,7 @@
 seo-automation/
 ├── .github/workflows/
 │   ├── request_indexing.yml       # Ежедневная индексация (06:00 UTC)
-│   ├── check_index_status.yml     # Проверка индексации (ср 07:00 UTC)
+│   ├── check_index_status.yml     # Проверка индексации (ежедневно 07:37 UTC)
 │   └── fetch_search_data.yml      # Сбор аналитики (пн 07:00 UTC)
 ├── scripts/
 │   ├── request_indexing.py        # Запрос индексации + ротация

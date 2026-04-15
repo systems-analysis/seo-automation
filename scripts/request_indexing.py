@@ -34,11 +34,11 @@ MAX_RETRIES = 3
 
 
 def load_and_lock_manifest(filepath):
-    """Load URL list, sort deterministically, compute hash for change detection."""
+    """Load URL list, deduplicate, sort deterministically, compute hash."""
     with open(filepath, "r", encoding="utf-8") as f:
-        urls = sorted(
+        urls = sorted(set(
             line.strip() for line in f if line.strip() and not line.startswith("#")
-        )
+        ))
     manifest_hash = hashlib.sha256("\n".join(urls).encode()).hexdigest()[:16]
     return urls, manifest_hash
 
@@ -211,11 +211,6 @@ def request_indexing(urls, action="URL_UPDATED"):
         print(f"🛑 Остановлено по квоте после {processed} URL")
     print(f"📝 Лог: {log_file}")
 
-    # Hard failure: zero successes means API is down or misconfigured
-    if processed > 0 and success_count == 0:
-        print("❌ Все запросы завершились ошибкой — выход с ненулевым кодом")
-        sys.exit(1)
-
     return log_data, processed
 
 
@@ -234,7 +229,9 @@ def main():
     args = parser.parse_args()
 
     if args.url:
-        request_indexing([args.url], action=args.action)
+        log_data, _ = request_indexing([args.url], action=args.action)
+        if log_data["processed"] > 0 and log_data["success"] == 0:
+            sys.exit(1)
         return
 
     # Batch mode
@@ -242,7 +239,9 @@ def main():
 
     if args.no_rotate:
         batch = all_urls[: args.batch_size]
-        request_indexing(batch, action=args.action)
+        log_data, _ = request_indexing(batch, action=args.action)
+        if log_data["processed"] > 0 and log_data["success"] == 0:
+            sys.exit(1)
         return
 
     batch, start_offset, is_new_cycle = compute_batch(
@@ -251,7 +250,8 @@ def main():
 
     log_data, actually_processed = request_indexing(batch, action=args.action)
 
-    # Save state AFTER processing — based on actual progress only
+    # Save state AFTER processing — cursor advances even on all-error batch
+    # to avoid deadlocking rotation on a permanently bad slice
     state = load_state()
     effective_pos = start_offset + actually_processed
     if effective_pos >= len(all_urls):
@@ -269,6 +269,11 @@ def main():
 
     print(f"\n📌 State сохранён: offset={state['last_offset']}, "
           f"cycle={state['cycle_position']}")
+
+    # Hard failure: exit non-zero AFTER state is saved
+    if log_data["processed"] > 0 and log_data["success"] == 0:
+        print("❌ Все запросы завершились ошибкой")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
