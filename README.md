@@ -22,7 +22,7 @@ seo-automation/
 │   ├── check_index_status.py      # Проверка статуса URL
 │   └── fetch_search_data.py       # Сбор данных Search Console
 ├── data_indexing/                 # Логи запросов на индексацию
-├── data_index_status/             # Статусы индексации + отчёты
+├── data_index_status/             # Статусы индексации + состояние ротации
 ├── data_search/                   # Аналитика (CSV/JSON)
 ├── .gitignore
 ├── requirements.txt
@@ -171,7 +171,7 @@ https://raw.githubusercontent.com/systems-analysis/sitemap-data/refs/heads/main/
 
 ### `data_search/search_data_*.csv` — CSV-версия аналитики
 
-Те же данные, что в JSON. Заголовки: `query,page,date,clicks,impressions,ctr,position`.
+Те же данные, что в JSON. Заголовки зависят от `--dimensions`: `{dimensions},clicks,impressions,ctr,position`. По умолчанию: `query,page,date,clicks,impressions,ctr,position`.
 
 ## Лимиты API
 
