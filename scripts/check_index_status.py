@@ -63,9 +63,10 @@ def save_state(state):
 
 def load_and_lock_manifest(filepath):
     """Load URL list, deduplicate, sort deterministically, compute hash."""
-    with open(filepath, "r", encoding="utf-8") as f:
+    with open(filepath, "r", encoding="utf-8-sig") as f:
         urls = sorted(set(
-            line.strip() for line in f if line.strip() and not line.startswith("#")
+            line.strip() for line in f
+            if line.strip() and not line.strip().startswith("#")
         ))
     manifest_hash = hashlib.sha256("\n".join(urls).encode()).hexdigest()[:16]
     return urls, manifest_hash

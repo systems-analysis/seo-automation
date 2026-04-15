@@ -211,6 +211,10 @@ def main():
     parser.add_argument("--format", choices=["csv", "json", "both"], default="both")
     args = parser.parse_args()
 
+    if args.days < 1:
+        print(f"❌ --days должен быть >= 1, получено: {args.days}")
+        sys.exit(1)
+
     rows, dimensions, is_partial = fetch_search_analytics(
         site_url=args.site, days=args.days,
         query_filter=args.query, dimensions=args.dimensions,
@@ -230,6 +234,10 @@ def main():
     if args.format in ("json", "both"):
         save_to_json(rows, dimensions, f"{base}.json")
     print_top_entries(rows, dimensions)
+
+    if is_partial:
+        print("❌ Данные неполные — завершаем с ошибкой")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
