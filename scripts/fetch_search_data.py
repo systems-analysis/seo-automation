@@ -27,6 +27,12 @@ MAX_PAGES = 10
 
 
 def fetch_search_analytics(site_url, days=7, query_filter=None, dimensions=None):
+    """Fetch search analytics data with pagination.
+
+    Returns:
+        (all_rows, dimensions, is_partial): is_partial=True if pagination
+        was interrupted by an error.
+    """
     credentials = get_credentials(SCOPES)
     service = build("searchconsole", "v1", credentials=credentials)
 
@@ -67,6 +73,7 @@ def fetch_search_analytics(site_url, days=7, query_filter=None, dimensions=None)
 
     all_rows = []
     page_num = 0
+    is_partial = False
 
     while page_num < MAX_PAGES:
         page_num += 1
@@ -80,6 +87,7 @@ def fetch_search_analytics(site_url, days=7, query_filter=None, dimensions=None)
             print(f"❌ Ошибка API (страница {page_num}): {e}")
             if all_rows:
                 print(f"⚠️  Сохраняем {len(all_rows)} строк, собранных до ошибки")
+                is_partial = True
                 break
             sys.exit(1)
 
@@ -91,15 +99,17 @@ def fetch_search_analytics(site_url, days=7, query_filter=None, dimensions=None)
             break
 
         request_body["startRow"] += PAGE_SIZE
+    else:
+        # Loop ended because page_num hit MAX_PAGES ceiling,
+        # NOT because last page was short — data may be truncated
+        if all_rows:
+            print(f"\n⚠️  Достигнут лимит страниц ({MAX_PAGES}), данные могут быть неполными")
+            is_partial = True
 
     print(f"\n✅ Получено {len(all_rows)} строк данных")
-    if page_num >= MAX_PAGES:
-        print(f"⚠️  Достигнут лимит страниц ({MAX_PAGES}), данные могут быть неполными")
-    elif len(all_rows) > 0 and len(all_rows) % PAGE_SIZE == 0:
-        print(f"⚠️  Данные могут быть неполными (API возвращает top rows)")
     print()
 
-    return all_rows, dimensions
+    return all_rows, dimensions, is_partial
 
 
 def save_to_csv(rows, dimensions, filename):
@@ -147,32 +157,45 @@ def save_to_json(rows, dimensions, filename):
     return filepath
 
 
-def print_top_queries(rows, limit=20):
-    query_data = {}
+def print_top_entries(rows, dimensions, limit=20):
+    # Determine which dimension to group by and label accordingly
+    group_dim = dimensions[0] if dimensions else "query"
+    group_idx = 0
+    if group_dim == "query":
+        label = "Топ запросов по кликам"
+        col_label = "Запрос"
+    elif group_dim == "page":
+        label = "Топ страниц по кликам"
+        col_label = "Страница"
+    else:
+        label = f"Топ по «{group_dim}» по кликам"
+        col_label = group_dim.capitalize()
+
+    agg = {}
     for row in rows:
         keys = row.get("keys", [])
         if not keys:
             continue
-        query = keys[0]
-        if query not in query_data:
-            query_data[query] = {"clicks": 0, "impressions": 0, "position_sum": 0, "count": 0}
-        query_data[query]["clicks"] += row.get("clicks", 0)
-        query_data[query]["impressions"] += row.get("impressions", 0)
-        query_data[query]["position_sum"] += row.get("position", 0)
-        query_data[query]["count"] += 1
+        key = keys[group_idx]
+        if key not in agg:
+            agg[key] = {"clicks": 0, "impressions": 0, "weighted_pos": 0.0}
+        impressions = row.get("impressions", 0)
+        agg[key]["clicks"] += row.get("clicks", 0)
+        agg[key]["impressions"] += impressions
+        agg[key]["weighted_pos"] += row.get("position", 0) * impressions
 
-    sorted_queries = sorted(query_data.items(), key=lambda x: x[1]["clicks"], reverse=True)
+    sorted_entries = sorted(agg.items(), key=lambda x: x[1]["clicks"], reverse=True)
 
     print(f"\n{'='*80}")
-    print(f" Топ-{limit} запросов по кликам")
+    print(f" {label} (топ-{limit})")
     print(f"{'='*80}")
-    print(f" {'Запрос':<40} {'Клики':>7} {'Показы':>9} {'Ср.поз.':>8}")
+    print(f" {col_label:<40} {'Клики':>7} {'Показы':>9} {'Ср.поз.':>8}")
     print(f" {'-'*40} {'-'*7} {'-'*9} {'-'*8}")
 
-    for query, data in sorted_queries[:limit]:
-        avg_pos = data["position_sum"] / data["count"] if data["count"] else 0
-        q = query[:38] + ".." if len(query) > 40 else query
-        print(f" {q:<40} {data['clicks']:>7} {data['impressions']:>9} {avg_pos:>8.1f}")
+    for key, data in sorted_entries[:limit]:
+        avg_pos = data["weighted_pos"] / data["impressions"] if data["impressions"] else 0
+        display = key[:38] + ".." if len(key) > 40 else key
+        print(f" {display:<40} {data['clicks']:>7} {data['impressions']:>9} {avg_pos:>8.1f}")
     print()
 
 
@@ -188,7 +211,7 @@ def main():
     parser.add_argument("--format", choices=["csv", "json", "both"], default="both")
     args = parser.parse_args()
 
-    rows, dimensions = fetch_search_analytics(
+    rows, dimensions, is_partial = fetch_search_analytics(
         site_url=args.site, days=args.days,
         query_filter=args.query, dimensions=args.dimensions,
     )
@@ -197,12 +220,16 @@ def main():
         print("⚠️  Нет данных за указанный период")
         return
 
-    timestamp = datetime.now(timezone.utc).strftime("%Y%m%d")
+    # Timestamp with time to avoid collisions on repeated runs
+    timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+    suffix = "_partial" if is_partial else ""
+    base = f"search_data_{timestamp}{suffix}"
+
     if args.format in ("csv", "both"):
-        save_to_csv(rows, dimensions, f"search_data_{timestamp}.csv")
+        save_to_csv(rows, dimensions, f"{base}.csv")
     if args.format in ("json", "both"):
-        save_to_json(rows, dimensions, f"search_data_{timestamp}.json")
-    print_top_queries(rows)
+        save_to_json(rows, dimensions, f"{base}.json")
+    print_top_entries(rows, dimensions)
 
 
 if __name__ == "__main__":

@@ -43,16 +43,25 @@ jobs:
       - name: "\U0001F4E5 Download URL list"
         if: ${{ github.event.inputs.source != 'single-url' }}
         run: |
-          curl -sL "$URLS_SOURCE" -o _urls.txt
+          curl -sfSL "$URLS_SOURCE" -o _urls.txt
+          if [ ! -s _urls.txt ]; then
+            echo "❌ Файл URL пуст или не загружен"
+            exit 1
+          fi
           echo "📥 Загружено $(wc -l < _urls.txt) URL"
 
       - name: "\U0001F50D Check index status"
         env:
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          INPUT_SOURCE: ${{ github.event.inputs.source || 'all-urls' }}
+          INPUT_URL: ${{ github.event.inputs.url }}
         run: |
-          SOURCE="${{ github.event.inputs.source || 'all-urls' }}"
-          if [ "$SOURCE" = "single-url" ]; then
-            python scripts/check_index_status.py --url "${{ github.event.inputs.url }}"
+          if [ "$INPUT_SOURCE" = "single-url" ]; then
+            if [ -z "$INPUT_URL" ]; then
+              echo "❌ Режим single-url требует указания URL"
+              exit 1
+            fi
+            python scripts/check_index_status.py --url "$INPUT_URL"
           else
             python scripts/check_index_status.py --urls _urls.txt --batch-size 1800
           fi
@@ -71,5 +80,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data_index_status/ || true
-          git diff --staged --quiet || git commit -m "🔍 Index check $(date -u +%Y-%m-%d)"
-          git push || true
+          git diff --staged --quiet && exit 0
+          git commit -m "🔍 Index check $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push

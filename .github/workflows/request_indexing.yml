@@ -18,6 +18,10 @@ on:
         required: false
         type: string
 
+concurrency:
+  group: request-indexing
+  cancel-in-progress: false
+
 env:
   URLS_SOURCE: "https://raw.githubusercontent.com/systems-analysis/sitemap-data/refs/heads/main/sitemap/sitemap.txt"
 
@@ -39,16 +43,25 @@ jobs:
       - name: "\U0001F4E5 Download URL list"
         if: ${{ github.event.inputs.mode != 'single-url' }}
         run: |
-          curl -sL "$URLS_SOURCE" -o _urls.txt
+          curl -sfSL "$URLS_SOURCE" -o _urls.txt
+          if [ ! -s _urls.txt ]; then
+            echo "❌ Файл URL пуст или не загружен"
+            exit 1
+          fi
           echo "📥 Загружено $(wc -l < _urls.txt) URL"
 
       - name: "\U0001F680 Request indexing"
         env:
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          INPUT_MODE: ${{ github.event.inputs.mode || 'rotate' }}
+          INPUT_URL: ${{ github.event.inputs.url }}
         run: |
-          MODE="${{ github.event.inputs.mode || 'rotate' }}"
-          if [ "$MODE" = "single-url" ]; then
-            python scripts/request_indexing.py --url "${{ github.event.inputs.url }}"
+          if [ "$INPUT_MODE" = "single-url" ]; then
+            if [ -z "$INPUT_URL" ]; then
+              echo "❌ Режим single-url требует указания URL"
+              exit 1
+            fi
+            python scripts/request_indexing.py --url "$INPUT_URL"
           else
             python scripts/request_indexing.py --urls _urls.txt --batch-size 200
           fi
@@ -67,5 +80,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data_indexing/ || true
-          git diff --staged --quiet || git commit -m "📝 Indexing $(date -u +%Y-%m-%d)"
-          git push || true
+          git diff --staged --quiet && exit 0
+          git commit -m "📝 Indexing $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push

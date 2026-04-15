@@ -63,7 +63,7 @@ def save_state(state):
 
 def load_and_lock_manifest(filepath):
     """Load URL list, sort deterministically, compute hash for change detection."""
-    with open(filepath, "r") as f:
+    with open(filepath, "r", encoding="utf-8") as f:
         urls = sorted(
             line.strip() for line in f if line.strip() and not line.startswith("#")
         )
@@ -220,6 +220,11 @@ def run_batch_inspection(urls, site_url):
     if processed < len(urls):
         print(f"🛑 Остановлено по квоте после {processed} URL")
     print(f"📝 Лог: {log_file}")
+
+    # Hard failure: zero successes means API is down or misconfigured
+    if processed > 0 and success_count == 0:
+        print("❌ Все запросы завершились ошибкой — выход с ненулевым кодом")
+        sys.exit(1)
 
     return results, processed
 

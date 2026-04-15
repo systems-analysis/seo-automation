@@ -20,8 +20,7 @@ seo-automation/
 ├── scripts/
 │   ├── request_indexing.py        # Запрос индексации + ротация
 │   ├── check_index_status.py      # Проверка статуса URL
-│   ├── fetch_search_data.py       # Сбор данных Search Console
-│   └── generate_index_report.py   # Генерация отчёта по индексации
+│   └── fetch_search_data.py       # Сбор данных Search Console
 ├── data_indexing/                 # Логи запросов на индексацию
 ├── data_index_status/             # Статусы индексации + отчёты
 ├── data_search/                   # Аналитика (CSV/JSON)
@@ -57,7 +56,7 @@ https://raw.githubusercontent.com/systems-analysis/sitemap-data/refs/heads/main/
 | Workflow | Расписание | Данные |
 |----------|-----------|--------|
 | 🔄 Request Indexing | Ежедневно 06:00 UTC | `data_indexing/` |
-| 🔍 Check Index Status | Среда 07:00 UTC | `data_index_status/` |
+| 🔍 Check Index Status | Ежедневно 07:37 UTC | `data_index_status/` |
 | 📊 Fetch Search Analytics | Понедельник 07:00 UTC | `data_search/` |
 
 Все workflow доступны для ручного запуска из вкладки Actions.
