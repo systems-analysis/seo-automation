@@ -1,0 +1,20 @@
+{
+  "timestamp": "20260418_065435",
+  "action": "URL_UPDATED",
+  "total": 200,
+  "success": 1,
+  "errors": 0,
+  "processed": 1,
+  "results": [
+    {
+      "url": "https://systems-analysis.ru/int/SWE-bench_(benchmark)_(ES)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/SWE-bench_(benchmark)_(FR)",
+      "status": "quota_exceeded",
+      "error": "<HttpError 429 when requesting https://indexing.googleapis.com/v3/urlNotifications:publish?alt=json returned \"Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of"
+    }
+  ]
+}
