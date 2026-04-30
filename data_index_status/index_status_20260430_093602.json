@@ -1,0 +1,562 @@
+[
+  {
+    "url": "https://systems-analysis.ru/wiki/Системные_исследования._Выпуск_1983",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-03-19T09:13:51Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Системные_исследования._Выпуск_1985",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-03-30T22:41:21Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Системные_исследования._Выпуск_1988",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-01-18T09:06:48Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Системные_исследования._Ежегодник",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-14T13:58:08Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Системный_анализ",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-25T15:53:34Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Системный_анализ._Семантическая_сеть",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "N/A",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Системный_анализ_в_IT",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-17T20:26:59Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Системный_аналитик",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-19T14:06:57Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Системный_подход",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-24T02:43:30Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Системный_подход._Каталог_раздела",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-03-28T22:39:00Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Системный_подход._Семантическая_сеть",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-03-17T00:26:30Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Системный_холизм",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-24T18:26:49Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Снижение_ошибок_LLM",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-12T12:43:52Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Состояние_системы",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-19T14:02:32Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Сравнение_вариантов",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-12T04:14:25Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Среда_системы",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-22T10:05:35Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Стандарты_качества",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-22T10:20:35Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Стандарты_системной_инженерии",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-08T22:01:15Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Стандарты_управления_проектами",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-23T03:25:26Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Стохастический_попугай",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-23T12:31:31Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Стохастическое_программирование",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "N/A",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Стратегический_анализ._Каталог_раздела",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "N/A",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Структура_системы",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-26T07:12:47Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Структурирование_систем",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-08T14:25:27Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Сценарный_анализ",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-22T21:26:38Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Температура_(LLM)",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-25T22:15:40Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Теоретические_основы",
+    "verdict": "NEUTRAL",
+    "coverageState": "Crawled - currently not indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-01-11T06:21:57Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Теоретические_основы_LLM",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-24T05:52:16Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Теория_вероятностей",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-03-21T09:25:11Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Теория_полезности",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-23T14:26:43Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Теория_принятия_решений",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-20T20:55:49Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Теория_принятия_решений._Каталог_раздела",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-03-31T10:38:23Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Теория_принятия_решений._Семантическая_сеть",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-03-20T17:52:24Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Теория_систем",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-23T02:48:27Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Токен",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-24T04:47:03Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Требования",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-03-31T09:32:52Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Управление",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-06T02:41:45Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Управление._Каталог_раздела",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-02T20:07:31Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Управление._Семантическая_сеть",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "N/A",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Управление_проектами",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-03-31T07:56:14Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Управление_рисками",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-03T00:28:59Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Уровни_представления_систем",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-23T07:13:19Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Устойчивость_систем",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-23T01:05:55Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Формализация_моделей_систем",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-25T19:48:11Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Функция",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-30T02:33:42Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Целевая_функция",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-25T20:05:35Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Целеполагаение",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-14T14:47:40Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Целочисленное_программирование",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "N/A",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Цель",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-26T04:32:17Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Цель_в_системном_анализе",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-23T09:33:09Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Черный_ящик",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-23T01:16:30Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Эквифинальность",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-26T04:41:45Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Элемент_системы",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-18T10:23:13Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Эмерджентность",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-27T16:35:57Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/wiki/Язык_описания_систем",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-18T20:09:53Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  },
+  {
+    "url": "https://systems-analysis.ru/young_method.html",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-04-29T13:17:52Z",
+    "robotsTxtState": "ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "status": "success"
+  }
+]
