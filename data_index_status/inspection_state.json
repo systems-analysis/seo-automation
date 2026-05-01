@@ -1,8 +1,8 @@
 {
-  "last_offset": 0,
-  "last_run": "2026-04-30T09:41:58.569694+00:00",
-  "total_processed": 14624,
+  "last_offset": 1800,
+  "last_run": "2026-05-01T12:32:48.877477+00:00",
+  "total_processed": 16424,
   "manifest_hash": "5979e8e43feaa4fd",
-  "cycle_started": "2026-04-28T13:12:39.779283+00:00",
-  "cycle_position": "3656/3656"
+  "cycle_started": "2026-05-01T12:32:48.877490+00:00",
+  "cycle_position": "1800/3656"
 }
