@@ -1,0 +1,1010 @@
+{
+  "timestamp": "20260612_095238",
+  "action": "URL_UPDATED",
+  "total": 200,
+  "success": 200,
+  "errors": 0,
+  "processed": 200,
+  "results": [
+    {
+      "url": "https://systems-analysis.ru/wiki/Гомеостаз",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Границы_системы",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Декомпозиция",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Дельфи-метод",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Дерево_решений",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Деятельность",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Динамические_свойства",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Динамическое_программирование",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Жизненный_цикл_системы",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Заглавная_страница",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Задача_коммивояжёра",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Задача_о_назначении_минимального_количества_исполнителей",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Задача_о_назначениях",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Задача_принятия_решения",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Задачи_исследования_операций",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Закон_Литтла",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Закономерности_систем",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Закрытая_система",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Идеальные_и_материальные_модели",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Иерархия",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Имитационное_моделирование",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Искажения_данных_и_bias",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Исследование_операций",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Исследование_операций._Каталог_раздела",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Исследование_операций._Семантическая_сеть",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Каталог_Systems_Analysis_Wiki",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:AI-агенты",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:GPT",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Google",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Huggingface",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:OpenAI",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Prompt_инжиниринг",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Базовые_понятия",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Базовые_понятия_LLM",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Бенчмарки_LLM",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Большие_языковые_модели",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Глоссарии",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Индексируемые_страницы",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Исследование_операций",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Каталоги",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Литература",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Маркетинг",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Математика",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Математическое_моделирование",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Машинное_обучение",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Методология",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Методы_анализа",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Моделирование",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Оптимизация",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Оценка_LLM",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Планирование",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Принятие_решений",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Программное_обеспечение",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Семантическая_сеть",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Семейства_LLM",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Система",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Системная_инженерия",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Системные_исследования",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Системный_анализ",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Системный_анализ_в_IT",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Системный_подход",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Стандарты",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Стратегический_анализ",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Стратегический_менеджмент",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Теория_вероятностей",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Теория_принятия_решений",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Теория_систем",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Термины",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Термины_системного_анализа",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Управление",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Управление_проектами",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Управление_рисками",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Категория:Эпистемология",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Классификации_методов_моделирования_систем",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Классификации_систем",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Классические_методики_системного_анализа",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Когнитивные_искажения",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Коллективный_выбор",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Комбинаторная_оптимизация",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Контекстное_забывание",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Контекстное_окно",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Концептуальные_основы_систем",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Концепция",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Критерии_принятия_решений",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Критерий",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Критерий_Байеса",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Критерий_Вальда",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Критерий_Гурвица",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Критерий_Лапласа",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Критерий_Сэвиджа",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Критерий_Ходжа-Лемана",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Критерий_максимакса",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Критерий_минимакса_Байеса",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Критерий_оптимизации",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Критический_путь",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Линейное_программирование",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Литература",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Литература_по_исследованию_операций",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Литература_по_математическому_моделированию",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Литература_по_машинному_обучению",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Литература_по_системной_инженерии",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Литература_по_системному_анализу",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Литература_по_системному_подходу",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Литература_по_теории_принятия_решений",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Математика._Каталог_раздела",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Математическая_модель",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Математическое_моделирование",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Математическое_моделирование._Каталог_раздела",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Математическое_моделирование._Семантическая_сеть",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Матричная_модель_принятия_решений",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Машинное_обучения_и_анализ_данных._Каталог_раздела",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Метасистема",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Метод_PERT",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Метод_анализа_иерархий",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Метод_критического_пути_(CPM)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Метод_мозгового_штурма",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Методика_системного_анализа",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Методология_и_эпистемология._Каталог_раздела",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Методология_исследования_операций",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Методы_ветвей_и_границ",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Метрики_качества_LLM",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Многокритериальная_оптимизация",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Многокритериальный_анализ_решений",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Модели_LLM",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Модели_исследования_операций",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Моделирование",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Моделирование._Каталог_раздела",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Модель",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Модель_системы",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Мультимодальное_рассуждение",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Мультимодальные_LLM",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Наблюдатель_в_системном_подходе",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Нейронная_дегенерация_текста",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Нелинейное_программирование",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Неопределенность_в_системе",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Неопределённость",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Нечеткая_логика_в_принятии_решений",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Область_допустимых_решений",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Обратная_связь",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Обучение_больших_языковых_моделей",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Объективное_и_субъективное_в_системном_анализе",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Ограничения",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Операция",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Определения_системы",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Оптимальное_решение",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Оптимальный_выбор",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Оптимизация",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Оптимизация_затрат_на_использование_LLM",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Основные_понятия_системного_подхода",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Основные_приёмы_Prompt_Engineering",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Открытая_система",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Оценка_LLM",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Оценка_вариантов",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Перплексия",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Планирование",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Планирование_проекта",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Поведение_системы",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Подсистема",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Понятие",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Понятие_системы",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Предвзятость_в_генерации",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Предобучение",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Предпочтения",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Принятие_решений",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Принятие_решений_в_условиях_неопределенности",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Принятие_решений_в_условиях_риска",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Проблема",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Проблема_в_контексте_системного_анализа",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Проблема_принятия_решения",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Процесс",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Процесс_моделирования",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Равновесие_системы",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Развитие_исследования_операций",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Развитие_систем",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Развитие_системного_подхода",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Рациональный_выбор",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Риск",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Самоорганизующиеся_системы",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Свойства_систем",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Связи_в_системах",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Семантическая_связь",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Сетевые_модели",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Система",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Система._Семантическая_сеть",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Система_систем",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Системная_динамика",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Системная_инженерия",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Системная_инженерия._Каталог_раздела",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Системная_инженерия._Семантическая_сеть",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Системная_сложность",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Системная_целостность",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Системное_мышление",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Системное_мышление._Семантическая_сеть",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Системность",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Системные_исследования._Выпуск_1969",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Системные_исследования._Выпуск_1970",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Системные_исследования._Выпуск_1971",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Системные_исследования._Выпуск_1972",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Системные_исследования._Выпуск_1973",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Системные_исследования._Выпуск_1974",
+      "status": "success",
+      "notifyTime": ""
+    }
+  ]
+}
