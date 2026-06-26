@@ -1,0 +1,1010 @@
+{
+  "timestamp": "20260626_084604",
+  "action": "URL_UPDATED",
+  "total": 200,
+  "success": 200,
+  "errors": 0,
+  "processed": 200,
+  "results": [
+    {
+      "url": "https://systems-analysis.ru/eng/PEST_analysis",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/PaLM_(Pathways_Language_Model)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Packaging_&_Context_Handling",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/PanGu_(Huawei)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Perplexity_(metric)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Phi_(Microsoft)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Planning",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Pre-training_of_large_language_models",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Preferences",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Probability_theory",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Problem",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Problem_in_the_context_of_systems_analysis",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Process",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Program_of_Thoughts_Prompting",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Project_management",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Project_management_standards",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Project_planning",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/PromptRobust_(benchmark)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Prompt_(language_models)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Prompt_and_context",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Prompt_compression",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Prompt_engineering",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Prompt_engineering:_Section_catalog",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Properties_of_systems",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Quality_standards",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Qwen_(Alibaba)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/RAG_patterns",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/ROUGE_(metric)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Rational_choice_(decision_theory)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/ReAct_Prompting",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/RealToxicityPrompts",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Regularities_of_systems",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Reinforcement_learning_from_human_feedback_(RLHF)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Requirements",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Retrieval-augmented_generation_(RAG)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Risk",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Risk_management",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Role_Prompting",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/SWE-bench_(benchmark)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/SWOT_analysis",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/SafetyBench",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Scenario_analysis",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Self-Refine_Prompting",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Self-consistency_prompting",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Self-organizing_systems",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Semantic_relations",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Sensitivity_analysis",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Simulation_modeling",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Stochastic_parrot",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Stochastic_programming",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Stop_sequences_(language_models)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Strategic_analysis:_Section_catalog",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Subsystem",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/SuperGLUE_(benchmark)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Synthetic_data_generation",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System:_Semantic_network",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_adaptability",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_behavior",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_boundary",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_complexity",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_development",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_dynamics",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_element",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_environment",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_equilibrium",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_integrity",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_life_cycle",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_model",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_of_Systems",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_stability",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_state",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_structure",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/System_structuring",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systemness",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Analysis_Wiki_Catalog",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1969",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1970",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1971",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1972",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1973",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1974",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1975",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1976",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1977",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1978",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1979",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1980",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1981",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1982",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1983",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1985",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_Research_Yearbook_1988",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_analysis",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_analysis:_Literature",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_analysis:_Semantic_network",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_analysis_in_IT",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_analysis_methodology",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_analyst",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_approach",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_approach:_Literature",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_approach:_Section_catalog",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_approach:_Semantic_network",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_engineering",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_engineering:_Literature",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_engineering:_Section_catalog",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_engineering:_Semantic_network",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_engineering_standards",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_holism",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_theory",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_thinking",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Systems_thinking:_Semantic_network",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/T5_(Text-to-Text_Transfer_Transformer)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Temperature_(LLM)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Theoretical_foundations_of_large_language_models",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Token_(LLM)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Tokenization_(NLP)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Toolformer",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Top-k_sampling",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Top-p_sampling",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Training_large_language_models",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Transformer_architecture",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Tree_of_Thoughts_(ToT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/TruthfulQA_Benchmark",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Uncertainty",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Utility_theory",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Vector_database",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/Voting_(decision-making)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/WinoGrande_Benchmark",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/eng/YandexGPT_(language_model)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/action.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/books.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/catalog.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/chernyak_method.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/choice.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/conception.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/criterion.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/criterion_system.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/data_science.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/decision_making.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/decision_theory.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/decision_theory_model.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/economics.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/goal.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/golubkov_method.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/life_cycle.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/management.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/management_se.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/map.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/mathmodeling_process.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/methodology_or.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/methodology_sa.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/model.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/model_am.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/modeling_process.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/modelling.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/operation.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/operation_research.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/operation_research_as.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/operation_research_book.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/operation_research_caa.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/operation_research_gv.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/operation_research_me.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/operation_research_model.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/operation_research_ve.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/operation_research_vg.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/optimization.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/optner_method.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/plan.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/planning.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/problem.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/quade_method.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/requirements.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/sections.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/system.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/system_def.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/system_ol.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/system_terminus.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/systems_analysis.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/systems_analysis_book.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/systems_analysis_ch.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/systems_analysis_clelandking.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/systems_analysis_golubkov.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/systems_analysis_nikanorov.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/systems_analysis_optner.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/systems_analysis_pospelov.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/systems_analysis_pt.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/systems_analysis_q.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/systems_engineering.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/systems_research.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/es/young_method.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/goal.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/golubkov_method.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/index.html",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/AI-агент",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/AI_Agent_(CS)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/AI_Agent_(DE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/AI_Agent_(ES)",
+      "status": "success",
+      "notifyTime": ""
+    }
+  ]
+}
