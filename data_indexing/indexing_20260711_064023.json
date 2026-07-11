@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260711_064023",
+  "action": "URL_UPDATED",
+  "total": 200,
+  "success": 11,
+  "errors": 0,
+  "processed": 11,
+  "results": [
+    {
+      "url": "https://systems-analysis.ru/int/GLUE_Benchmark_(CS)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/GLUE_Benchmark_(DE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/GLUE_Benchmark_(EL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/GLUE_Benchmark_(ES)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/GLUE_Benchmark_(FA)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/GLUE_Benchmark_(FR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/GLUE_Benchmark_(HE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/GLUE_Benchmark_(HI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/GLUE_Benchmark_(HU)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/GLUE_Benchmark_(ID)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/GLUE_Benchmark_(IT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/GLUE_Benchmark_(KO)",
+      "status": "quota_exceeded",
+      "error": "<HttpError 429 when requesting https://indexing.googleapis.com/v3/urlNotifications:publish?alt=json returned \"Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of"
+    }
+  ]
+}
