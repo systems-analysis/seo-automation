@@ -1,0 +1,1010 @@
+{
+  "timestamp": "20260716_064400",
+  "action": "URL_UPDATED",
+  "total": 200,
+  "success": 200,
+  "errors": 0,
+  "processed": 200,
+  "results": [
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(HI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(HU)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(ID)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(IT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(KO)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(NL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(PL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(PT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(RO)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(SV)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(TH)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(TL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(TR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(UR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_(VI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_—_توسيع_المستند_الافتراضي",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_—_仮説的文書拡張",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hypothetical_Document_Embeddings_(HyDE)_—_假设性文档扩展",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hàm_chức_năng",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hàm_mục_tiêu",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hành_vi_của_hệ_thống",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hálózati_modellek_(operációkutatás)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hình_thức_hóa_các_mô_hình_hệ_thống",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hệ_thống",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hệ_thống_con",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hệ_thống_của_các_hệ_thống",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hệ_thống_mở_(lý_thuyết_hệ_thống)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hệ_thống_phân_cấp",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hệ_thống_tự_tổ_chức",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hệ_thống_đóng_(lý_thuyết_hệ_thống)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Hộp_đen",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IA_Constitutionnelle",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IA_Explicável_(Explainable_AI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IA_constitucional",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IA_explicable",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(Sprachmodell)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(BG)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(BN)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(CS)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(EL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(FA)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(HE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(HI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(HU)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(ID)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(IT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(KO)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(NL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(PL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(RO)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(SV)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(TH)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(TL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(TR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(UR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_(VI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_—_IBM_Granite_模型",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_—_IBM_グラナイト",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(language_model)_—_آي_بي_إم_جرانيت",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(modelo_de_lenguaje)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(modelo_de_linguagem)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/IBM_Granite_(modèle_de_langage)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Icke-linjär_programmering",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ideal_and_material_models_—_Ιδεατά_και_υλικά_μοντέλα",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ideal_and_material_models_—_מודלים_אידיאליים_וחומריים",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ideal_and_material_models_—_النماذج_المثالية_والمادية",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ideal_and_material_models_—_مثالی_اور_مادی_ماڈل",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ideal_and_material_models_—_مدل‌های_آرمانی_و_مادی",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ideal_and_material_models_—_आदर्श_और_भौतिक_मॉडल",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ideal_and_material_models_—_আদর্শ_ও_বস্তুগত_মডেল",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ideal_and_material_models_—_แบบจำลองในอุดมคติและแบบจำลองทางวัตถุ",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ideal_and_material_models_—_理想模型与物理模型",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ideal_and_material_models_—_観念モデルと物理モデル",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ideal_and_material_models_—_이상적_모델과_물질적_모델",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ideala_och_materiella_modeller",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ideale_en_materiële_modellen",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ideelle_und_materielle_Modelle",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ideális_és_anyagi_modellek",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ideální_a_materiální_modely",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ierarhie",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Iklog_ng_Buhay_ng_Sistema",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Il_problema_nel_contesto_dell'analisi_di_sistema",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(BG)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(BN)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(CS)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(DE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(EL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(ES)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(FA)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(HE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(HI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(HU)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(ID)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(IT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(KO)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(NL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(PL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(PT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(RO)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(SV)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(TH)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(TL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(TR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(UR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_(VI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_—_التعلم_في_السياق",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_—_インコンテキスト学習",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/In-Context_Learning_—_上下文学习",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Incerteza",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Incerteza_em_um_sistema",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Incertezza",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Incertezza_nel_sistema",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Incertidumbre",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Incertidumbre_en_un_sistema",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Incertitude",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Incertitude_dans_un_système",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Incertitudine",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Incertitudinea_în_sistem",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ingangen_en_uitgangen_(systeemtheorie)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ingegneria_di_sistema",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ingeniería_de_prompts",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ingeniería_de_prompts:_Catálogo_de_la_sección",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ingeniería_de_sistemas",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ingeniería_de_sistemas:_Catálogo_de_la_sección",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ingeniería_de_sistemas:_Literatura",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ingeniería_de_sistemas:_Red_semántica",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ingineria_sistemelor",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ingressi_e_uscite_(teoria_dei_sistemi)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ingångar_och_utgångar_(systemteori)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ingénierie_de_prompt",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ingénierie_de_prompt:_Catalogue_de_la_section",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ingénierie_des_systèmes",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ingénierie_des_systèmes:_Catalogue_de_la_section",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ingénierie_des_systèmes:_Réseau_sémantique",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Inhenyeriya_ng_sistema",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Inputs_and_outputs_(systems_theory)_—_Είσοδοι_και_έξοδοι",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Inputs_and_outputs_(systems_theory)_—_כניסות_ויציאות",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Inputs_and_outputs_(systems_theory)_—_المدخلات_والمخرجات",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Inputs_and_outputs_(systems_theory)_—_ان_پٹ_اور_آؤٹ_پٹ",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Inputs_and_outputs_(systems_theory)_—_ورودی‌ها_و_خروجی‌ها",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Inputs_and_outputs_(systems_theory)_—_प्रवेश_और_निर्गम",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Inputs_and_outputs_(systems_theory)_—_ইনপুট_ও_আউটপুট",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Inputs_and_outputs_(systems_theory)_—_อินพุตและเอาต์พุต",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Inputs_and_outputs_(systems_theory)_—_入力と出力",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Inputs_and_outputs_(systems_theory)_—_输入与输出",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Inputs_and_outputs_(systems_theory)_—_입력과_출력",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Integer_programming_—_Ακέραιος_Προγραμματισμός",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Integer_programming_—_תכנות_שלמים",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Integer_programming_—_البرمجة_الصحيحة",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Integer_programming_—_برنامه‌ریزی_عددصحیح",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Integer_programming_—_صحیح_عددی_پروگرامنگ",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Integer_programming_—_पूर्णांक_प्रोग्रामिंग",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Integer_programming_—_পূর্ণসংখ্যা_প্রোগ্রামিং",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Integer_programming_—_การโปรแกรมเชิงจำนวนเต็ม",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Integer_programming_—_整数规划",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Integer_programming_—_整数計画法",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Integer_programming_—_정수_계획법",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Integridad_del_sistema",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Integridade_Sistêmica",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Integritate_sistemică",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Integrità_sistemica",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Inteligencia_artificial_explicable",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Inteligență_artificială_explicabilă",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Inteligência_Artificial_Constitucional",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Intelligenza_artificiale_spiegabile",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Intrări_și_ieșiri_(teoria_sistemelor)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Intégrité_systémique",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Investigación_de_operaciones",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Investigación_de_operaciones:_Catálogo_de_la_sección",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Investigación_de_operaciones:_Literatura",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Investigación_de_operaciones:_Red_semántica",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Inżynieria_systemowa",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Irányítás",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Istraktura_ng_Sistema",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Itim_na_kahon",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(BG)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(BN)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(CS)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(DE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(EL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(ES)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(FA)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(FR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(HE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(HU)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(NL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(PL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(PT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(RO)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(SV)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(TH)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(TL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(TR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(UR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_(VI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_—_كسر_الحماية",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_—_ジェイルブレイク",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jailbreaks_(LLM)_—_越狱",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jais_(Sprachmodell)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Jais_(language_model)_(BG)",
+      "status": "success",
+      "notifyTime": ""
+    }
+  ]
+}
