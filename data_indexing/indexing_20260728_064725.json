@@ -1,0 +1,35 @@
+{
+  "timestamp": "20260728_064725",
+  "action": "URL_UPDATED",
+  "total": 200,
+  "success": 4,
+  "errors": 0,
+  "processed": 4,
+  "results": [
+    {
+      "url": "https://systems-analysis.ru/int/Perencanaan",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Perencanaan_Proyek",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Perilaku_Sistem",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Perkembangan_Pendekatan_Sistem",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Perkembangan_Riset_Operasi",
+      "status": "quota_exceeded",
+      "error": "<HttpError 429 when requesting https://indexing.googleapis.com/v3/urlNotifications:publish?alt=json returned \"Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of"
+    }
+  ]
+}
