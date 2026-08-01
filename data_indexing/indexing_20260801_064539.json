@@ -1,0 +1,1010 @@
+{
+  "timestamp": "20260801_064539",
+  "action": "URL_UPDATED",
+  "total": 200,
+  "success": 200,
+  "errors": 0,
+  "processed": 200,
+  "results": [
+    {
+      "url": "https://systems-analysis.ru/int/RAG_patterns_—_RAG_पैटर्न",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RAG_patterns_—_RAG_模式",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RAG_patterns_—_RAGパターン",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RAG_patterns_—_Μοτίβα_RAG",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RAG_patterns_—_آر_اے_جی_پیٹرنز",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RAG_patterns_—_أنماط_RAG",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RAG_patterns_—_الگوهای_RAG",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(Metrik)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(BG)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(BN)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(CS)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(EL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(ES)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(FA)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(HE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(HI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(HU)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(ID)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(IT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(KO)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(NL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(PL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(PT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(RO)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(SV)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(TH)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(TL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(TR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(UR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_(VI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_—_مقياس_ROUGE",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_—_ルージュ",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(metric)_—_面向召回的摘要评估",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ROUGE_(métrique)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ra_quyết_định",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ra_quyết_định_trong_điều_kiện_không_chắc_chắn",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ra_quyết_định_trong_điều_kiện_rủi_ro",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Raciocínio_Multimodal",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Racionális_választás_(döntéselmélet)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Racionální_volba_(teorie_rozhodování)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Racjonalny_wybór_(teoria_decyzji)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Raisonnement_multimodal",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ranh_giới_hệ_thống",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ranking_ELO_de_Modelos",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Ranking_Elo_de_modelos_de_lenguaje",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rasyonal_na_Pagpili_(teorya_ng_desisyon)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rasyonel_Seçim_(Karar_Teorisi)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rational_choice_(decision_theory)_—_Ορθολογική_επιλογή",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rational_choice_(decision_theory)_—_בחירה_רציונלית",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rational_choice_(decision_theory)_—_الاختيار_العقلاني",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rational_choice_(decision_theory)_—_انتخاب_عقلانی",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rational_choice_(decision_theory)_—_عقلی_انتخاب",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rational_choice_(decision_theory)_—_तर्कसंगत_चुनाव",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rational_choice_(decision_theory)_—_যৌক্তিক_পছন্দ",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rational_choice_(decision_theory)_—_การเลือกอย่างมีเหตุผล",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rational_choice_(decision_theory)_—_合理的選択",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rational_choice_(decision_theory)_—_理性选择",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rational_choice_(decision_theory)_—_합리적_선택",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rationale_Wahl",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rationele_keuze_(beslissingstheorie)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rationellt_val_(beslutsteori)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Razonamiento_multimodal",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(BG)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(BN)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(CS)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(DE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(EL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(ES)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(FA)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(FR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(HE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(HI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(HU)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(ID)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(IT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(KO)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(NL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(PL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(PT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(RO)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(SV)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(TH)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(TL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(TR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(UR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_(VI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_—_ReAct_提示法",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_—_ReActプロンプティング",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/ReAct_Prompting_—_توجيه_ReAct",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(BG)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(BN)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(CS)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(DE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(EL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(ES)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(FA)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(FR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(HE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(HI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(HU)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(ID)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(IT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(KO)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(NL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(PL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(PT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(RO)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(SV)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(TH)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(TL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(TR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(UR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_(VI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_—_مُوجِّهات_السُمِّيّة_الحقيقية",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_—_リアル・トキシシティ・プロンプト",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/RealToxicityPrompts_—_真实毒性提示词",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherche_Hybride",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherche_opérationnelle",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherche_opérationnelle:_Catalogue_de_la_section",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherche_opérationnelle:_Réseau_sémantique",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_annuaire",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1969",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1970",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1971",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1972",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1973",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1974",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1975",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1976",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1977",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1978",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1979",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1980",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1981",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1982",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1983",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1985",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Recherches_systémiques:_édition_annuelle_1988",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reducción_de_errores_en_LLM",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reducerea_erorilor_LLM",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Redukcja_błędów_LLM",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reduzierung_von_Fehlern_in_LLMs",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Redução_de_Erros_em_LLMs",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regelbundenheter_hos_system",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regione_ammissibile",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regiunea_soluțiilor_admisibile",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Região_de_Soluções_Viáveis",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Región_factible",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regolarità_dei_sistemi",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regularidades_de_los_sistemas",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regularidades_dos_Sistemas",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regularities_of_systems_—_Νομοτέλειες_συστημάτων",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regularities_of_systems_—_חוקיות_מערכות",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regularities_of_systems_—_انتظامات_النظم",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regularities_of_systems_—_قانونمندی‌های_سیستم‌ها",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regularities_of_systems_—_نظاموں_کی_قانونی_صورت_حال",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regularities_of_systems_—_प्रणालियों_की_नियमितताएँ",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regularities_of_systems_—_সিস্টেমের_নিয়মিততা",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regularities_of_systems_—_ความสม่ำเสมอของระบบ",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regularities_of_systems_—_システムの法則性",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regularities_of_systems_—_系统规律",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regularities_of_systems_—_시스템의_법칙성",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Regularități_ale_sistemelor",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(BG)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(BN)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(CS)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(DE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(EL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(ES)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(FA)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(FR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(HE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(HI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(HU)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(ID)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(IT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(KO)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(NL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(PL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(PT)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(RO)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(SV)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(TH)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(TL)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(TR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(UR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_(VI)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_—_التعلم_المعزز_من_خلال_ردود_الفعل_البشرية",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_—_人間フィードバックからの強化学習",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Reinforcement_learning_from_human_feedback_(RLHF)_—_基于人类反馈的强化学习",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rekayasa_Sistem",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Relaciones_en_los_sistemas",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Relaciones_semánticas",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Relation_sémantique",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Relazione_semantica",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Relazioni_nei_sistemi",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Relação_semântica",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Relație_semantică",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Relații_în_sisteme",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Rendszer",
+      "status": "success",
+      "notifyTime": ""
+    }
+  ]
+}
