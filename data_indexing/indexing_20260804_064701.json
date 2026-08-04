@@ -1,0 +1,65 @@
+{
+  "timestamp": "20260804_064701",
+  "action": "URL_UPDATED",
+  "total": 200,
+  "success": 10,
+  "errors": 0,
+  "processed": 10,
+  "results": [
+    {
+      "url": "https://systems-analysis.ru/int/Simulation_modeling_—_การจำลองเชิงการทดลอง",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Simulation_modeling_—_シミュレーションモデリング",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Simulation_modeling_—_仿真建模",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Simulation_modeling_—_모의실험_모델링",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Simulationsmodellierung",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Simulační_modelování",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Simuleringsmodellering",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Simülasyon_Modelleme",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Sistem",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Sistem_(ID)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/Sistem_(RO)",
+      "status": "quota_exceeded",
+      "error": "<HttpError 429 when requesting https://indexing.googleapis.com/v3/urlNotifications:publish?alt=json returned \"Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of"
+    }
+  ]
+}
