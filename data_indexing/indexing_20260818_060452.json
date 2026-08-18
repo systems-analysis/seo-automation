@@ -1,0 +1,35 @@
+{
+  "timestamp": "20260818_060452",
+  "action": "URL_UPDATED",
+  "total": 5,
+  "success": 5,
+  "errors": 0,
+  "processed": 5,
+  "results": [
+    {
+      "url": "https://systems-analysis.ru/wiki/Эквифинальность",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Элемент_системы",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Эмерджентность",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/wiki/Язык_описания_систем",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/young_method.html",
+      "status": "success",
+      "notifyTime": ""
+    }
+  ]
+}
