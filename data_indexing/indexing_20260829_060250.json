@@ -1,0 +1,30 @@
+{
+  "timestamp": "20260829_060250",
+  "action": "URL_UPDATED",
+  "total": 200,
+  "success": 3,
+  "errors": 0,
+  "processed": 3,
+  "results": [
+    {
+      "url": "https://systems-analysis.ru/int/BOLD_(Bias_in_Open-Ended_Language_Generation_Dataset)_(FA)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BOLD_(Bias_in_Open-Ended_Language_Generation_Dataset)_(FR)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BOLD_(Bias_in_Open-Ended_Language_Generation_Dataset)_(HE)",
+      "status": "success",
+      "notifyTime": ""
+    },
+    {
+      "url": "https://systems-analysis.ru/int/BOLD_(Bias_in_Open-Ended_Language_Generation_Dataset)_(HI)",
+      "status": "quota_exceeded",
+      "error": "<HttpError 429 when requesting https://indexing.googleapis.com/v3/urlNotifications:publish?alt=json returned \"Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of"
+    }
+  ]
+}
